@@ -1,0 +1,33 @@
+{	
+	"PlaylistOverrides": [
+		{ 
+			"Id": 0, 
+			"ExtraCommandline": "?GoalScore=5", 
+			"MapNames": [ "/Game/RestrictedAssets/Maps/WIP/DM-Kapow", "/Game/RestrictedAssets/Maps/WIP/DM-Focus", "/Game/RestrictedAssets/Maps/WIP/DM-Temple", "/Game/RestrictedAssets/Maps/WIP/DM-Cannon", "/Game/RestrictedAssets/Maps/DM-Chill" ]
+		}
+		,
+		{ 
+			"Id": 15,
+			"ExtraCommandline": "?VSAI=1?Difficulty=2.0?ART=FlagRunVSAI",
+			"MapNames": [ "/Game/RestrictedAssets/Maps/WIP/FR-Fort", "/Game/RestrictedAssets/Maps/WIP/FR-Loh", "/Game/RestrictedAssets/Maps/WIP/FR-MeltDown" ]
+		}
+		,
+		{ 
+			"Id": 16,
+			"ExtraCommandline": "?VSAI=1?Difficulty=4.0?ART=FlagRunVSAI",
+			"MapNames": [ "/Game/RestrictedAssets/Maps/WIP/FR-Fort", "/Game/RestrictedAssets/Maps/WIP/FR-Loh", "/Game/RestrictedAssets/Maps/WIP/FR-MeltDown" ]
+		}
+		,
+		{ 
+			"Id": 17, 
+			"ExtraCommandline": "?VSAI=1?Difficulty=6.0?ART=FlagRunVSAI",
+			"MapNames": [ "/Game/RestrictedAssets/Maps/WIP/FR-Fort", "/Game/RestrictedAssets/Maps/WIP/FR-Loh", "/Game/RestrictedAssets/Maps/WIP/FR-MeltDown" ]
+		}
+		,
+		{ 
+			"Id": 18, 
+			"ExtraCommandline": "?VSAI=1?Difficulty=5.0?ART=FlagRunVSAI",
+			"MapNames": [ "/Game/RestrictedAssets/Maps/WIP/FR-Fort", "/Game/RestrictedAssets/Maps/WIP/FR-Loh", "/Game/RestrictedAssets/Maps/WIP/FR-MeltDown" ]
+		}
+	]
+}
