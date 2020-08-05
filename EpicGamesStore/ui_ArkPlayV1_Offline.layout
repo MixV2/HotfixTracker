@@ -1,0 +1,402 @@
+﻿{
+   "Type" : "Overlay",
+   "RequiresBindingSource" : false,
+   "AutoSize" : "false",
+   "Children" : [
+      {
+         "Type" : "Panel",
+         "Padding" : {
+            "Left" : 0,
+            "Top" : 0,
+            "Right" : 0,
+            "Bottom" : 0
+         },
+         "BackgroundImage" : "0.08241, 0.08241, 0.08241"
+      },
+      {
+         "Type" : "ScrollBox",
+         "AutoSize" : "false",
+         "Padding" : {
+            "Left" : 250,
+            "Top" : 5,
+            "Right" : 0,
+            "Bottom" : 0
+         },
+         "Children" : [
+            {
+               "Type" : "Box",
+               "Orientation" : "Vertical",
+               "HAlign" : "Center",
+               "VAlign" : "Center",
+               "MaxWidth" : 750,
+               "AutoSize" : "false",
+               "Children" : [
+                  {
+                     "Type" : "Panel",
+                     "Padding" : {
+                        "Left" : 0,
+                        "Top" : 40,
+                        "Right" : 0,
+                        "Bottom" : 0
+                     },
+                     "Text" : [
+                        {
+                           "TextStyle" : "inverted-title",
+                           "Justification" : "Center",
+                           "WrapAt" : 660,
+                           "Text_translate" : "true",
+                           "Text" : "Uh oh, there is supposed to be something here.\nTry sorting out the connectivity issue and return to this page.",
+                           "Text_ko" : "페이지의 내용을 불러올 수 없습니다.\n연결 상태 관련 문제를 해결하시고 이 페이지로 돌아와 주세요.",
+                           "Text_ja" : "問題が発生したようです。\nインターネットの接続を確認して再度読み込んでください。",
+                           "Text_zh-CN" : "啊，这里的内容没有显示。\n请尝试解决连接问题，并回到这个页面。",
+                           "Text_fr" : "Quelque chose devrait apparaître ici.\nEssayez de régler les problèmes de connexion et revenez sur cette page.",
+                           "Text_es-MX" : "¡Oh, oh! Se supone que debe haber algo aquí.\nIntenta solucionar el problema de conexión y vuelve a esta página.",
+                           "Text_de" : "Der eigentliche Text konnte nicht angezeigt werden.\nBeheben Sie das Verbindungsproblem und rufen Sie die Seite erneut auf.",
+                           "Text_it" : "Oh no, qui dovrebbe esserci qualcosa.\nRisolvi i problemi di connessione e torna a questa pagina",
+                           "Text_ru" : "Ой, тут что-то должно быть, но вы этого не видите.\nРазберитесь с проблемами подключения и вернитесь на страницу.",
+                           "Text_es" : "Vaya, se supone que aquí tenía que haber algo.\nIntenta solucionar los problemas de conectividad y vuelve a esta página.",
+                           "Text_pl" : "W tym miejscu powinna być widoczna zawartość.\nSpróbuj rozwiązać problem z połączeniem i wróć do tej strony.",
+                           "Text_pt-BR" : "Opa, devia ter algo aqui.\nTente solucionar o problema de conexão e volte a esta página.",
+                           "Text_ar" : "يفترض وجود شيء ما هنا.\nحاول حل مشاكل الاتصال وعُد إلى هذه الصفحة.",
+                           "Text_tr" : "Hay aksi, burada bir şey olması gerekiyordu.\nBağlantı sorununu çözdükten sonra bu sayfaya tekrar dönmeyi dene.",
+                           "Text_zh-Hans" : "啊，这里的内容没有显示。\n请尝试解决连接问题，并回到这个页面。",
+                           "Text_zh-Hant" : "哎呀，東西怎麼不見了？\n請嘗試解決連線問題，然後回到此頁面。",
+                           "Text_th" : "โอ๊ะ ตรงนี้ควรจะมีอะไรอยู่นะ\nลองแก้ไขปัญหาการเชื่อมต่อแล้วกลับมาที่หน้านี้"
+                        }
+                     ]
+                  },
+                  {
+                     "Type" : "Button",
+                     "ButtonStyle" : "Button",
+                     "Padding" : {
+                        "Left" : 0,
+                        "Top" : 30,
+                        "Right" : 0,
+                        "Bottom" : 0
+                     },
+                     "ContentPadding" : {
+                        "Left" : 20,
+                        "Top" : 10,
+                        "Right" : 15,
+                        "Bottom" : 10
+                     },
+                     "Binding" : "036142948f2e4981a93cecdc7d007153",
+                     "OnNavigateUrl" : "{TechnicalDetails}",
+                     "HAlign" : "Center",
+                     "ForegroundColor" : "1, 1, 1",
+                     "Child" : {
+                        "Type" : "Link",
+                        "Row" : 0,
+                        "ColumnSpans" : [
+                           {
+                              "LayoutSize" : 0,
+                              "Span" : 4
+                           }
+                        ],
+                        "Text" : {
+                           "Text_translate" : "true",
+                           "Text" : "Purchase ARK on Steam",
+                           "TextStyle" : "inverted-extralarge-h4",
+                           "UseForegroundColor" : "true",
+                           "Margin" : {
+                              "Left" : 20,
+                              "Top" : 10,
+                              "Right" : 20,
+                              "Bottom" : 10
+                           },
+                           "Text_ko" : "Steam 에서 ARK 구매",
+                           "Text_ja" : "SteamでARKを購入",
+                           "Text_zh-CN" : "在Steam上购买《方舟：生存进化》",
+                           "Text_fr" : "Acheter ARK sur Steam",
+                           "Text_es-MX" : "Comprar ARK en Steam",
+                           "Text_de" : "Kaufen Sie ARK auf Steam",
+                           "Text_it" : "Acquista ARK su Steam",
+                           "Text_ru" : "Купить ARK в Steam",
+                           "Text_es" : "Comprar ARK en Steam",
+                           "Text_pl" : "Kup grę ARK w serwisie Steam",
+                           "Text_pt-BR" : "Comprar ARK na Steam",
+                           "Text_ar" : "شراء ARK على Steam",
+                           "Text_tr" : "ARK’ı Steam’den Satın Al",
+                           "Text_zh-Hans" : "在Steam上购买《方舟：生存进化》",
+                           "Text_zh-Hant" : "在 Steam 上預購《ARK》",
+                           "Text_th" : "ซื้อ ARK บน Steam"
+                        },
+                        "HoverIcon" : {
+                           "Image" : "ExternalLink.png"
+                        },
+                        "OnNavigateUrl" : "036142948f2e4981a93cecdc7d007153/TechnicalDetails"
+                     }
+                  },
+                  {
+                     "Type" : "Box",
+                     "Orientation" : "Horizontal",
+                     "MinWidth" : 442,
+                     "HAlign" : "Center",
+                     "Children" : [
+                        {
+                           "Type" : "Link",
+                           "HoverIcon" : {
+                              "Image" : "ExternalLink.png"
+                           },
+                           "HAlign" : "Center",
+                           "AutoSize" : "false",
+                           "Text" : {
+                              "Text_translate" : "true",
+                              "Text" : "ARK Steam Community",
+                              "TextStyle" : "inverted-strong",
+                              "Margin" : {
+                                 "Left" : 10,
+                                 "Top" : 0,
+                                 "Right" : 10,
+                                 "Bottom" : 0
+                              },
+                              "Text_zh-CN" : "《方舟:生存进化》Steam社区",
+                              "Text_ja" : "ARKのSteamコミュニティ",
+                              "Text_ko" : "ARK 스팀 커뮤니티",
+                              "Text_fr" : "Communauté Steam d'ARK",
+                              "Text_es-MX" : "Comunidad de ARK en Steam",
+                              "Text_de" : "ARK-Community auf Steam",
+                              "Text_it" : "Community di ARK su Steam",
+                              "Text_ru" : "Сообщество ARK в Steam",
+                              "Text_es" : "Comunidad de ARK en Steam",
+                              "Text_pl" : "Społeczność Steam poświęcona grze ARK",
+                              "Text_pt-BR" : "Comunidade Steam do ARK",
+                              "Text_ar" : "مجتمع ARK على Steam",
+                              "Text_tr" : "ARK Steam Topluluğu",
+                              "Text_zh-Hans" : "《方舟:生存进化》Steam社区",
+                              "Text_zh-Hant" : "《Ark》Steam 社群",
+                              "Text_th" : "คอมมูนิตีของ ARK Steam"
+                           },
+                           "OnNavigateUrl" : "http://steamcommunity.com/app/346110/discussions/"
+                        }
+                     ]
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "Type" : "Panel",
+         "Padding" : {
+            "Left" : 0,
+            "Top" : 5,
+            "Right" : 0,
+            "Bottom" : 0
+         },
+         "Width" : 250,
+         "HAlign" : "Left",
+         "BackgroundImage" : "0.03241, 0.03241, 0.03241"
+      },
+      {
+         "Type" : "Box",
+         "Orientation" : "Vertical",
+         "Width" : 250,
+         "HAlign" : "Left",
+         "Padding" : {
+            "Left" : 0,
+            "Top" : 65,
+            "Right" : 0,
+            "Bottom" : 10
+         },
+         "Children" : [
+            {
+               "Type" : "Overlay",
+               "Children" : [
+                  {
+                     "Type" : "Button",
+                     "ButtonStyle" : "SidebarNavigation.ActiveButton",
+                     "Padding" : {
+                        "Left" : 0,
+                        "Top" : 0,
+                        "Right" : 0,
+                        "Bottom" : 15
+                     },
+                     "ContentPadding" : {
+                        "Left" : 10,
+                        "Top" : 10,
+                        "Right" : 0,
+                        "Bottom" : 10
+                     },
+                     "OnNavigateUrl" : "/ark/play",
+                     "Child" : {
+                        "Type" : "Link",
+                        "Row" : 0,
+                        "ColumnSpans" : [
+                           {
+                              "LayoutSize" : 0,
+                              "Span" : 4
+                           }
+                        ],
+                        "HAlign" : "Left",
+                        "Text" : {
+                           "Text_translate" : "true",
+                           "Text" : "Play",
+                           "TextStyle" : "extralarge-h4",
+                           "UseForegroundColor" : "true",
+                           "Margin" : {
+                              "Left" : 10,
+                              "Top" : 0,
+                              "Right" : 10,
+                              "Bottom" : 0
+                           },
+                           "Text_ko" : "플레이",
+                           "Text_ja" : "プレイ",
+                           "Text_zh-CN" : "运行",
+                           "Text_fr" : "Jouer",
+                           "Text_es-MX" : "Jugar",
+                           "Text_de" : "Spielen",
+                           "Text_it" : "Gioca",
+                           "Text_ru" : "Играть",
+                           "Text_es" : "Jugar",
+                           "Text_pl" : "Graj",
+                           "Text_pt-BR" : "Jogar",
+                           "Text_ar" : "تشغيل",
+                           "Text_tr" : "Oyna",
+                           "Text_zh-Hans" : "运行",
+                           "Text_zh-Hant" : "遊玩",
+                           "Text_th" : "เล่น"
+                        },
+                        "OnNavigateUrl" : "/ark/play"
+                     }
+                  }
+               ]
+            },
+            {
+               "Type" : "Overlay",
+               "Children" : [
+                  {
+                     "Type" : "Button",
+                     "ButtonStyle" : "SidebarNavigation.Button",
+                     "Padding" : {
+                        "Left" : 0,
+                        "Top" : 0,
+                        "Right" : 0,
+                        "Bottom" : 15
+                     },
+                     "ContentPadding" : {
+                        "Left" : 10,
+                        "Top" : 10,
+                        "Right" : 0,
+                        "Bottom" : 10
+                     },
+                     "OnNavigateUrl" : "/ark/create",
+                     "Child" : {
+                        "Type" : "Link",
+                        "Row" : 0,
+                        "ColumnSpans" : [
+                           {
+                              "LayoutSize" : 0,
+                              "Span" : 4
+                           }
+                        ],
+                        "HAlign" : "Left",
+                        "Text" : {
+                           "Text_translate" : "true",
+                           "Text" : "Create",
+                           "TextStyle" : "extralarge-h4",
+                           "UseForegroundColor" : "true",
+                           "Margin" : {
+                              "Left" : 10,
+                              "Top" : 0,
+                              "Right" : 10,
+                              "Bottom" : 0
+                           },
+                           "Text_ko" : "제작",
+                           "Text_ja" : "クリエイト",
+                           "Text_zh-CN" : "创建",
+                           "Text_fr" : "Créer",
+                           "Text_es-MX" : "Crear",
+                           "Text_de" : "Erstellen",
+                           "Text_it" : "Crea",
+                           "Text_ru" : "Создать",
+                           "Text_es" : "Crear",
+                           "Text_pl" : "Twórz",
+                           "Text_pt-BR" : "Criar",
+                           "Text_ar" : "إنشاء",
+                           "Text_tr" : "Oluştur",
+                           "Text_zh-Hans" : "创建",
+                           "Text_zh-Hant" : "建立",
+                           "Text_th" : "สร้าง"
+                        },
+                        "OnNavigateUrl" : "/ark/create"
+                     }
+                  },
+                  {
+                     "Type" : "NotificationBadge",
+                     "ProductId" : "ark",
+                     "Style" : "Aggregate",
+                     "AppDiscoveryMapKeys" : [
+                        "Create"
+                     ],
+                     "GroupId" : "Editor",
+                     "Title" : "Ark Notifications",
+                     "Title_translate" : true,
+                     "Description" : "Ark updates are available.",
+                     "Description_translate" : true,
+                     "Padding" : {
+                        "Left" : 160,
+                        "Top" : 0,
+                        "Right" : 0,
+                        "Bottom" : 16
+                     },
+                     "Title_ko" : "Ark 알림",
+                     "Description_ko" : "Ark 업데이트가 가능합니다.",
+                     "Title_zh-CN" : "《方舟:生存进化》通知",
+                     "Description_zh-CN" : "《方舟:生存进化》更新可用",
+                     "Title_ja" : "Ark 通知",
+                     "Description_ja" : "Ark の新しいアップデートが利用可能です。",
+                     "Title_fr" : "Notifications ARK",
+                     "Description_fr" : "Des mises à jour sont disponibles pour ARK.",
+                     "Title_es" : "Notificaciones de Ark",
+                     "Description_es" : "Actualizaciones de Ark disponibles.",
+                     "Title_de" : "Benachrichtigungen zu ARK",
+                     "Description_de" : "Updates für ARK verfügbar",
+                     "Title_it" : "Notifiche Ark",
+                     "Description_it" : "Sono disponibili aggiornamenti per Ark.",
+                     "Title_ru" : "Уведомления игры Ark",
+                     "Description_ru" : "Доступны обновления для Ark.",
+                     "Title_es-MX" : "Notificaciones de Ark",
+                     "Description_es-MX" : "Hay actualizaciones de Ark disponibles.",
+                     "Title_pl" : "Powiadomienia dotyczące gry Ark",
+                     "Description_pl" : "Dostępne są aktualizacje dla gry Ark.",
+                     "Title_pt-BR" : "Notificações do Ark",
+                     "Description_pt-BR" : "Atualizações do Ark disponíveis",
+                     "Title_ar" : "إشعارات Ark",
+                     "Description_ar" : "تحديثات Ark متاحة.",
+                     "Title_tr" : "ARK Bildirimleri",
+                     "Description_tr" : "ARK güncellemeleri var.",
+                     "Title_zh-Hans" : "《方舟:生存进化》通知",
+                     "Description_zh-Hans" : "《方舟:生存进化》更新可用",
+                     "Title_zh-Hant" : "《Ark》通知",
+                     "Description_zh-Hant" : "《Ark》有更新可用。",
+                     "Title_th" : "การแจ้งเตือน Ark",
+                     "Description_th" : "มีอัปเดต Ark"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "Type" : "Layout",
+         "Layout" : "ui_ArkSidebarLinksV1",
+         "VAlign" : "Bottom",
+         "Padding" : {
+            "Left" : 5,
+            "Top" : 0,
+            "Right" : 0,
+            "Bottom" : 10
+         }
+      },
+      {
+         "Type" : "Layout",
+         "Layout" : "ui_ArkShareLinksV1",
+         "VAlign" : "Bottom",
+         "Padding" : {
+            "Left" : 60,
+            "Top" : 0,
+            "Right" : 0,
+            "Bottom" : 10
+         }
+      }
+   ]
+}

@@ -1,0 +1,414 @@
+﻿{
+   "Type" : "ScrollBox",
+   "AutoSize" : "false",
+   "Padding" : {
+      "Left" : 0,
+      "Top" : 0,
+      "Right" : 0,
+      "Bottom" : 0
+   },
+   "Children" : [
+      {
+         "Type" : "Overlay",
+         "Padding" : {
+            "Left" : 0,
+            "Top" : 0,
+            "Right" : 0,
+            "Bottom" : 0
+         },
+         "Children" : [
+            {
+               "Type" : "BasicTile",
+               "Binding" : "76665fac33ec454587beb182ce6d4b82",
+               "HasShadow" : "false",
+               "Height" : 300,
+               "LoadSilently" : "true",
+               "Images" : [
+                  {
+                     "Image" : "Screenshot",
+                     "HAlign" : "Right",
+                     "VAlign" : "Top"
+                  }
+               ]
+            },
+            {
+               "Type" : "Panel",
+               "HAlign" : "Left",
+               "VAlign" : "Fill",
+               "MinWidth" : 520,
+               "BackgroundImage" : "0.0, 0.0, 0.0, 0.8",
+               "Padding" : {
+                  "Left" : 0,
+                  "Top" : 0,
+                  "Right" : 0,
+                  "Bottom" : 0
+               }
+            },
+            {
+               "Type" : "Box",
+               "Orientation" : "Vertical",
+               "MinWidth" : 520,
+               "AutoSize" : true,
+               "HAlign" : "Left",
+               "Padding" : {
+                  "Left" : 0,
+                  "Top" : 15,
+                  "Right" : 0,
+                  "Bottom" : 0
+               },
+               "Children" : [
+                  {
+                     "Type" : "BuildSelector",
+                     "HAlign" : "left",
+                     "VAlign" : "Top",
+                     "TextStyle" : "small-body",
+                     "Padding" : {
+                        "Left" : 55,
+                        "Top" : 60,
+                        "Right" : 0,
+                        "Bottom" : 0
+                     },
+                     "SelectorId" : "Editor",
+                     "GroupId" : "Editor"
+                  }
+               ]
+            },
+            {
+               "Type" : "Box",
+               "Orientation" : "Vertical",
+               "MinWidth" : 400,
+               "MaxWidth" : 400,
+               "MinHeight" : 540,
+               "MaxHeight" : 540,
+               "HAlign" : "Left",
+               "VAlign" : "Top",
+               "Padding" : {
+                  "Left" : 60,
+                  "Top" : 100,
+                  "Right" : 0,
+                  "Bottom" : 0
+               },
+               "Children" : [
+                  {
+                     "Type" : "Panel",
+                     "Padding" : {
+                        "Left" : 0,
+                        "Top" : 0,
+                        "Right" : 0,
+                        "Bottom" : 0
+                     },
+                     "Text" : [
+                        {
+                           "Binding" : "76665fac33ec454587beb182ce6d4b82/Description",
+                           "TextStyle" : "inverted-title",
+                           "HAlign" : "Left",
+                           "VAlign" : "Center",
+                           "WrapAt" : 400,
+                           "Margin" : {
+                              "Left" : 0,
+                              "Top" : 0,
+                              "Right" : 0,
+                              "Bottom" : 0
+                           },
+                           "LineHeightScalar" : 1.2
+                        }
+                     ]
+                  },
+                  {
+                     "Type" : "Box",
+                     "Orientation" : "Vertical",
+                     "Padding" : {
+                        "Left" : 0,
+                        "Top" : 10,
+                        "Right" : 0,
+                        "Bottom" : 0
+                     },
+                     "Children" : [
+                        {
+                           "Type" : "Panel",
+                           "AutoSize" : "false",
+                           "Text" : [
+                              {
+                                 "Binding" : "76665fac33ec454587beb182ce6d4b82/LongDescription",
+                                 "TextStyle" : "inverted-extrasmall-body",
+                                 "Visibility" : "Visible",
+                                 "WrapAt" : 400,
+                                 "LineHeightScalar" : 1.2
+                              }
+                           ]
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "Type" : "Box",
+               "Orientation" : "Vertical",
+               "MinWidth" : 400,
+               "MaxWidth" : 400,
+               "HAlign" : "Left",
+               "VAlign" : "Bottom",
+               "Padding" : {
+                  "Left" : 60,
+                  "Top" : 0,
+                  "Right" : 0,
+                  "Bottom" : 20
+               },
+               "Children" : [
+                  {
+                     "Type" : "ActionButton",
+                     "HAlign" : "Left",
+                     "MinWidth" : 442,
+                     "MinHeight" : 124,
+                     "Padding" : {
+                        "Left" : -20,
+                        "Top" : 10,
+                        "Right" : -20,
+                        "Bottom" : 0
+                     },
+                     "VAlign" : "Bottom",
+                     "SelectorId" : "Editor",
+                     "GroupId" : "Editor"
+                  },
+                  {
+                     "Type" : "Panel",
+                     "BackgroundImage" : "1.0, 1.0, 1.0, 0.5",
+                     "Height" : 1,
+                     "VAlign" : "Bottom",
+                     "Padding" : {
+                        "Left" : 0,
+                        "Top" : 20,
+                        "Right" : 0,
+                        "Bottom" : 40
+                     }
+                  },
+                  {
+                     "Type" : "Panel",
+                     "VAlign" : "Bottom",
+                     "Text" : [
+                        {
+                           "TextStyle" : "inverted-tiny-body",
+                           "LineHeightScalar" : 1.2,
+                           "Text_translate" : "true",
+                           "Text" : "VISIT ARK: SURVIVAL EVOLVED ON:",
+                           "Text_ko" : "ARK: SURVIVAL EVOLVED 방문:",
+                           "Text_zh-CN" : "访问《方舟：生存进化》于：",
+                           "Text_fr" : "ACCÉDER À ARK: SURVIVAL EVOLVED SUR :",
+                           "Text_de" : "BESUCHEN SIE ARK: SURVIVAL EVOLVED UNTER:",
+                           "Text_it" : "VISITA ARK: SURVIVAL EVOLVED SU:",
+                           "Text_ru" : "ARK: SURVIVAL EVOLVED В СОЦСЕТЯХ:",
+                           "Text_pl" : "ARK: SURVIVAL EVOLVED W INTERNECIE:",
+                           "Text_ar" : "قم بزيارة ARK: SURVIVAL EVOLVED:",
+                           "Text_pt-BR" : "VISITE ARK: SURVIVAL EVOLVED EM:",
+                           "Text_es-MX" : "VISITA ARK: SURVIVAL EVOLVED EN:",
+                           "Text_es" : "VISITA ARK: SURVIVAL EVOLVED EN:",
+                           "Text_ja" : "以下よりARK: SURVIVAL EVOLVEDにアクセス：",
+                           "Text_tr" : "ARK: SURVIVAL EVOLVED’U ZİYARET ET:",
+                           "Text_zh-Hans" : "访问《方舟：生存进化》于：",
+                           "Text_zh-Hant" : "到以下位置瀏覽《ARK: SURVIVAL EVOLVED》",
+                           "Text_th" : "เยี่ยมชม ARK: SURVIVAL EVOLVED ที่:"
+                        }
+                     ],
+                     "Padding" : {
+                        "Left" : 0,
+                        "Top" : 0,
+                        "Right" : 0,
+                        "Bottom" : 10
+                     }
+                  },
+                  {
+                     "Type" : "Layout",
+                     "Layout" : "ui_ArkShareLinksV3",
+                     "VAlign" : "Bottom",
+                     "Padding" : {
+                        "Left" : 0,
+                        "Top" : 0,
+                        "Right" : 0,
+                        "Bottom" : 10
+                     }
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "Type" : "Box",
+         "Orientation" : "Vertical",
+         "MinWidth" : 1430,
+         "MaxWidth" : 1430,
+         "HAlign" : "Center",
+         "Children" : [
+            {
+               "Type" : "ResponsiveGrid",
+               "Padding" : {
+                  "Left" : 0,
+                  "Top" : 30,
+                  "Right" : 30,
+                  "Bottom" : 0
+               },
+               "TotalColumns" : 12,
+               "ColumnGutter" : 15,
+               "Children" : [
+                  {
+                     "Type" : "BasicTile",
+                     "Row" : 0,
+                     "ColumnSpans" : [
+                        {
+                           "LayoutSize" : 950,
+                           "Span" : 4
+                        },
+                        {
+                           "LayoutSize" : 0,
+                           "Span" : 6
+                        }
+                     ],
+                     "Padding" : {
+                        "Left" : 0,
+                        "Top" : 0,
+                        "Right" : 0,
+                        "Bottom" : 30
+                     },
+                     "MinHeight" : 260,
+                     "MaxHeight" : 260,
+                     "HasShadow" : false,
+                     "Binding" : "3566079f27bb4f37aaad0b813cd1059d",
+                     "Images" : [
+                        {
+                           "Image" : "Screenshot"
+                        }
+                     ],
+                     "OnNavigateUrl" : "TechnicalDetails",
+                     "HoverIcon" : {
+                        "Image" : "ExternalLink.png",
+                        "Margin" : {
+                           "Left" : 15,
+                           "Top" : 10,
+                           "Right" : 15,
+                           "Bottom" : 10
+                        }
+                     },
+                     "Text" : [
+                        {
+                           "Text" : "Description",
+                           "VAlign" : "Bottom",
+                           "TextStyle" : "inverted-extralarge-h6",
+                           "Margin" : {
+                              "Left" : 30,
+                              "Top" : 20,
+                              "Right" : 15,
+                              "Bottom" : 20
+                           }
+                        }
+                     ]
+                  },
+                  {
+                     "Type" : "BasicTile",
+                     "Row" : 0,
+                     "ColumnSpans" : [
+                        {
+                           "LayoutSize" : 950,
+                           "Span" : 4
+                        },
+                        {
+                           "LayoutSize" : 0,
+                           "Span" : 6
+                        }
+                     ],
+                     "Padding" : {
+                        "Left" : 0,
+                        "Top" : 0,
+                        "Right" : 0,
+                        "Bottom" : 30
+                     },
+                     "MinHeight" : 260,
+                     "MaxHeight" : 260,
+                     "HasShadow" : false,
+                     "Binding" : "da6f38d3031c4a2c94f50d7b9f95a98d",
+                     "Images" : [
+                        {
+                           "Image" : "Screenshot"
+                        }
+                     ],
+                     "OnNavigateUrl" : "TechnicalDetails",
+                     "HoverIcon" : {
+                        "Image" : "ExternalLink.png",
+                        "Margin" : {
+                           "Left" : 15,
+                           "Top" : 10,
+                           "Right" : 15,
+                           "Bottom" : 10
+                        }
+                     },
+                     "Text" : [
+                        {
+                           "Text" : "Description",
+                           "VAlign" : "Bottom",
+                           "TextStyle" : "inverted-extralarge-h6",
+                           "Margin" : {
+                              "Left" : 30,
+                              "Top" : 20,
+                              "Right" : 15,
+                              "Bottom" : 20
+                           }
+                        }
+                     ]
+                  },
+                  {
+                     "Type" : "BasicTile",
+                     "Row" : 0,
+                     "ColumnSpans" : [
+                        {
+                           "LayoutSize" : 950,
+                           "Span" : 4
+                        },
+                        {
+                           "LayoutSize" : 0,
+                           "Span" : 12
+                        }
+                     ],
+                     "Padding" : {
+                        "Left" : 0,
+                        "Top" : 0,
+                        "Right" : 0,
+                        "Bottom" : 30
+                     },
+                     "MinHeight" : 260,
+                     "MaxHeight" : 260,
+                     "HasShadow" : false,
+                     "HasTextBackground" : "true",
+                     "Binding" : "e9b01d9baf0d4e2e9d5f2b42e95ea8a7",
+                     "Images" : [
+                        {
+                           "Image" : "Screenshot"
+                        }
+                     ],
+                     "OnNavigateUrl" : "TechnicalDetails",
+                     "HoverIcon" : {
+                        "Image" : "ExternalLink.png",
+                        "Margin" : {
+                           "Left" : 15,
+                           "Top" : 10,
+                           "Right" : 15,
+                           "Bottom" : 10
+                        }
+                     },
+                     "Text" : [
+                        {
+                           "Text" : "Description",
+                           "VAlign" : "Bottom",
+                           "TextStyle" : "inverted-extralarge-h6",
+                           "Margin" : {
+                              "Left" : 30,
+                              "Top" : 20,
+                              "Right" : 15,
+                              "Bottom" : 20
+                           }
+                        }
+                     ]
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}

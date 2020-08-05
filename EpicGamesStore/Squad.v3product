@@ -1,0 +1,55 @@
+{
+	"Id": "squad",
+	"Priority": 70,
+	"AnalyticsId": "squad",
+	"DisplayName": "Squad",
+	"SupportedPlatforms": "Windows",
+	"CatalogNamespace": "squad",
+	"Categories": "Create",
+	"EulaExpression": "(squad && ue)",
+	"BackgroundImage": "",
+	"BackgroundFillImage": "0.08241, 0.08241, 0.08241",
+	"PrimaryColor": "0.54799, 0.00006, 0.00001",
+	"PressedPrimaryColor": "0.44787, 0.00006, 0.00001",
+	"HoveredPrimaryColor": "0.7372, 0.00011, 0.00002",
+	"Homepage": "/create/squad",
+	"Pages": [
+		{
+			"Id": "create.squad",
+			"PartialUrl": "/squad",
+			"SourceUrls" : [
+				{
+					"SourceUrl": "ui_SquadCreateV1_Offline.layout",
+					"Conditions": [ "![BINDING_SOURCE], [PORTAL_VERSION]<2.12.24, ![PORTAL_VERSION]0.0.0" ] 
+				},
+				{
+					"SourceUrl": "ui_SquadCreateV2_Offline.layout",
+					"Conditions": [ "![BINDING_SOURCE]" ] 
+				},
+				{
+					"SourceUrl": "ui_SquadCreateV1.layout",
+					"Conditions": [ "[PORTAL_VERSION]<2.12.24, ![PORTAL_VERSION]0.0.0" ] 
+				},
+				{
+					"SourceUrl": "ui_SquadCreateV2.layout"
+				}
+			]
+		}
+	],
+	"Redirects": [
+	
+	],
+	"Apps": [
+		{
+			"Name": "Squad",
+			"GroupId": "Editor",
+			"OfferId": "4d34efa3da0a4ff0a2c74e9f62530bcd",
+			"ItemId": "6382f687af1448ceaea6ce78ce498555",
+			"LaunchPermissions": "NoInternet,WithoutLauncher,MultiLaunch"
+		}
+	],
+	"DefaultRegionId": "",
+	"Regions": [
+
+	]
+}

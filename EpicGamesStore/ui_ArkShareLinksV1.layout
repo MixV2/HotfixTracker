@@ -1,0 +1,43 @@
+{
+	"Type": "Box",
+	"Orientation": "Horizontal",
+	"Children":
+	[
+        {
+            "Type": "BasicTile",
+            "Padding": { "Left": 5, "Top": 0, "Right": 5, "Bottom": 0 },
+            "MinWidth": 20, "MaxWidth": 20, "MinHeight": 20, "MaxHeight": 20,
+            "LoadSilently": "true",
+            "HasShadow": false,
+            "Images": [ { "Image": "facebook.png", "ColorAndOpacity": "1, 1, 1" } ],
+            "OnNavigateUrl": "https://www.facebook.com/survivetheark?fref=ts"
+        },
+        {
+            "Type": "BasicTile",
+            "Padding": { "Left": 5, "Top": 0, "Right": 5, "Bottom": 0 },
+            "MinWidth": 20, "MaxWidth": 20, "MinHeight": 20, "MaxHeight": 20,
+            "LoadSilently": "true",
+            "HasShadow": false,
+            "Images": [ { "Image": "twitter.png", "ColorAndOpacity": "1, 1, 1" } ],
+            "OnNavigateUrl": "https://twitter.com/survivetheark?lang=en"
+        },
+        {
+            "Type": "BasicTile",
+            "Padding": { "Left": 5, "Top": 0, "Right": 5, "Bottom": 0 },
+            "MinWidth": 20, "MaxWidth": 20, "MinHeight": 20, "MaxHeight": 20,
+            "LoadSilently": "true",
+            "HasShadow": false,
+            "Images": [ { "Image": "youtube.png", "ColorAndOpacity": "1, 1, 1" } ],
+            "OnNavigateUrl": "https://www.youtube.com/channel/UCEYfsfyne69mFfNTcZeZ6gw"
+        },
+        {
+            "Type": "BasicTile",
+            "Padding": { "Left": 5, "Top": 0, "Right": 5, "Bottom": 0 },
+            "MinWidth": 20, "MaxWidth": 20, "MinHeight": 20, "MaxHeight": 20,
+            "LoadSilently": "true",
+            "HasShadow": false,
+            "Images": [ { "Image": "twitch.png", "ColorAndOpacity": "1, 1, 1" } ],
+            "OnNavigateUrl": "https://www.twitch.tv/directory/game/ARK"
+        }
+	]
+}

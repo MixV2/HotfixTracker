@@ -1,0 +1,43 @@
+{
+	"Type": "Box",
+	"Orientation": "Horizontal",
+	"Children":
+	[
+        {
+            "Type": "BasicTile",
+            "Padding": { "Left": 10, "Top": 0, "Right": 5, "Bottom": 0 },
+            "MinWidth": 20, "MaxWidth": 20, "MinHeight": 20, "MaxHeight": 20, 
+            "LoadSilently": "true",
+            "HasShadow": false,
+            "Images": [ { "Image": "twitter_filled.png", "ColorAndOpacity": "#00B8B0", "Stretch": "ScaleToFit" } ],
+            "OnNavigateUrl": "https://twitter.com/ConanExiles"
+        },
+        {
+            "Type": "BasicTile",
+            "Padding": { "Left": 10, "Top": 0, "Right": 5, "Bottom": 0 },
+            "MinWidth": 20, "MaxWidth": 20, "MinHeight": 20, "MaxHeight": 20, 
+            "LoadSilently": "true",
+            "HasShadow": false,
+            "Images": [ { "Image": "facebook_filled.png", "ColorAndOpacity": "#00B8B0", "Stretch": "ScaleToFit" } ],
+            "OnNavigateUrl": "https://www.facebook.com/ConanExiles/"
+        },
+        {
+            "Type": "BasicTile",
+            "Padding": { "Left": 10, "Top": 0, "Right": 5, "Bottom": 0 },
+            "MinWidth": 19, "MaxWidth": 19, "MinHeight": 20, "MaxHeight": 20, 
+            "LoadSilently": "true",
+            "HasShadow": false,
+            "Images": [ { "Image": "twitch_filled.png", "ColorAndOpacity": "#00B8B0", "Stretch": "ScaleToFit" } ],
+            "OnNavigateUrl": "https://www.twitch.tv/funcom"
+        },
+        {
+            "Type": "BasicTile",
+            "Padding": { "Left": 10, "Top": 0, "Right": 5, "Bottom": 0 },
+            "MinWidth": 32, "MaxWidth": 20, "MinHeight": 20, "MaxHeight": 20,
+            "LoadSilently": "true",
+            "HasShadow": false,
+            "Images": [ { "Image": "instagram.png", "ColorAndOpacity": "#00B8B0", "Stretch": "ScaleToFit" } ],
+            "OnNavigateUrl": "https://instagram.com/conanexiles"
+        }
+	]
+}

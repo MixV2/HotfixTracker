@@ -1,0 +1,71 @@
+﻿{
+   "Type" : "Box",
+   "Orientation" : "Vertical",
+   "RequiresBindingSource" : false,
+   "Padding" : {
+      "Left" : 0,
+      "Top" : 0,
+      "Right" : 0,
+      "Bottom" : 0
+   },
+   "HAlign" : "Center",
+   "VAlign" : "Center",
+   "AutoSize" : "false",
+   "Children" : [
+   {
+		"Type" : "Overlay",  
+		"Children" : [
+			{
+				 "Type" : "BasicTile",
+				 "HasShadow" : "false",
+				 "LoadSilently" : "true",
+				 "Padding" : {
+					"Left" : 0,
+					"Top" : 0,
+					"Right" : 0,
+					"Bottom" : 0
+				 },				 
+				 "Images" : [
+					{
+					   "Image" : "https://cdn1.epicgames.com/ut/item/EG_Logo_Filled_5_percent-385x447-e60d8dbd5beaa42b359ce63b4aa543c3.png",
+					   "Stretch" : "ScaleToFit"
+					}
+				 ]
+			},
+		  {
+			 "Type" : "Panel",
+			 "Padding" : {
+				"Left" : 0,
+				"Top" : 0,
+				"Right" : 0,
+				"Bottom" : 0
+			 },
+			 "HAlign" : "Center",
+			 "VAlign" : "Center",
+			 "Text" : [
+				{
+				   "TextStyle" : "inverted-h6",
+				   "Justification" : "Center",
+				   "LineHeightScalar" : 1.5,
+				   "Visibility" : "Visible",
+				   "Text_translate" : "true",
+				   "Text" : "Looks like your launcher is out of date.\nYou'll need to update in order to experience the Epic Games Launcher.\n\nIf you are having troubles updating try these <a style=\"colored-subtlehyperlink\" href=\"http://help.epicgames.com/customer/portal/articles/2350603-how-do-i-restart-the-epic-games-launcher\">steps here</>.",
+				   "Text_fr" : "Votre lanceur semble ne pas être à jour.\nVous devrez mettre à jour le lanceur d'Epic Games pour pouvoir l'utiliser.\n\nSi vous rencontrez des problèmes pendant la mise à jour, essayez de suivre <a style=\"colored-subtlehyperlink\" href=\"http://help.epicgames.com/customer/fr/portal/articles/2350603-how-do-i-restart-the-epic-games-launcher\">ces étapes</>.",
+				   "Text_it" : "La versione del tuo launcher è obsoleta.\nDovrai aggiornarlo per avviare il launcher Epic Games.\n\nSe hai problemi con l'aggiornamento, segui <a style=\"colored-subtlehyperlink\" href=\"http://help.epicgames.com/customer/portal/articles/2350603-how-do-i-restart-the-epic-games-launcher\">queste istruzioni</>.",
+				   "Text_de" : "Dein Launcher scheint veraltet zu sein.\nUm den Epic Games Launcher zu nutzen, musst du ihn aktualisieren.\n\nFalls dabei Probleme auftreten, probiere es mit <a style=\"colored-subtlehyperlink\" href=\"http://help.epicgames.com/customer/portal/articles/2350603-how-do-i-restart-the-epic-games-launcher\">diesen Schritten</>.",
+				   "Text_es" : "Parece que tu plataforma no está actualizada.\nTienes que actualizarla para poder disfrutar de la plataforma de Epic Games.\n\nSi estás teniendo problemas con la instalación, prueba a seguir estos <a style=\"colored-subtlehyperlink\" href=\"http://help.epicgames.com/customer/portal/articles/2350603-how-do-i-restart-the-epic-games-launcher\">pasos</>.",
+				   "Text_es-MX" : "Parece que tu iniciador está obsoleto.\nNecesitas actualizarlo para poder disfrutar del iniciador de Epic Games.\n\nSi tienes problemas para actualizar, prueba estos <a style=\"colored-subtlehyperlink\" href=\"http://help.epicgames.com/customer/portal/articles/2350603-how-do-i-restart-the-epic-games-launcher\">pasos aquí</>.",
+				   "Text_ru" : "Ваша программа запуска устарела.\nОбновите программу запуска, чтобы продолжить её использовать.\n\nЕсли у вас возникли трудности с обновлением, выполните <a style=\"colored-subtlehyperlink\" href=\"http://help.epicgames.com/customer/portal/articles/2350603-how-do-i-restart-the-epic-games-launcher\">эти инструкции.</>",
+				   "Text_pl" : "Posiadasz nieaktualną wersję programu startowego.\nAby uruchomić program startowy Epic Games, pobierz nową wersję.\n\nW razie problemów z aktualizacją <a style=\"colored-subtlehyperlink\" href=\"http://help.epicgames.com/customer/portal/articles/2350603-how-do-i-restart-the-epic-games-launcher\">wykonaj opisane tu kroki</>.",
+				   "Text_ar" : "يبدو أن برنامج الإطلاق لديك غير محدّث.\nستحتاج إلى التحديث لتجربة برنامج إطلاق Epic Games.\n\nإذا كنت تواجه مشكلات في التحديث، جرّب تلك <a style=\"colored-subtlehyperlink\" href=\"http://help.epicgames.com/customer/portal/articles/2350603-how-do-i-restart-the-epic-games-launcher\">الخطوات هنا</>.",
+				   "Text_ko" : "런처가 최신 버전이 아닌 것으로 확인되었습니다.\nEpic Games Launcher를 경험하려면 런처를 업데이트해야 합니다.\n\n업데이트에 문제가 있을 경우 여기(<a style=\"colored-subtlehyperlink\" href=\"http://help.epicgames.com/customer/portal/articles/2350603-how-do-i-restart-the-epic-games-launcher\">)에 나온 방법에 따라 업데이트를 시도해보십시오</>.",
+				   "Text_ja" : "ランチャーが最新ではありません。\nEpic Games Launcher をご利用になるには、最新版に更新する必要があります。\n\n更新できない場合は、<a style=\"colored-subtlehyperlink\" href=\"http://help.epicgames.com/customer/portal/articles/2350603-how-do-i-restart-the-epic-games-launcher\">こちらの手順</>をお試しください。",
+				   "Text_zh-CN" : "您使用的启动程序已经过于陈旧。\n要体验 Epic Games Launcher，您需要进行更新。\n\n如果您在更新中遇到问题，请尝试<a style=\"colored-subtlehyperlink\" href=\"http://help.epicgames.com/customer/portal/articles/2350603-how-do-i-restart-the-epic-games-launcher\">这里的步骤</>。",
+				   "Text_pt-BR" : "Parece que o inicializador está desatualizado.\nVocê precisará atualizá-lo para usar o Inicializador da Epic Games.\n\nSe estiver com problemas para atualizá-lo, siga os seguintes <a style=\"colored-subtlehyperlink\" href=\"http://help.epicgames.com/customer/portal/articles/2350603-how-do-i-restart-the-epic-games-launcher\">passos</>."
+				}
+			 ]
+		  }
+		]
+	}  
+	]	   
+}

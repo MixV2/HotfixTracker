@@ -1,0 +1,15 @@
+{
+	"Type": "Box",
+	"Orientation": "Horizontal",
+	"Children":
+	[
+        {
+            "Type": "BasicTile",
+            "Padding": { "Left": 5, "Top": 15, "Right": 0, "Bottom": 0 },            
+            "LoadSilently": "true",
+            "HasShadow": false,
+            "Images": [ { "Image": "TeenRatings_graphics.png", "Stretch": "ScaleToFit" } ],
+            "OnNavigateUrl": ""
+        }
+	]
+}

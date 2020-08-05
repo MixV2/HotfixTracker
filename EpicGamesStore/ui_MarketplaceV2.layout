@@ -1,0 +1,428 @@
+{
+    "Type": "Box",
+    "Orientation": "Vertical",
+    "Padding": { "Left": 0, "Top": 5, "Right": 0, "Bottom": 0 },
+    "HAlign": "Center",
+    "MaxWidth": 1400,
+    "Children":
+    [
+        {
+            "Type": "ResponsiveGrid",
+            "HAlign": "Center",
+            "MaxWidth": 1400,
+            "MinWidth": 1400,
+            "TotalColumns": 12,
+            "ColumnGutter": 0,
+            "Children": 
+            [
+                {
+                    "Type": "ExternalLink",
+                    "HAlign": "Right",
+                    "Text": "Submit Your Content",
+                    "TextPadding": { "Left": 10, "Top": 0, "Right": 10, "Bottom": 0 },
+                    "TextStyle": "Body",
+                    "Image": "small-download",
+                    "OnNavigateUrl": "https://www.unrealengine.com/marketplace/submissions"
+                },
+                {
+                    "Type": "BasicTile",
+                    "Row": 0,
+                    "ColumnSpans":
+                    [
+                        { "LayoutSize": 1000, "Span": 6 },
+                        { "LayoutSize": 700, "Span": 4 },
+                        { "LayoutSize": 0, "Span": 6 }
+                    ],
+                    "MaxHeight": 250, "MinHeight": 250, "MaxWidth": 700, "MinWidth": 700, 
+                    "Binding": "a22867b136314748af7437c635b9ddba",
+                    "Images": 
+                    [
+                        { "Image": "NewFeatured" }
+                    ],
+                    "OnNavigateUrl": "Marketplace/{Id}",
+                    "Text": 
+                    [
+                        { "Text": "Details", "TextStyle": "h4", "Margin": 10 }
+                    ],
+                    "Padding": { "Left": 0, "Top": 0, "Right": 0, "Bottom": 0 }
+                },
+                {
+                    "Type": "BasicTile",
+                    "Row": 0,
+                    "ColumnSpans":
+                    [
+                        { "LayoutSize": 1000, "Span": 3 },
+                        { "LayoutSize": 700, "Span": 4 },
+                        { "LayoutSize": 0, "Span": 0 }
+                    ],
+                    "MaxHeight": 250, "MinHeight": 250, "MaxWidth": 700, "MinWidth": 700, 
+                    "Binding": "834fc8bc33524580b1338bdc24bf113c",
+                    "Images": 
+                    [
+                        { "Image": "NewFeatured" }
+                    ],
+                    "OnNavigateUrl": "Marketplace/{Id}",
+                    "Text": 
+                    [
+                        { "Text": "Details", "TextStyle": "h4", "Margin": 10 }
+                    ],
+                    "Padding": { "Left": 0, "Top": 0, "Right": 0, "Bottom": 0 }
+                },
+                {
+                    "Type": "BasicTile",
+                    "Row": 0,
+                    "ColumnSpans":
+                    [
+                        { "LayoutSize": 1000, "Span": 3 },
+                        { "LayoutSize": 700, "Span": 4 },
+                        { "LayoutSize": 0, "Span": 0 }
+                    ],
+                    "MaxHeight": 250, "MinHeight": 250, "MaxWidth": 700, "MinWidth": 700, 
+                    "Binding": "28fcecd2d8de461db7d3c5a847f9f76b",
+                    "Images": 
+                    [
+                        { "Image": "NewFeatured" }
+                    ],
+                    "OnNavigateUrl": "Marketplace/{Id}",
+                    "Text": 
+                    [
+                        { "Text": "Details", "TextStyle": "h4", "Margin": 10 }
+                    ],
+                    "Padding": { "Left": 0, "Top": 0, "Right": 0, "Bottom": 0 }
+                }
+            ]
+        },
+        {
+            "Type": "Panel",
+            "Children": 
+            [
+                {
+                    "Type": "Panel",
+                    "Height": 50,
+                    "Width": 724,
+                    "Padding": { "Left": 0, "Top": 10, "Right": 0, "Bottom": 0 },
+                    "Text": 
+                    [
+                        {
+                            "VAlign": "Bottom",
+                            "Padding": { "Left": 5, "Top": 0, "Right": 0, "Bottom": 10 },
+                            "TextStyle": "h2",
+                            "Text": "Environments"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Type": "Panel",
+            "MinWidth": 860,
+            "BackgroundImage": "1.0, 1.0, 1.0, 0.5",
+            "Height": 1,
+            "Padding": { "Left": 5, "Top": 0, "Right": 15, "Bottom": 0 }
+        },
+        {
+            "Type": "Grid",
+            "Includes":
+            [
+                "assets/environments"
+            ],
+            "ElementHeight": 242,
+            "ElementWidth": 160,
+            "Layout": "ui_GridV2.layout",
+            "SortBy": "ViewableDate",
+            "SortDirection": "Descending",
+            "Padding": { "Left": 0, "Top": 15, "Right": 0, "Bottom": 0 }
+        },
+        {
+            "Type": "Panel",
+            "Children": 
+            [
+                {
+                    "Type": "Panel",
+                    "Height": 50,
+                    "Width": 724,
+                    "Padding": { "Left": 0, "Top": 10, "Right": 0, "Bottom": 0 },
+                    "Text": 
+                    [
+                        {
+                            "VAlign": "Bottom",
+                            "Padding": { "Left": 5, "Top": 0, "Right": 0, "Bottom": 10 },
+                            "TextStyle": "h2",
+                            "Text": "Characters and Animations"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Type": "Panel",
+            "MinWidth": 860,
+            "BackgroundImage": "1.0, 1.0, 1.0, 0.5",
+            "Height": 1,
+            "Padding": { "Left": 5, "Top": 0, "Right": 15, "Bottom": 0 }
+        },
+        {
+            "Type": "Grid",
+            "Includes":
+            [
+                "assets/characters",
+                "assets/animations"
+            ],
+            "ElementHeight": 242,
+            "ElementWidth": 160,
+            "Layout": "ui_GridV2.layout",
+            "Padding": { "Left": 0, "Top": 15, "Right": 0, "Bottom": 0 }
+        },
+        {
+            "Type": "Panel",
+            "Children": 
+            [
+                {
+                    "Type": "Panel",
+                    "Height": 50,
+                    "Width": 724,
+                    "Padding": { "Left": 0, "Top": 10, "Right": 0, "Bottom": 0 },
+                    "Text": 
+                    [
+                        {
+                            "VAlign": "Bottom",
+                            "Padding": { "Left": 5, "Top": 0, "Right": 0, "Bottom": 10 },
+                            "TextStyle": "h2",
+                            "Text": "Weapons and Props"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Type": "Panel",
+            "MinWidth": 860,
+            "BackgroundImage": "1.0, 1.0, 1.0, 0.5",
+            "Height": 1,
+            "Padding": { "Left": 5, "Top": 0, "Right": 15, "Bottom": 0 }
+        },
+        {
+            "Type": "Grid",
+            "Includes":
+            [
+                "assets/weapons",
+                "assets/props"
+            ],
+            "ElementHeight": 242,
+            "ElementWidth": 160,
+            "Layout": "ui_GridV2.layout",
+            "SortBy": "ViewableDate",
+            "SortDirection": "Descending",
+            "Padding": { "Left": 0, "Top": 15, "Right": 0, "Bottom": 0 }
+        },
+        {
+            "Type": "Panel",
+            "Children": 
+            [
+                {
+                    "Type": "Panel",
+                    "Height": 50,
+                    "Width": 724,
+                    "Padding": { "Left": 0, "Top": 10, "Right": 0, "Bottom": 0 },
+                    "Text": 
+                    [
+                        {
+                            "VAlign": "Bottom",
+                            "Padding": { "Left": 5, "Top": 0, "Right": 0, "Bottom": 10 },
+                            "TextStyle": "h2",
+                            "Text": "Materials and FX"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Type": "Panel",
+            "MinWidth": 860,
+            "BackgroundImage": "1.0, 1.0, 1.0, 0.5",
+            "Height": 1,
+            "Padding": { "Left": 5, "Top": 0, "Right": 15, "Bottom": 0 }
+        },
+        {
+            "Type": "Grid",
+            "Includes":
+            [
+                "assets/textures",
+                "assets/FX"
+            ],
+            "ElementHeight": 242,
+            "ElementWidth": 160,
+            "Layout": "ui_GridV2.layout",
+            "SortBy": "ViewableDate",
+            "SortDirection": "Descending",            
+            "Padding": { "Left": 0, "Top": 15, "Right": 0, "Bottom": 0 }
+        },
+        {
+            "Type": "Panel",
+            "Children": 
+            [
+                {
+                    "Type": "Panel",
+                    "Height": 50,
+                    "Width": 724,
+                    "Padding": { "Left": 0, "Top": 10, "Right": 0, "Bottom": 0 },
+                    "Text": 
+                    [
+                        {
+                            "VAlign": "Bottom",
+                            "Padding": { "Left": 5, "Top": 0, "Right": 0, "Bottom": 10 },
+                            "TextStyle": "h2",
+                            "Text": "2D Assets"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Type": "Panel",
+            "MinWidth": 860,
+            "BackgroundImage": "1.0, 1.0, 1.0, 0.5",
+            "Height": 1,
+            "Padding": { "Left": 5, "Top": 0, "Right": 15, "Bottom": 0 }
+        },
+        {
+            "Type": "Grid",
+            "Includes":
+            [
+                "assets/2d"
+            ],
+            "ElementHeight": 242,
+            "ElementWidth": 160,
+            "Layout": "ui_GridV2.layout",
+            "SortBy": "ViewableDate",
+            "SortDirection": "Descending", 
+            "Padding": { "Left": 0, "Top": 15, "Right": 0, "Bottom": 0 }
+        },
+        {
+            "Type": "Panel",
+            "Children": 
+            [
+                {
+                    "Type": "Panel",
+                    "Height": 50,
+                    "Width": 724,
+                    "Padding": { "Left": 0, "Top": 10, "Right": 0, "Bottom": 0 },
+                    "Text": 
+                    [
+                        {
+                            "VAlign": "Bottom",
+                            "Padding": { "Left": 5, "Top": 0, "Right": 0, "Bottom": 10 },
+                            "TextStyle": "h2",
+                            "Text": "Blueprints"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Type": "Panel",
+            "MinWidth": 860,
+            "BackgroundImage": "1.0, 1.0, 1.0, 0.5",
+            "Height": 1,
+            "Padding": { "Left": 5, "Top": 0, "Right": 15, "Bottom": 0 }
+        },
+        {
+            "Type": "Grid",
+            "Includes":
+            [
+                "assets/blueprints"
+            ],
+            "ElementHeight": 242,
+            "ElementWidth": 160,
+            "Layout": "ui_GridV2.layout",
+            "SortBy": "ViewableDate",
+            "SortDirection": "Descending", 
+            "Padding": { "Left": 0, "Top": 15, "Right": 0, "Bottom": 0 }
+        },
+        {
+            "Type": "Panel",
+            "Children": 
+            [
+                {
+                    "Type": "Panel",
+                    "Height": 50,
+                    "Width": 724,
+                    "Padding": { "Left": 0, "Top": 10, "Right": 0, "Bottom": 0 },
+                    "Text": 
+                    [
+                        {
+                            "VAlign": "Bottom",
+                            "Padding": { "Left": 5, "Top": 0, "Right": 0, "Bottom": 10 },
+                            "TextStyle": "h2",
+                            "Text": "Community Samples"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Type": "Panel",
+            "MinWidth": 860,
+            "BackgroundImage": "1.0, 1.0, 1.0, 0.5",
+            "Height": 1,
+            "Padding": { "Left": 5, "Top": 0, "Right": 15, "Bottom": 0 }
+        },
+        {
+            "Type": "Grid",
+            "Includes":
+            [
+                "projects/completeprojects",
+                "projects/showcases"
+            ],
+            "ElementHeight": 242,
+            "ElementWidth": 160,
+            "Layout": "ui_GridV2.layout",
+            "SortBy": "ViewableDate",
+            "SortDirection": "Descending", 
+            "Padding": { "Left": 0, "Top": 15, "Right": 0, "Bottom": 0 }
+        },
+        {
+            "Type": "Panel",
+            "Children": 
+            [
+                {
+                    "Type": "Panel",
+                    "Height": 50,
+                    "Width": 724,
+                    "Padding": { "Left": 0, "Top": 10, "Right": 0, "Bottom": 0 },
+                    "Text": 
+                    [
+                        {
+                            "VAlign": "Bottom",
+                            "Padding": { "Left": 5, "Top": 0, "Right": 0, "Bottom": 10 },
+                            "TextStyle": "h2",
+                            "Text": "Audio"
+                        }
+                    ]
+                }
+			]
+        },
+        {
+            "Type": "Panel",
+            "MinWidth": 860,
+            "BackgroundImage": "1.0, 1.0, 1.0, 0.5",
+            "Height": 1,
+            "Padding": { "Left": 5, "Top": 0, "Right": 15, "Bottom": 0 }
+        },
+        {
+            "Type": "Grid",
+            "Includes":
+            [
+                "assets/soundfx",
+                "assets/music"
+            ],
+            "ElementHeight": 96,
+            "ElementWidth": 300,
+            "Layout": "ui_ListV2.layout",
+            "ItemAlignment": "Fill",
+            "SortBy": "ViewableDate",
+            "SortDirection": "Descending", 
+            "Padding": { "Left": 0, "Top": 5, "Right": 0, "Bottom": 0 }
+        },
+    ]
+}

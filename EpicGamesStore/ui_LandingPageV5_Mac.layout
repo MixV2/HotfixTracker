@@ -1,0 +1,756 @@
+﻿{
+   "Type" : "ScrollBox",
+   "RequiresBindingSource" : false,
+   "AutoSize" : "false",
+   "Children" : [
+      {
+         "Type" : "Box",
+         "Children" : [
+            {
+               "Type" : "Overlay",
+               "Children" : [
+                  {
+                     "Type" : "Box",
+                     "MinWidth" : 1920,
+                     "MaxWidth" : 1920,
+                     "MinHeight" : 550,
+                     "MaxHeight" : 550,
+                     "AutoSize" : false,
+                     "Padding" : {
+                        "Left" : 0,
+                        "Top" : 0,
+                        "Right" : 0,
+                        "Bottom" : 0
+                     },
+                     "Children" : [
+                        {
+                           "Type" : "WebBrowser",
+                           "AutoSize" : false,
+                           "Visibility" : "HitTestInvisible",
+                           "Url" : "https://launcher-website-prod07.ol.epicgames.com/landing/battleroyal-video"
+                        }
+                     ]
+                  },
+                  {
+                     "Type" : "Panel",
+                     "VAlign" : "Center",
+                     "HAlign" : "Center",
+                     "Text" : [
+                        {
+                           "TextStyle" : "inverted-tiny-arth3",
+                           "Text_translate" : "true",
+                           "Text" : "BATTLE ROYALE",
+                           "Text_fr" : "BATTLE ROYALE",
+                           "Text_de" : "BATTLE ROYALE",
+                           "Text_it" : "BATTAGLIA REALE",
+                           "Text_ru" : "КОРОЛЕВСКАЯ БИТВА",
+                           "Text_pl" : "BATTLE ROYALE",
+                           "Text_pt-BR" : "BATTLE ROYALE",
+                           "Text_es-MX" : "BATALLA CAMPAL",
+                           "Text_es" : "BATTLE ROYALE",
+                           "Text_ar" : "لعبة BATTLE ROYALE",
+                           "Text_ko" : "배틀로얄",
+                           "Text_ja" : "Battle Royale",
+                           "Text_zh-CN" : "空降行动",
+                           "Text_tr" : "BATTLE ROYALE",
+                           "Text_zh-Hans" : "空降行动",
+                           "Text_zh-Hant" : "大逃殺",
+                           "Text_th" : "BATTLE ROYALE"
+                        }
+                     ],
+                     "Padding" : {
+                        "Left" : 0,
+                        "Top" : 0,
+                        "Right" : 0,
+                        "Bottom" : 0
+                     }
+                  },
+                  {
+                     "Type" : "Panel",
+                     "VAlign" : "Center",
+                     "HAlign" : "Center",
+                     "Text" : [
+                        {
+                           "TextStyle" : "inverted-title",
+                           "Text_translate" : "true",
+                           "Text" : "FORTNITE",
+                           "Text_zh-CN" : "堡垒之夜",
+                           "Text_fr" : "FORTNITE",
+                           "Text_de" : "FORTNITE",
+                           "Text_ko" : "포트나이트",
+                           "Text_it" : "FORTNITE",
+                           "Text_ru" : "FORTNITE",
+                           "Text_pl" : "FORTNITE",
+                           "Text_ar" : "FORTNITE",
+                           "Text_pt-BR" : "FORTNITE",
+                           "Text_es-MX" : "FORTNITE",
+                           "Text_es" : "FORTNITE",
+                           "Text_ja" : "FORTNITE",
+                           "Text_tr" : "FORTNITE",
+                           "Text_zh-Hans" : "堡垒之夜",
+                           "Text_zh-Hant" : "《Fortnite》",
+                           "Text_th" : "FORTNITE"
+                        }
+                     ],
+                     "Padding" : {
+                        "Left" : 0,
+                        "Top" : -70,
+                        "Right" : 0,
+                        "Bottom" : 0
+                     }
+                  },
+                  {
+                     "Type" : "Button",
+                     "VAlign" : "Center",
+                     "HAlign" : "Center",
+                     "MinWidth" : 345,
+                     "MaxWidth" : 345,
+                     "MinHeight" : 85,
+                     "MaxHeight" : 85,
+                     "OnNavigateUrl" : "/fortnite",
+                     "Padding" : {
+                        "Left" : 0,
+                        "Top" : 170,
+                        "Right" : 0,
+                        "Bottom" : 0
+                     },
+                     "Child" : {
+                        "Type" : "Panel",
+                        "VAlign" : "Center",
+                        "HAlign" : "Center",
+                        "Text" : [
+                           {
+                              "TextStyle" : "inverted-h1",
+                              "Text_translate" : "true",
+                              "Text" : "PLAY NOW",
+                              "Text_fr" : "JOUER DÈS MAINTENANT",
+                              "Text_it" : "GIOCA ORA",
+                              "Text_de" : "JETZT SPIELEN",
+                              "Text_es" : "JUEGA AHORA",
+                              "Text_es-MX" : "JUEGA AHORA",
+                              "Text_ru" : "ИГРАТЬ",
+                              "Text_pl" : "ZAGRAJ TERAZ",
+                              "Text_ar" : "العب الآن",
+                              "Text_ko" : "지금 플레이하세요",
+                              "Text_ja" : "今すぐプレイ",
+                              "Text_zh-CN" : "立即游玩",
+                              "Text_pt-BR" : "JOGUE AGORA",
+                              "Text_tr" : "ŞİMDİ OYNA",
+                              "Text_zh-Hans" : "立即游玩",
+                              "Text_zh-Hant" : "現在就遊玩",
+                              "Text_th" : "เล่นตอนนี้"
+                           }
+                        ]
+                     }
+                  }
+               ]
+            },
+            {
+               "Type" : "Box",
+               "Orientation" : "Horizontal",
+               "MinWidth" : 1400,
+               "MaxWidth" : 1400,
+               "HAlign" : "Center",
+               "Padding" : {
+                  "Left" : 30,
+                  "Top" : 30,
+                  "Right" : 30,
+                  "Bottom" : 30
+               },
+               "AutoSize" : false,
+               "Children" : [
+                  {
+                     "Type" : "Panel",
+                     "Text" : [
+                        {
+                           "Text_translate" : "true",
+                           "Text" : "GAMES",
+                           "TextStyle" : "inverted-h4",
+                           "HAlign" : "Left",
+                           "VAlign" : "Top",
+                           "WrapAt" : 400,
+                           "Margin" : {
+                              "Left" : 0,
+                              "Top" : 0,
+                              "Right" : 0,
+                              "Bottom" : 0
+                           },
+                           "Text_ko" : "게임",
+                           "Text_zh-CN" : "游戏",
+                           "Text_fr" : "JEUX",
+                           "Text_de" : "SPIELE",
+                           "Text_it" : "GIOCHI",
+                           "Text_ru" : "ИГРЫ",
+                           "Text_pl" : "GRY",
+                           "Text_ar" : "الألعاب",
+                           "Text_pt-BR" : "JOGOS",
+                           "Text_es-MX" : "JUEGOS",
+                           "Text_es" : "JUEGOS",
+                           "Text_ja" : "ゲーム",
+                           "Text_tr" : "OYUNLAR",
+                           "Text_zh-Hans" : "游戏",
+                           "Text_zh-Hant" : "遊戲",
+                           "Text_th" : "เกม"
+                        }
+                     ]
+                  },
+                  {
+                     "Type" : "Panel",
+                     "HAlign" : "Fill",
+                     "AutoSize" : false,
+                     "BackgroundImage" : "1.0, 1.0, 1.0, 0.25",
+                     "Height" : 1,
+                     "VAlign" : "Bottom",
+                     "Padding" : {
+                        "Left" : 30,
+                        "Top" : 0,
+                        "Right" : 0,
+                        "Bottom" : 8
+                     }
+                  }
+               ]
+            },
+            {
+               "Type" : "ResponsiveGrid",
+               "TotalColumns" : 12,
+               "ColumnGutter" : 15,
+               "RowGutter" : 15,
+               "MaxWidth" : 1400,
+               "MinWidth" : 1400,
+               "HAlign" : "Center",
+               "Padding" : {
+                  "Left" : 30,
+                  "Top" : 0,
+                  "Right" : 30,
+                  "Bottom" : 30
+               },
+               "Children" : [
+                  {
+                     "Type" : "BasicTile",
+                     "Row" : 0,
+                     "ColumnSpans" : [
+                        {
+                           "LayoutSize" : 950,
+                           "Span" : 8
+                        },
+                        {
+                           "LayoutSize" : 0,
+                           "Span" : 6
+                        }
+                     ],
+                     "Padding" : {
+                        "Left" : 0,
+                        "Top" : 0,
+                        "Right" : 0,
+                        "Bottom" : 30
+                     },
+                     "MinHeight" : 300,
+                     "MaxHeight" : 300,
+                     "HasShadow" : false,
+                     "HasTextBackground" : "true",
+                     "Images" : [
+                        {
+                           "Image" : "https://cdn1.epicgames.com/ut/item/BattleBreakers1-2300x750-13c28b7fe6ee82dab2c7a8882ca05eb6.png",
+                           "HAlign" : "Center",
+                           "VAlign" : "Top"
+                        }
+                     ],
+                     "OnNavigateUrl" : "{epicgames.epicgames}/battlebreakers/prereg"
+                  },
+                  {
+                     "Type" : "Overlay",
+                     "Row" : 0,
+                     "ColumnSpans" : [
+                        {
+                           "LayoutSize" : 950,
+                           "Span" : 4
+                        },
+                        {
+                           "LayoutSize" : 0,
+                           "Span" : 6
+                        }
+                     ],
+                     "MinHeight" : 300,
+                     "MaxHeight" : 300,
+                     "Children" : [
+                        {
+                           "Type" : "Panel",
+                           "BackgroundImage" : "#27292dff",
+                           "Padding" : {
+                              "Left" : 0,
+                              "Top" : 0,
+                              "Right" : 0,
+                              "Bottom" : 30
+                           }
+                        },
+                        {
+                           "Type" : "Box",
+                           "Children" : [
+                              {
+                                 "Type" : "Panel",
+                                 "Padding" : {
+                                    "Left" : 30,
+                                    "Top" : 30,
+                                    "Right" : 0,
+                                    "Bottom" : 0
+                                 },
+                                 "Text" : [
+                                    {
+                                       "Text_translate" : "true",
+                                       "Text" : "BATTLE BREAKERS",
+                                       "TextStyle" : "inverted-title",
+                                       "HAlign" : "Left",
+                                       "VAlign" : "Top",
+                                       "WrapAt" : 400,
+                                       "Margin" : {
+                                          "Left" : 0,
+                                          "Top" : 0,
+                                          "Right" : 0,
+                                          "Bottom" : 0
+                                       },
+                                       "Text_fr" : "BATTLE BREAKERS",
+                                       "Text_de" : "BATTLE BREAKERS",
+                                       "Text_it" : "BATTLE BREAKERS",
+                                       "Text_ru" : "BATTLE BREAKERS",
+                                       "Text_pl" : "BATTLE BREAKERS",
+                                       "Text_pt-BR" : "BATTLE BREAKERS",
+                                       "Text_es-MX" : "BATTLE BREAKERS",
+                                       "Text_es" : "BATTLE BREAKERS",
+                                       "Text_ar" : "BATTLE BREAKERS",
+                                       "Text_ko" : "배틀 브레이커스",
+                                       "Text_ja" : "BATTLE BREAKERS",
+                                       "Text_zh-CN" : "BATTLE BREAKERS",
+                                       "Text_tr" : "BATTLE BREAKERS",
+                                       "Text_zh-Hans" : "BATTLE BREAKERS",
+                                       "Text_zh-Hant" : "《BATTLE BREAKERS》",
+                                       "Text_th" : "BATTLE BREAKERS"
+                                    }
+                                 ]
+                              },
+                              {
+                                 "Type" : "Panel",
+                                 "Padding" : {
+                                    "Left" : 30,
+                                    "Top" : 15,
+                                    "Right" : 25,
+                                    "Bottom" : 0
+                                 },
+                                 "Text" : [
+                                    {
+                                       "Text_translate" : "true",
+                                       "Text" : "Powered by Unreal Engine 4, Battle Breakers is a frenetic tactical role playing collector from Epic Games.",
+                                       "TextStyle" : "inverted-small-h6",
+                                       "HAlign" : "Left",
+                                       "VAlign" : "Top",
+                                       "AutoWrap" : true,
+                                       "Margin" : {
+                                          "Left" : 0,
+                                          "Top" : 0,
+                                          "Right" : 0,
+                                          "Bottom" : 0
+                                       },
+                                       "Text_ko" : "언리얼 엔진 4 로 제작된 배틀 브레이커스는, 에픽 게임즈가 제작한 빠른 페이스의 전략 RPG 수집 게임입니다.",
+                                       "Text_fr" : "Animé par Unreal Engine 4, Battle Breakers est un jeu de rôle tactique frénétique collector d'Epic Games.",
+                                       "Text_it" : "Battle Breakers, realizzato con Unreal Engine 4, è un frenetico gioco di ruolo tattico a elementi collezionabili di Epic Games.",
+                                       "Text_de" : "Battle Breakers basiert auf der Unreal Engine 4 und ist ein rasantes taktischen Sammel-Rollenspiel von Epic Games.",
+                                       "Text_es" : "Impulsado por Unreal Engine 4, Battle Breakers es un frenético juego de rol táctico con elementos de coleccionismo creado por Epic Games.",
+                                       "Text_es-MX" : "Impulsado por Unreal Engine 4, Battle Breakers es un frenético juego de rol táctico con elementos de coleccionismo creado por Epic Games.",
+                                       "Text_ru" : "Battle Breakers на Unreal Engine 4 — это безумная тактическая ролевая коллекционная игра от Epic Games.",
+                                       "Text_pl" : "Oparta na silniku Unreal Engine 4 gra Battle Breakers to pełna napięcia, taktyczna gra RPG stworzona przez Epic Games.",
+                                       "Text_ar" : "تحت Unreal Engine 4، Battle Breakers هي لعبة أدوار متبادلة تكتيكية مثيرة للجامعين من Epic Games.",
+                                       "Text_ja" : "Unreal Engine 4を採用したBattle Breakersは、Epic Gamesによる迫力満点の戦術ロールプレイングコレクターゲームです。",
+                                       "Text_zh-CN" : "使用虚幻引擎4开发的《Battle Breakers》是一款狂热的战术角色扮演收集游戏，由Epic Games推出。",
+                                       "Text_pt-BR" : "Com a tecnologia Unreal Engine 4, Battle Breakers é um RPG coletor tático frenético da Epic Games.",
+                                       "Text_tr" : "Unreal Engine 4 ile geliştirilmiş Battle Breakers, Epic Games’in geliştirdiği son derece tempolu bir taktiksel rol yapma-toplama oyunudur.",
+                                       "Text_zh-Hans" : "使用虚幻引擎4开发的《Battle Breakers》是一款狂热的战术角色扮演收集游戏，由Epic Games推出。",
+                                       "Text_zh-Hant" : "搭載 Unreal Engine 4，《Battle Breakers》是款出自 Epic Games 的狂熱策略角色扮演收集遊戲。",
+                                       "Text_th" : "Battle Breakers ซึ่งสนับสนุนโดย Unreal Engine 4 คือเกมรวมทีมสวมบทบาทเชิงกลยุทธ์อันบ้าคลั่งจาก Epic Games"
+                                    }
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           "Type" : "Button",
+                           "ButtonStyle" : "SecondaryButton",
+                           "VAlign" : "Bottom",
+                           "HAlign" : "Center",
+                           "MinWidth" : 200,
+                           "MaxWidth" : 200,
+                           "MinHeight" : 55,
+                           "MaxHeight" : 55,
+                           "Padding" : {
+                              "Left" : 0,
+                              "Top" : 0,
+                              "Right" : 0,
+                              "Bottom" : 60
+                           },
+                           "OnNavigateUrl" : "{epicgames.epicgames}/battlebreakers/prereg",
+                           "Child" : {
+                              "Type" : "Panel",
+                              "VAlign" : "Center",
+                              "HAlign" : "Center",
+                              "Text" : [
+                                 {
+                                    "TextStyle" : "inverted-extrasmall-h6",
+                                    "Text_translate" : "true",
+                                    "Text" : "PRE-REGISTER",
+                                    "Text_ko" : "사전 등록",
+                                    "Text_fr" : "PRÉ-INSCRIPTION",
+                                    "Text_it" : "PRE-REGISTRATI",
+                                    "Text_de" : "VORREGISTRIEREN",
+                                    "Text_es" : "REGISTRO ANTICIPADO",
+                                    "Text_es-MX" : "REGISTRO ANTICIPADO",
+                                    "Text_ru" : "ПРЕДВАРИТЕЛЬНАЯ РЕГИСТРАЦИЯ",
+                                    "Text_pl" : "WCZESNA REJESTRACJA",
+                                    "Text_ar" : "التسجيل المسبق",
+                                    "Text_ja" : "事前登録",
+                                    "Text_zh-CN" : "预注册",
+                                    "Text_pt-BR" : "INSCRIÇÃO ANTECIPADA",
+                                    "Text_tr" : "ÖN KAYIT",
+                                    "Text_zh-Hans" : "预注册",
+                                    "Text_zh-Hant" : "預先註冊",
+                                    "Text_th" : "ลงทะเบียนล่วงหน้า"
+                                 }
+                              ]
+                           }
+                        }
+                     ]
+                  },
+                  {
+                     "Type" : "BasicTile",
+                     "Row" : 0,
+                     "ColumnSpans" : [
+                        {
+                           "LayoutSize" : 950,
+                           "Span" : 4
+                        },
+                        {
+                           "LayoutSize" : 0,
+                           "Span" : 4
+                        }
+                     ],
+                     "Padding" : {
+                        "Left" : 0,
+                        "Top" : 0,
+                        "Right" : 0,
+                        "Bottom" : 30
+                     },
+                     "MinHeight" : 300,
+                     "MaxHeight" : 300,
+                     "HasShadow" : false,
+                     "HasTextBackground" : "true",
+                     "Images" : [
+                        {
+                           "Image" : "https://cdn1.epicgames.com/ut/item/small_Unreal-Tournament-576x360-8b2e4c9d24ab5aacdec87815472da9dd.png",
+                           "VAlign" : "Top"
+                        }
+                     ],
+                     "OnNavigateUrl" : "/ut",
+                     "Text" : [
+                        {
+                           "Text_translate" : "true",
+                           "Text" : "UNREAL TOURNAMENT",
+                           "VAlign" : "Bottom",
+                           "TextStyle" : "inverted-extralarge-h6",
+                           "Margin" : {
+                              "Left" : 30,
+                              "Top" : 20,
+                              "Right" : 15,
+                              "Bottom" : 40
+                           },
+                           "Text_ko" : "언리얼 토너먼트",
+                           "Text_zh-CN" : "虚幻竞技场",
+                           "Text_fr" : "UNREAL TOURNAMENT",
+                           "Text_de" : "UNREAL TOURNAMENT",
+                           "Text_it" : "UNREAL TOURNAMENT",
+                           "Text_ru" : "UNREAL TOURNAMENT",
+                           "Text_pl" : "UNREAL TOURNAMENT",
+                           "Text_ar" : "UNREAL TOURNAMENT",
+                           "Text_pt-BR" : "UNREAL TOURNAMENT",
+                           "Text_es-MX" : "UNREAL TOURNAMENT",
+                           "Text_es" : "UNREAL TOURNAMENT",
+                           "Text_ja" : "UNREAL TOURNAMENT",
+                           "Text_tr" : "UNREAL TOURNAMENT",
+                           "Text_zh-Hans" : "虚幻竞技场",
+                           "Text_zh-Hant" : "《UNREAL TOURNAMENT》",
+                           "Text_th" : "UNREAL TOURNAMENT"
+                        },
+                        {
+                           "Text_translate" : "true",
+                           "Text" : "PLAY NOW",
+                           "VAlign" : "Bottom",
+                           "TextStyle" : "inverted-tiny-body",
+                           "Margin" : {
+                              "Left" : 30,
+                              "Top" : 20,
+                              "Right" : 15,
+                              "Bottom" : 20
+                           },
+                           "Text_ko" : "지금 플레이하세요",
+                           "Text_zh-CN" : "立即游玩",
+                           "Text_fr" : "JOUER DÈS MAINTENANT",
+                           "Text_de" : "JETZT SPIELEN",
+                           "Text_it" : "GIOCA ORA",
+                           "Text_ru" : "ИГРАТЬ",
+                           "Text_pl" : "ZAGRAJ TERAZ",
+                           "Text_ar" : "العب الآن",
+                           "Text_pt-BR" : "JOGUE AGORA",
+                           "Text_es-MX" : "JUEGA AHORA",
+                           "Text_es" : "JUEGA AHORA",
+                           "Text_ja" : "今すぐプレイ",
+                           "Text_tr" : "ŞİMDİ OYNA",
+                           "Text_zh-Hans" : "立即游玩",
+                           "Text_zh-Hant" : "現在就遊玩",
+                           "Text_th" : "เล่นตอนนี้"
+                        }
+                     ]
+                  },
+                  {
+                     "Type" : "BasicTile",
+                     "Row" : 0,
+                     "ColumnSpans" : [
+                        {
+                           "LayoutSize" : 950,
+                           "Span" : 4
+                        },
+                        {
+                           "LayoutSize" : 0,
+                           "Span" : 4
+                        }
+                     ],
+                     "Padding" : {
+                        "Left" : 0,
+                        "Top" : 0,
+                        "Right" : 0,
+                        "Bottom" : 30
+                     },
+                     "MinHeight" : 300,
+                     "MaxHeight" : 300,
+                     "HasShadow" : false,
+                     "HasTextBackground" : "true",
+                     "Images" : [
+                        {
+                           "Image" : "https://cdn1.epicgames.com/ut/item/small_shadow-complex-remastered-580x326-77a23415e5de3d74263afebd46538f68.png",
+                           "VAlign" : "Top"
+                        }
+                     ],
+                     "OnNavigateUrl" : "/viper",
+                     "Text" : [
+                        {
+                           "Text_translate" : "true",
+                           "Text" : "SHADOW COMPLEX: REMASTERED",
+                           "VAlign" : "Bottom",
+                           "TextStyle" : "inverted-extralarge-h6",
+                           "Margin" : {
+                              "Left" : 30,
+                              "Top" : 20,
+                              "Right" : 15,
+                              "Bottom" : 40
+                           },
+                           "Text_ko" : "섀도 컴플렉스",
+                           "Text_zh-CN" : "SHADOW COMPLEX：重制版",
+                           "Text_fr" : "SHADOW COMPLEX REMASTÉRISÉ",
+                           "Text_de" : "SHADOW COMPLEX: REMASTERED",
+                           "Text_it" : "SHADOW COMPLEX: REMASTERED",
+                           "Text_ru" : "SHADOW COMPLEX: REMASTERED",
+                           "Text_pl" : "SHADOW COMPLEX: REMASTERED",
+                           "Text_ar" : "SHADOW COMPLEX: REMASTERED",
+                           "Text_pt-BR" : "SHADOW COMPLEX: REMASTERED",
+                           "Text_es-MX" : "SHADOW COMPLEX: REMASTERIZADO",
+                           "Text_es" : "SHADOW COMPLEX: REMASTERIZADO",
+                           "Text_ja" : "SHADOW COMPLEX: リマスター版",
+                           "Text_tr" : "SHADOW COMPLEX: REMASTERED",
+                           "Text_zh-Hans" : "SHADOW COMPLEX：重制版",
+                           "Text_zh-Hant" : "《Shadow Complex: Remastered》",
+                           "Text_th" : "SHADOW COMPLEX: REMASTERED"
+                        },
+                        {
+                           "Text_translate" : "true",
+                           "Text" : "PLAY NOW",
+                           "VAlign" : "Bottom",
+                           "TextStyle" : "inverted-tiny-body",
+                           "Margin" : {
+                              "Left" : 30,
+                              "Top" : 20,
+                              "Right" : 15,
+                              "Bottom" : 20
+                           },
+                           "Text_ko" : "지금 플레이하세요",
+                           "Text_zh-CN" : "立即游玩",
+                           "Text_fr" : "JOUER DÈS MAINTENANT",
+                           "Text_de" : "JETZT SPIELEN",
+                           "Text_it" : "GIOCA ORA",
+                           "Text_ru" : "ИГРАТЬ",
+                           "Text_pl" : "ZAGRAJ TERAZ",
+                           "Text_ar" : "العب الآن",
+                           "Text_pt-BR" : "JOGUE AGORA",
+                           "Text_es-MX" : "JUEGA AHORA",
+                           "Text_es" : "JUEGA AHORA",
+                           "Text_ja" : "今すぐプレイ",
+                           "Text_tr" : "ŞİMDİ OYNA",
+                           "Text_zh-Hans" : "立即游玩",
+                           "Text_zh-Hant" : "現在就遊玩",
+                           "Text_th" : "เล่นตอนนี้"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "Type" : "Overlay",
+               "Children" : [
+                  {
+                     "Type" : "Box",
+                     "MinWidth" : 1920,
+                     "MaxWidth" : 1920,
+                     "MinHeight" : 500,
+                     "MaxHeight" : 500,
+                     "AutoSize" : false,
+                     "Padding" : {
+                        "Left" : 0,
+                        "Top" : 80,
+                        "Right" : 0,
+                        "Bottom" : 30
+                     },
+                     "Children" : [
+                        {
+                           "Type" : "BasicTile",
+                           "Padding" : {
+                              "Left" : 0,
+                              "Top" : 0,
+                              "Right" : 0,
+                              "Bottom" : 30
+                           },
+                           "MinHeight" : 500,
+                           "MaxHeight" : 500,
+                           "HasShadow" : false,
+                           "HasTextBackground" : "false",
+                           "Images" : [
+                              {
+                                 "Image" : "https://cdn1.epicgames.com/ut/item/BG_Robo%20Recall-1920x1200-3d177c28bbd595deedac49aa15744b22.png",
+                                 "VAlign" : "Top",
+                                 "Stretch" : "None"
+                              }
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     "Type" : "Panel",
+                     "VAlign" : "Center",
+                     "HAlign" : "Center",
+                     "Text" : [
+                        {
+                           "TextStyle" : "inverted-tiny-arth3",
+                           "Text_translate" : "true",
+                           "Text" : "UNREAL ENGINE",
+                           "Text_ko" : "언리얼 엔진",
+                           "Text_zh-CN" : "虚幻引擎",
+                           "Text_fr" : "UNREAL ENGINE",
+                           "Text_de" : "UNREAL ENGINE",
+                           "Text_it" : "UNREAL ENGINE",
+                           "Text_ru" : "ДВИЖОК UNREAL ENGINE",
+                           "Text_pl" : "UNREAL ENGINE",
+                           "Text_ar" : "UNREAL ENGINE",
+                           "Text_pt-BR" : "UNREAL ENGINE",
+                           "Text_es-MX" : "UNREAL ENGINE",
+                           "Text_es" : "UNREAL ENGINE",
+                           "Text_ja" : "UNREAL ENGINE",
+                           "Text_tr" : "UNREAL ENGINE",
+                           "Text_zh-Hans" : "虚幻引擎",
+                           "Text_zh-Hant" : "UNREAL ENGINE",
+                           "Text_th" : "UNREAL ENGINE"
+                        }
+                     ],
+                     "Padding" : {
+                        "Left" : 0,
+                        "Top" : -40,
+                        "Right" : 0,
+                        "Bottom" : 0
+                     }
+                  },
+                  {
+                     "Type" : "Panel",
+                     "VAlign" : "Center",
+                     "HAlign" : "Center",
+                     "Text" : [
+                        {
+                           "TextStyle" : "inverted-tiny-h2",
+                           "Text_translate" : "true",
+                           "Text" : "MAKE SOMETHING UNREAL WITH THE MOST POWERFUL CREATION ENGINE",
+                           "Text_ko" : "가장 강력한 창작 엔진으로 언리얼한 작품을 만들어 보세요",
+                           "Text_zh-CN" : "以最强大的创作引擎缔造虚幻世界",
+                           "Text_fr" : "DONNEZ NAISSANCE À L'IRRÉEL GRÂCE AU PLUS PUISSANT MOTEUR DE CRÉATION",
+                           "Text_de" : "LASSEN SIE MIT DER MÄCHTIGSTEN ERSTELLUNGS-ENGINE ETWAS UNREAL WERDEN",
+                           "Text_it" : "RENDI REALE L'IRREALE CON IL PIÙ POTENTE MOTORE CREATIVO",
+                           "Text_ru" : "СОЗДАВАЙТЕ НЕРЕАЛЬНЫЕ ПРОГРАММЫ НА МОЩНЕЙШЕМ ДВИЖКЕ",
+                           "Text_pl" : "STWÓRZ COŚ NIESAMOWITEGO DZIĘKI NAJPOTĘŻNIEJSZEMU SILNIKOWI",
+                           "Text_ar" : "اصنع شيئًا مذهلًا مع أقوى محرّك على الإطلاق",
+                           "Text_pt-BR" : "CRIE ALGO INCRÍVEL COM O MOTOR DE CRIAÇÃO MAIS PODEROSO QUE EXISTE",
+                           "Text_es-MX" : "HAZ ALGO IRREAL CON EL MÁS PODEROSO MOTOR DE CREACIÓN",
+                           "Text_es" : "HAZ ALGO IRREAL CON EL MÁS PODEROSO MOTOR DE CREACIÓN",
+                           "Text_ja" : "最強のクリエーションエンジンで目を見張るようなものを作ろう",
+                           "Text_tr" : "EN GÜÇLÜ GELİŞTİRME MOTORUYLA GERÇEKÜSTÜ ŞEYLER YAP",
+                           "Text_zh-Hans" : "以最强大的创作引擎缔造虚幻世界",
+                           "Text_zh-Hant" : "使用最強大的建構引擎來做出魔幻（UNREAL）的成果吧",
+                           "Text_th" : "สร้างบางอย่างที่ UNREAL ด้วยเอนจิ้นการสร้างที่ทรงพลังที่สุด"
+                        }
+                     ],
+                     "Padding" : {
+                        "Left" : 0,
+                        "Top" : 30,
+                        "Right" : 0,
+                        "Bottom" : 0
+                     }
+                  },
+                  {
+                     "Type" : "Button",
+                     "VAlign" : "Center",
+                     "HAlign" : "Center",
+                     "MinWidth" : 345,
+                     "MaxWidth" : 345,
+                     "MinHeight" : 85,
+                     "MaxHeight" : 85,
+                     "OnNavigateUrl" : "/ue/learn",
+                     "Padding" : {
+                        "Left" : 0,
+                        "Top" : 130,
+                        "Right" : 0,
+                        "Bottom" : 0
+                     },
+                     "Child" : {
+                        "Type" : "Panel",
+                        "VAlign" : "Center",
+                        "HAlign" : "Center",
+                        "Text" : [
+                           {
+                              "TextStyle" : "inverted-h1",
+                              "Text_translate" : "true",
+                              "Text" : "GET STARTED NOW",
+                              "Text_ko" : "시작해요 UE4",
+                              "Text_zh-CN" : "立即开始",
+                              "Text_fr" : "COMMENCEZ DÈS MAINTENANT",
+                              "Text_de" : "JETZT LOSLEGEN",
+                              "Text_it" : "INIZIA ORA",
+                              "Text_ru" : "НАЧАТЬ",
+                              "Text_pl" : "ZACZNIJ TERAZ",
+                              "Text_ar" : "ابدأ الآن",
+                              "Text_pt-BR" : "COMECE AGORA",
+                              "Text_es-MX" : "EMPIEZA AHORA",
+                              "Text_es" : "EMPIEZA AHORA",
+                              "Text_ja" : "今すぐ開始",
+                              "Text_tr" : "ŞİMDİ BAŞLA",
+                              "Text_zh-Hans" : "立即开始",
+                              "Text_zh-Hant" : "現在就開始",
+                              "Text_th" : "เริ่มตอนนี้"
+                           }
+                        ]
+                     }
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}

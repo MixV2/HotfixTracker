@@ -1,0 +1,57 @@
+﻿{
+	"Id": "ark",
+	"Priority": 30,
+	"AnalyticsId": "ark",
+	"DisplayName": "ARK",
+	"SupportedPlatforms": "Windows,Win32",
+	"CatalogNamespace": "ark",
+	"BackgroundImage": "",
+	"BackgroundFillImage": "0.08241, 0.08241, 0.08241",
+	"PrimaryColor": "0.54799, 0.00006, 0.00001",
+	"PressedPrimaryColor": "0.44787, 0.00006, 0.00001",
+	"HoveredPrimaryColor": "0.7372, 0.00011, 0.00002",
+	"Homepage": "/ark",
+	"Pages": [
+		{
+			"Id": "ark",
+			"PartialUrl": "/ark",
+			"IsAbstract": true
+		},
+		{
+			"Id": "ark.play",
+			"PartialUrl": "/play",
+			"SourceUrl": "ui_ArkPlayV1.layout"
+		},
+		{
+			"Id": "ark.play-load-error",
+			"PartialUrl": "/play/load-error",
+			"SourceUrl": "ui_ArkPlayV1_Offline.layout"
+		},
+		{
+			"Id": "ark.create",
+			"PartialUrl": "/create",
+			"SourceUrl": "ui_ArkCreateV1.layout"
+		},
+		{
+			"Id": "ark.create-load-error",
+			"PartialUrl": "/create/load-error",
+			"SourceUrl": "ui_ArkCreateV1_Offline.layout"
+		}
+	],
+	"Redirects": [
+		"/ark -> MOST_RECENT_LOCATION || /ark/create"
+	],
+	"Apps": [
+		{
+			"Name": "ARKDevKit",
+			"GroupId": "Editor",
+			"OfferId": "6a0dadfed285488bafec6f01f30f67d0",
+			"ItemId": "8077d89481064a9097dd4b8fe7bca090",
+			"LaunchPermissions": "NoInternet,WithoutLauncher"
+		}
+	],
+	"DefaultRegionId": "",
+	"Regions": [
+
+	]
+}

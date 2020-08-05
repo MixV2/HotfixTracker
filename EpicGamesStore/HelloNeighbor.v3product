@@ -1,0 +1,55 @@
+﻿{
+	"Id": "helloneighbor",
+	"Priority": 50,
+	"AnalyticsId": "helloneighbor",
+	"DisplayName": "Hello Neighbor",
+	"SupportedPlatforms": "Windows",
+	"CatalogNamespace": "helloneighbor",
+	"Categories": "Create",
+	"EulaExpression": "(helloneighbor && ue)",
+	"BackgroundImage": "",
+	"BackgroundFillImage": "0.08241, 0.08241, 0.08241",
+	"PrimaryColor": "0.54799, 0.00006, 0.00001",
+	"PressedPrimaryColor": "0.44787, 0.00006, 0.00001",
+	"HoveredPrimaryColor": "0.7372, 0.00011, 0.00002",
+	"Homepage": "/create/helloneighbor",
+	"Pages": [
+		{
+			"Id": "create.helloneighbor",
+			"PartialUrl": "/helloneighbor",
+			"SourceUrls" : [
+				{
+					"SourceUrl": "ui_HelloNeighborV1_Offline.layout",
+					"Conditions": [ "![BINDING_SOURCE], [PORTAL_VERSION]<2.12.24, ![PORTAL_VERSION]0.0.0" ] 
+				},
+				{
+					"SourceUrl": "ui_HelloNeighborV2_Offline.layout",
+					"Conditions": [ "![BINDING_SOURCE]" ] 
+				},
+				{
+					"SourceUrl": "ui_HelloNeighborCreateV1.layout",
+					"Conditions": [ "[PORTAL_VERSION]<2.12.24, ![PORTAL_VERSION]0.0.0" ] 
+				},
+				{
+					"SourceUrl": "ui_HelloNeighborCreateV2.layout"
+				}
+			]
+		}
+	],
+	"Redirects": [
+	
+	],
+	"Apps": [
+		{
+			"Name": "HelloNeighborEditor",
+			"GroupId": "Editor",
+			"OfferId": "b1e57a8fa2074f669abfbb294fd8e59e",
+			"ItemId": "e9c4a338941a4d5ea813256a9632ec47",
+			"LaunchPermissions": "NoInternet,WithoutLauncher,MultiLaunch"
+		}
+	],
+	"DefaultRegionId": "",
+	"Regions": [
+
+	]
+}

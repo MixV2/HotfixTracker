@@ -1,0 +1,1869 @@
+﻿{
+   "Type" : "Box",
+   "Orientation" : "Vertical",
+   "Padding" : {
+      "Left" : 20,
+      "Top" : 5,
+      "Right" : 35,
+      "Bottom" : 0
+   },
+   "AnchorID" : "marketplace_top",
+   "HAlign" : "Center",
+   "MaxWidth" : 1400,
+   "Children" : [
+      {
+         "Type" : "ResponsiveGrid",
+         "HAlign" : "Center",
+         "MaxWidth" : 1400,
+         "MinWidth" : 1400,
+         "TotalColumns" : 12,
+         "ColumnGutter" : 0,
+         "Children" : [
+            {
+               "Type" : "Box",
+               "Orientation" : "Horizontal",
+               "Row" : 0,
+               "ColumnSpans" : [
+                  {
+                     "LayoutSize" : 0,
+                     "Span" : 12
+                  }
+               ],
+               "Children" : [
+                  {
+                     "Type" : "Panel",
+                     "AutoSize" : "false",
+                     "Padding" : {
+                        "Left" : 0,
+                        "Top" : 20,
+                        "Right" : 0,
+                        "Bottom" : 0
+                     },
+                     "Text" : [
+                        {
+                           "VAlign" : "Bottom",
+                           "Padding" : {
+                              "Left" : 5,
+                              "Top" : 0,
+                              "Right" : 0,
+                              "Bottom" : 10
+                           },
+                           "TextStyle" : "h1",
+                           "Text_translate" : "true",
+                           "Text" : "Featured Content",
+                           "Text_ko" : "추천 콘텐츠",
+                           "Text_zh-CN" : "精选内容",
+                           "Text_ja" : "オススメのコンテンツ",
+                           "Text_fr" : "Contenu à l'affiche",
+                           "Text_de" : "Inhalte im Rampenlicht",
+                           "Text_it" : "Contenuti in primo piano",
+                           "Text_ru" : "Рекомендуемый контент",
+                           "Text_pl" : "Polecana zawartość",
+                           "Text_pt-BR" : "Conteúdo em destaque",
+                           "Text_es-MX" : "Contenido destacado",
+                           "Text_es" : "Contenido destacado",
+                           "Text_ar" : "محتوى مميز",
+                           "Text_tr" : "Öne Çıkan İçerikler",
+                           "Text_zh-Hans" : "精选内容",
+                           "Text_zh-Hant" : "重點內容",
+                           "Text_th" : "เนื้อหาพิเศษ"
+                        }
+                     ]
+                  },
+                  {
+                     "Type" : "Box",
+                     "Orientation" : "Horizontal",
+                     "HAlign" : "Right",
+                     "Row" : 0,
+                     "ColumnSpans" : [
+                        {
+                           "LayoutSize" : 0,
+                           "Span" : 6
+                        }
+                     ],
+                     "Children" : [
+                        {
+                           "Type" : "Link",
+                           "Padding" : {
+                              "Left" : 0,
+                              "Top" : 20,
+                              "Right" : 0,
+                              "Bottom" : 0
+                           },
+                           "Image" : {
+                              "Image" : "small_download_icon.png"
+                           },
+                           "HoverIcon" : {
+                              "Image" : "ExternalLink.png"
+                           },
+                           "Text" : {
+                              "Text" : "Submit Your Content",
+                              "Text_translate" : "true",
+                              "TextStyle" : "Body",
+                              "Margin" : {
+                                 "Left" : 10,
+                                 "Top" : 0,
+                                 "Right" : 10,
+                                 "Bottom" : 0
+                              },
+                              "Text_ko" : "콘텐츠 제출",
+                              "Text_ja" : "コンテンツを提出",
+                              "Text_zh-CN" : "提交您的内容",
+                              "Text_fr" : "Envoyer votre contenu",
+                              "Text_es" : "Envía tu contenido",
+                              "Text_de" : "Übermitteln Sie Ihre Inhalte",
+                              "Text_it" : "Invia il tuo contenuto",
+                              "Text_ru" : "Загрузить собственный контент",
+                              "Text_pl" : "Prześlij swoją zawartość",
+                              "Text_pt-BR" : "Envie seu conteúdo",
+                              "Text_es-MX" : "Envía tu contenido",
+                              "Text_ar" : "قم بتقديم المحتوى",
+                              "Text_tr" : "İçeriğini Gönder",
+                              "Text_zh-Hans" : "提交您的内容",
+                              "Text_zh-Hant" : "投稿您的內容",
+                              "Text_th" : "ส่งเนื้อหาของคุณ"
+                           },
+                           "OnNavigateUrl" : "[marketplace_submission]"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "Type" : "BasicTile",
+               "Row" : 0,
+               "ColumnSpans" : [
+                  {
+                     "LayoutSize" : 1000,
+                     "Span" : 6
+                  },
+                  {
+                     "LayoutSize" : 700,
+                     "Span" : 4
+                  },
+                  {
+                     "LayoutSize" : 0,
+                     "Span" : 6
+                  }
+               ],
+               "MaxHeight" : 250,
+               "MinHeight" : 250,
+               "MaxWidth" : 700,
+               "MinWidth" : 700,
+               "Binding" : "fd98abe115634b1899425e6e71e67907",
+               "Images" : [
+                  {
+                     "Image" : "NewFeatured"
+                  },
+                  {
+                     "Image" : "New",
+                     "HAlign" : "Right",
+                     "VAlign" : "Top",
+                     "Stretch" : "None"
+                  }
+               ],
+               "OnNavigateUrl" : "/ue/marketplace/{Id}",
+               "Text" : [
+                  {
+                     "Text" : "Details",
+                     "TextStyle" : "h4",
+                     "Margin" : 10
+                  }
+               ],
+               "Padding" : {
+                  "Left" : 0,
+                  "Top" : 0,
+                  "Right" : 0,
+                  "Bottom" : 0
+               }
+            },
+            {
+               "Type" : "BasicTile",
+               "Row" : 0,
+               "ColumnSpans" : [
+                  {
+                     "LayoutSize" : 1000,
+                     "Span" : 3
+                  },
+                  {
+                     "LayoutSize" : 700,
+                     "Span" : 4
+                  },
+                  {
+                     "LayoutSize" : 0,
+                     "Span" : 0
+                  }
+               ],
+               "MaxHeight" : 250,
+               "MinHeight" : 250,
+               "MaxWidth" : 700,
+               "MinWidth" : 700,
+               "Binding" : "1f494d08bd214c56898c74bb60e1336e",
+               "Images" : [
+                  {
+                     "Image" : "NewFeatured"
+                  },
+                  {
+                     "Image" : "New",
+                     "HAlign" : "Right",
+                     "VAlign" : "Top",
+                     "Stretch" : "None"
+                  }
+               ],
+               "OnNavigateUrl" : "/ue/marketplace/{Id}",
+               "Text" : [
+                  {
+                     "Text" : "Details",
+                     "TextStyle" : "h4",
+                     "Margin" : 10
+                  }
+               ],
+               "Padding" : {
+                  "Left" : 0,
+                  "Top" : 0,
+                  "Right" : 0,
+                  "Bottom" : 0
+               }
+            },
+            {
+               "Type" : "BasicTile",
+               "Row" : 0,
+               "ColumnSpans" : [
+                  {
+                     "LayoutSize" : 1000,
+                     "Span" : 3
+                  },
+                  {
+                     "LayoutSize" : 700,
+                     "Span" : 4
+                  },
+                  {
+                     "LayoutSize" : 0,
+                     "Span" : 0
+                  }
+               ],
+               "MaxHeight" : 250,
+               "MinHeight" : 250,
+               "MaxWidth" : 700,
+               "MinWidth" : 700,
+               "Binding" : "e12657567d924ec290c4b0399c163f74",
+               "Images" : [
+                  {
+                     "Image" : "NewFeatured"
+                  },
+                  {
+                     "Image" : "New",
+                     "HAlign" : "Right",
+                     "VAlign" : "Top",
+                     "Stretch" : "None"
+                  }
+               ],
+               "OnNavigateUrl" : "/ue/marketplace/{Id}",
+               "Text" : [
+                  {
+                     "Text" : "Details",
+                     "TextStyle" : "h4",
+                     "Margin" : 10
+                  }
+               ],
+               "Padding" : {
+                  "Left" : 0,
+                  "Top" : 0,
+                  "Right" : 0,
+                  "Bottom" : 0
+               }
+            }
+         ]
+      },
+      {
+         "Type" : "ResponsiveGrid",
+         "MaxWidth" : 1200,
+         "TotalColumns" : 16,
+         "ColumnGutter" : 5,
+         "Padding" : {
+            "Left" : 80,
+            "Top" : 0,
+            "Right" : 0,
+            "Bottom" : 0
+         },
+         "AnchorID" : "marketplace_categories",
+         "Children" : [
+            {
+               "Type" : "Button",
+               "Row" : 0,
+               "ColumnSpans" : [
+                  {
+                     "LayoutSize" : 950,
+                     "Span" : 4
+                  },
+                  {
+                     "LayoutSize" : 0,
+                     "Span" : 8
+                  }
+               ],
+               "ButtonStyle" : "NoButtonStyle",
+               "ContentPadding" : 5,
+               "HAlign" : "Left",
+               "ForegroundColor" : "0.40983, 0.40983, 0.40983",
+               "InvertedForegroundColor" : "1, 1, 1",
+               "Padding" : {
+                  "Left" : 0,
+                  "Top" : 10,
+                  "Right" : 0,
+                  "Bottom" : 0
+               },
+               "Child" : {
+                  "Type" : "Link",
+                  "Text" : {
+                     "Text_translate" : "true",
+                     "Text" : "Environments",
+                     "TextStyle" : "small-Body",
+                     "UseForegroundColor" : "true",
+                     "Margin" : {
+                        "Left" : 10,
+                        "Top" : 0,
+                        "Right" : 10,
+                        "Bottom" : 0
+                     },
+                     "Text_ko" : "배경",
+                     "Text_ja" : "環境・背景",
+                     "Text_zh-CN" : "场景",
+                     "Text_fr" : "Environnements",
+                     "Text_es" : "Entornos",
+                     "Text_de" : "Umgebungen",
+                     "Text_it" : "Ambienti",
+                     "Text_ru" : "Окружение",
+                     "Text_pl" : "Środowiska",
+                     "Text_pt-BR" : "Ambientes",
+                     "Text_es-MX" : "Entornos",
+                     "Text_ar" : "البيئات",
+                     "Text_tr" : "Çevreler",
+                     "Text_zh-Hans" : "场景",
+                     "Text_zh-Hant" : "環境",
+                     "Text_th" : "สิ่งแวดล้อม"
+                  },
+                  "OnNavigateUrl" : "#marketplace_environments"
+               },
+               "OnNavigateUrl" : "#marketplace_environments"
+            },
+            {
+               "Type" : "Button",
+               "Row" : 0,
+               "ColumnSpans" : [
+                  {
+                     "LayoutSize" : 950,
+                     "Span" : 4
+                  },
+                  {
+                     "LayoutSize" : 0,
+                     "Span" : 8
+                  }
+               ],
+               "ButtonStyle" : "NoButtonStyle",
+               "ContentPadding" : 5,
+               "HAlign" : "Left",
+               "ForegroundColor" : "0.40983, 0.40983, 0.40983",
+               "InvertedForegroundColor" : "1, 1, 1",
+               "Padding" : {
+                  "Left" : 0,
+                  "Top" : 10,
+                  "Right" : 0,
+                  "Bottom" : 0
+               },
+               "Child" : {
+                  "Type" : "Link",
+                  "Text" : {
+                     "Text_translate" : "true",
+                     "Text" : "Architectural Visualization",
+                     "TextStyle" : "small-Body",
+                     "UseForegroundColor" : "true",
+                     "Margin" : {
+                        "Left" : 10,
+                        "Top" : 0,
+                        "Right" : 10,
+                        "Bottom" : 0
+                     },
+                     "Text_ko" : "건축 시각화",
+                     "Text_ja" : "建築ビジュアライゼーション",
+                     "Text_zh-CN" : "建筑可视化",
+                     "Text_fr" : "Visualisation architecturale",
+                     "Text_es" : "Visualización de arquitectura",
+                     "Text_de" : "Architektur",
+                     "Text_it" : "Concetto architettonico",
+                     "Text_ru" : "Предметы архитектуры",
+                     "Text_pl" : "Wizualizacja architektury",
+                     "Text_pt-BR" : "Visualização arquitetônica",
+                     "Text_es-MX" : "Visualización de la arquitectura",
+                     "Text_ar" : "التصور معماري",
+                     "Text_tr" : "Mimari Görselleştirme",
+                     "Text_zh-Hans" : "建筑可视化",
+                     "Text_zh-Hant" : "建築渲染",
+                     "Text_th" : "การสร้างภาพเชิงสถาปัตยกรรม"
+                  },
+                  "OnNavigateUrl" : "#marketplace_architecturalvisualization"
+               },
+               "OnNavigateUrl" : "#marketplace_architecturalvisualization"
+            },
+            {
+               "Type" : "Button",
+               "Row" : 0,
+               "ColumnSpans" : [
+                  {
+                     "LayoutSize" : 950,
+                     "Span" : 4
+                  },
+                  {
+                     "LayoutSize" : 0,
+                     "Span" : 8
+                  }
+               ],
+               "ButtonStyle" : "NoButtonStyle",
+               "ContentPadding" : 5,
+               "HAlign" : "Left",
+               "ForegroundColor" : "0.40983, 0.40983, 0.40983",
+               "InvertedForegroundColor" : "1, 1, 1",
+               "Padding" : {
+                  "Left" : 0,
+                  "Top" : 10,
+                  "Right" : 0,
+                  "Bottom" : 0
+               },
+               "Child" : {
+                  "Type" : "Link",
+                  "Text" : {
+                     "Text_translate" : "true",
+                     "Text" : "Characters and Animations",
+                     "TextStyle" : "small-Body",
+                     "UseForegroundColor" : "true",
+                     "Margin" : {
+                        "Left" : 10,
+                        "Top" : 0,
+                        "Right" : 10,
+                        "Bottom" : 0
+                     },
+                     "Text_ko" : "캐릭터 & 애니메이션",
+                     "Text_ja" : "キャラクター・アニメーション",
+                     "Text_zh-CN" : "角色和动画",
+                     "Text_fr" : "Personnages et animations",
+                     "Text_es" : "Personajes y animaciones",
+                     "Text_de" : "Charaktere und Animationen",
+                     "Text_it" : "Personaggi e animazioni",
+                     "Text_ru" : "Персонажи и анимации",
+                     "Text_pl" : "Postacie i animacje",
+                     "Text_pt-BR" : "Personagens e animações",
+                     "Text_es-MX" : "Personajes y animaciones",
+                     "Text_ar" : "الشخصيات والرسومات",
+                     "Text_tr" : "Karakterler ve Animasyonlar",
+                     "Text_zh-Hans" : "角色和动画",
+                     "Text_zh-Hant" : "角色與動畫",
+                     "Text_th" : "ตัวละครและแอนิเมชั่น"
+                  },
+                  "OnNavigateUrl" : "#marketplace_charactersandanimations"
+               },
+               "OnNavigateUrl" : "#marketplace_charactersandanimations"
+            },
+            {
+               "Type" : "Button",
+               "Row" : 0,
+               "ColumnSpans" : [
+                  {
+                     "LayoutSize" : 950,
+                     "Span" : 4
+                  },
+                  {
+                     "LayoutSize" : 0,
+                     "Span" : 8
+                  }
+               ],
+               "ButtonStyle" : "NoButtonStyle",
+               "ContentPadding" : 5,
+               "HAlign" : "Left",
+               "ForegroundColor" : "0.40983, 0.40983, 0.40983",
+               "InvertedForegroundColor" : "1, 1, 1",
+               "Padding" : {
+                  "Left" : 0,
+                  "Top" : 10,
+                  "Right" : 0,
+                  "Bottom" : 0
+               },
+               "Child" : {
+                  "Type" : "Link",
+                  "Text" : {
+                     "Text_translate" : "true",
+                     "Text" : "Weapons and Props",
+                     "TextStyle" : "small-Body",
+                     "UseForegroundColor" : "true",
+                     "Margin" : {
+                        "Left" : 10,
+                        "Top" : 0,
+                        "Right" : 10,
+                        "Bottom" : 0
+                     },
+                     "Text_ko" : "무기 & 소품",
+                     "Text_ja" : "武器・小物・プロップ",
+                     "Text_zh-CN" : "武器和道具",
+                     "Text_fr" : "Armes et accessoires",
+                     "Text_es" : "Armas y accesorios",
+                     "Text_de" : "Waffen und Requisiten",
+                     "Text_it" : "Armi e oggetti",
+                     "Text_ru" : "Оружие и предметы",
+                     "Text_pl" : "Broń i obiekty",
+                     "Text_pt-BR" : "Armas e objetos de cena",
+                     "Text_es-MX" : "Armas y accesorios",
+                     "Text_ar" : "الأسلحة والدعائم",
+                     "Text_tr" : "Silahlar ve Aksesuarlar",
+                     "Text_zh-Hans" : "武器和道具",
+                     "Text_zh-Hant" : "武器與道具",
+                     "Text_th" : "อาวุธและของตกแต่ง"
+                  },
+                  "OnNavigateUrl" : "#marketplace_weaponsandprops"
+               },
+               "OnNavigateUrl" : "#marketplace_weaponsandprops"
+            },
+            {
+               "Type" : "Button",
+               "Row" : 0,
+               "ColumnSpans" : [
+                  {
+                     "LayoutSize" : 950,
+                     "Span" : 4
+                  },
+                  {
+                     "LayoutSize" : 0,
+                     "Span" : 8
+                  }
+               ],
+               "ButtonStyle" : "NoButtonStyle",
+               "ContentPadding" : 5,
+               "HAlign" : "Left",
+               "ForegroundColor" : "0.40983, 0.40983, 0.40983",
+               "InvertedForegroundColor" : "1, 1, 1",
+               "Padding" : {
+                  "Left" : 0,
+                  "Top" : 10,
+                  "Right" : 0,
+                  "Bottom" : 0
+               },
+               "Child" : {
+                  "Type" : "Link",
+                  "Text" : {
+                     "Text_translate" : "true",
+                     "Text" : "Materials and FX",
+                     "TextStyle" : "small-Body",
+                     "UseForegroundColor" : "true",
+                     "Margin" : {
+                        "Left" : 10,
+                        "Top" : 0,
+                        "Right" : 10,
+                        "Bottom" : 0
+                     },
+                     "Text_ko" : "머티리얼 & FX",
+                     "Text_ja" : "マテリアル・エフェクト",
+                     "Text_zh-CN" : "材质和特效",
+                     "Text_fr" : "Matériaux et effets spéciaux",
+                     "Text_es" : "Materiales y efectos",
+                     "Text_de" : "Materialien und Effekte",
+                     "Text_it" : "Materiali ed effetti",
+                     "Text_ru" : "Материалы и эффекты",
+                     "Text_pl" : "Materiały i efekty specjalne",
+                     "Text_pt-BR" : "Materiais e efeitos especiais",
+                     "Text_es-MX" : "Materiales y efectos visuales",
+                     "Text_ar" : "المواد وFX",
+                     "Text_tr" : "Malzemeler ve Efektler",
+                     "Text_zh-Hans" : "材质和特效",
+                     "Text_zh-Hant" : "材質與特效",
+                     "Text_th" : "วัตถุดิบและ FX"
+                  },
+                  "OnNavigateUrl" : "#marketplace_materialsandfx"
+               },
+               "OnNavigateUrl" : "#marketplace_materialsandfx"
+            },
+            {
+               "Type" : "Button",
+               "Row" : 0,
+               "ColumnSpans" : [
+                  {
+                     "LayoutSize" : 950,
+                     "Span" : 4
+                  },
+                  {
+                     "LayoutSize" : 0,
+                     "Span" : 8
+                  }
+               ],
+               "ButtonStyle" : "NoButtonStyle",
+               "ContentPadding" : 5,
+               "HAlign" : "Left",
+               "ForegroundColor" : "0.40983, 0.40983, 0.40983",
+               "InvertedForegroundColor" : "1, 1, 1",
+               "Padding" : {
+                  "Left" : 0,
+                  "Top" : 10,
+                  "Right" : 0,
+                  "Bottom" : 0
+               },
+               "Child" : {
+                  "Type" : "Link",
+                  "Text" : {
+                     "Text_translate" : "true",
+                     "Text" : "2D Assets",
+                     "TextStyle" : "small-Body",
+                     "UseForegroundColor" : "true",
+                     "Margin" : {
+                        "Left" : 10,
+                        "Top" : 0,
+                        "Right" : 10,
+                        "Bottom" : 0
+                     },
+                     "Text_ko" : "2D 애셋",
+                     "Text_ja" : "2Dアセット",
+                     "Text_zh-CN" : "2D资源",
+                     "Text_fr" : "Éléments 2D",
+                     "Text_es" : "Materiales 2D",
+                     "Text_de" : "2D-Elemente",
+                     "Text_it" : "Risorse 2D",
+                     "Text_ru" : "Двухмерные элементы",
+                     "Text_pl" : "Elementy 2D",
+                     "Text_pt-BR" : "Ativos 2D",
+                     "Text_es-MX" : "Activos 2D",
+                     "Text_ar" : "عناصر 2D",
+                     "Text_tr" : "2D Öğeler",
+                     "Text_zh-Hans" : "2D资源",
+                     "Text_zh-Hant" : "2D Assets",
+                     "Text_th" : "แอสเซท 2D"
+                  },
+                  "OnNavigateUrl" : "#marketplace_2dassets"
+               },
+               "OnNavigateUrl" : "#marketplace_2dassets"
+            },
+            {
+               "Type" : "Button",
+               "Row" : 0,
+               "ColumnSpans" : [
+                  {
+                     "LayoutSize" : 950,
+                     "Span" : 4
+                  },
+                  {
+                     "LayoutSize" : 0,
+                     "Span" : 8
+                  }
+               ],
+               "ButtonStyle" : "NoButtonStyle",
+               "ContentPadding" : 5,
+               "HAlign" : "Left",
+               "ForegroundColor" : "0.40983, 0.40983, 0.40983",
+               "InvertedForegroundColor" : "1, 1, 1",
+               "Padding" : {
+                  "Left" : 0,
+                  "Top" : 10,
+                  "Right" : 0,
+                  "Bottom" : 0
+               },
+               "Child" : {
+                  "Type" : "Link",
+                  "Text" : {
+                     "Text_translate" : "true",
+                     "Text" : "Blueprints",
+                     "TextStyle" : "small-Body",
+                     "UseForegroundColor" : "true",
+                     "Margin" : {
+                        "Left" : 10,
+                        "Top" : 0,
+                        "Right" : 10,
+                        "Bottom" : 0
+                     },
+                     "Text_ko" : "블루프린트",
+                     "Text_ja" : "ブループリント",
+                     "Text_zh-CN" : "蓝图",
+                     "Text_fr" : "Schémas",
+                     "Text_es" : "Diseños",
+                     "Text_de" : "Blaupausen",
+                     "Text_it" : "Progetti",
+                     "Text_ru" : "Чертежи",
+                     "Text_pl" : "Plany",
+                     "Text_pt-BR" : "Projetos",
+                     "Text_es-MX" : "Diseños",
+                     "Text_ar" : "المخططات",
+                     "Text_tr" : "Şablonlar",
+                     "Text_zh-Hans" : "蓝图",
+                     "Text_zh-Hant" : "藍圖",
+                     "Text_th" : "พิมพ์เขียว"
+                  },
+                  "OnNavigateUrl" : "#marketplace_blueprints"
+               },
+               "OnNavigateUrl" : "#marketplace_blueprints"
+            },
+            {
+               "Type" : "Button",
+               "Row" : 0,
+               "ColumnSpans" : [
+                  {
+                     "LayoutSize" : 950,
+                     "Span" : 4
+                  },
+                  {
+                     "LayoutSize" : 0,
+                     "Span" : 8
+                  }
+               ],
+               "ButtonStyle" : "NoButtonStyle",
+               "ContentPadding" : 5,
+               "HAlign" : "Left",
+               "ForegroundColor" : "0.40983, 0.40983, 0.40983",
+               "InvertedForegroundColor" : "1, 1, 1",
+               "Padding" : {
+                  "Left" : 0,
+                  "Top" : 10,
+                  "Right" : 0,
+                  "Bottom" : 0
+               },
+               "Child" : {
+                  "Type" : "Link",
+                  "Text" : {
+                     "Text_translate" : "true",
+                     "Text" : "Community Samples",
+                     "TextStyle" : "small-Body",
+                     "UseForegroundColor" : "true",
+                     "Margin" : {
+                        "Left" : 10,
+                        "Top" : 0,
+                        "Right" : 10,
+                        "Bottom" : 0
+                     },
+                     "Text_ko" : "커뮤니티 샘플",
+                     "Text_ja" : "コミュニティサンプル",
+                     "Text_zh-CN" : "社区范例",
+                     "Text_fr" : "Exemples de la communauté",
+                     "Text_es" : "Muestras de la comunidad",
+                     "Text_de" : "Community-Proben",
+                     "Text_it" : "Esempi della community",
+                     "Text_ru" : "Примеры сообщества",
+                     "Text_pl" : "Przykłady utworzone przez społeczność",
+                     "Text_pt-BR" : "Amostras da comunidade",
+                     "Text_es-MX" : "Muestras de la comunidad",
+                     "Text_ar" : "عينات المجتمع",
+                     "Text_tr" : "Topluluktan Örnekler",
+                     "Text_zh-Hans" : "社区范例",
+                     "Text_zh-Hant" : "社群樣本",
+                     "Text_th" : "ตัวอย่างคอมมูนิตี"
+                  },
+                  "OnNavigateUrl" : "#marketplace_showcasesandcompleteprojects"
+               },
+               "OnNavigateUrl" : "#marketplace_showcasesandcompleteprojects"
+            },
+            {
+               "Type" : "Button",
+               "Row" : 0,
+               "ColumnSpans" : [
+                  {
+                     "LayoutSize" : 950,
+                     "Span" : 4
+                  },
+                  {
+                     "LayoutSize" : 0,
+                     "Span" : 8
+                  }
+               ],
+               "ButtonStyle" : "NoButtonStyle",
+               "ContentPadding" : 5,
+               "HAlign" : "Left",
+               "ForegroundColor" : "0.40983, 0.40983, 0.40983",
+               "InvertedForegroundColor" : "1, 1, 1",
+               "Padding" : {
+                  "Left" : 0,
+                  "Top" : 10,
+                  "Right" : 0,
+                  "Bottom" : 0
+               },
+               "Child" : {
+                  "Type" : "Link",
+                  "HAlign" : "Left",
+                  "Text" : {
+                     "Text_translate" : "true",
+                     "Text" : "Audio",
+                     "TextStyle" : "small-Body",
+                     "UseForegroundColor" : "true",
+                     "Margin" : {
+                        "Left" : 10,
+                        "Top" : 0,
+                        "Right" : 10,
+                        "Bottom" : 0
+                     },
+                     "Text_ko" : "오디오",
+                     "Text_ja" : "オーディオ",
+                     "Text_zh-CN" : "声音素材",
+                     "Text_fr" : "Audio",
+                     "Text_es" : "Sonido",
+                     "Text_de" : "Audio",
+                     "Text_it" : "Audio",
+                     "Text_ru" : "Аудио",
+                     "Text_pl" : "Dźwięki",
+                     "Text_pt-BR" : "Áudio",
+                     "Text_es-MX" : "Audio",
+                     "Text_ar" : "الصوت",
+                     "Text_tr" : "Ses",
+                     "Text_zh-Hans" : "声音素材",
+                     "Text_zh-Hant" : "語音",
+                     "Text_th" : "เสียง"
+                  },
+                  "OnNavigateUrl" : "#marketplace_audio"
+               },
+               "OnNavigateUrl" : "#marketplace_audio"
+            }
+         ]
+      },
+      {
+         "Type" : "Panel",
+         "Children" : [
+            {
+               "Type" : "Panel",
+               "Height" : 50,
+               "Width" : 724,
+               "Padding" : {
+                  "Left" : 0,
+                  "Top" : 10,
+                  "Right" : 0,
+                  "Bottom" : 0
+               },
+               "Text" : [
+                  {
+                     "VAlign" : "Bottom",
+                     "Padding" : {
+                        "Left" : 5,
+                        "Top" : 0,
+                        "Right" : 0,
+                        "Bottom" : 10
+                     },
+                     "TextStyle" : "h2",
+                     "Text_translate" : "true",
+                     "Text" : "Environments",
+                     "Text_ko" : "배경",
+                     "Text_ja" : "環境・背景",
+                     "Text_zh-CN" : "场景",
+                     "Text_fr" : "Environnements",
+                     "Text_es" : "Entornos",
+                     "Text_de" : "Umgebungen",
+                     "Text_it" : "Ambienti",
+                     "Text_ru" : "Окружение",
+                     "Text_pl" : "Środowiska",
+                     "Text_pt-BR" : "Ambientes",
+                     "Text_es-MX" : "Entornos",
+                     "Text_ar" : "البيئات",
+                     "Text_tr" : "Çevreler",
+                     "Text_zh-Hans" : "场景",
+                     "Text_zh-Hant" : "環境",
+                     "Text_th" : "สิ่งแวดล้อม"
+                  }
+               ]
+            },
+            {
+               "Type" : "Panel",
+               "HAlign" : "Right",
+               "Padding" : {
+                  "Left" : 0,
+                  "Top" : 20,
+                  "Right" : 20,
+                  "Bottom" : 0
+               },
+               "AnchorID" : "marketplace_environments",
+               "OnNavigateURL" : "#marketplace_categories",
+               "Text" : [
+                  {
+                     "Text_translate" : "true",
+                     "Text" : "jump to categories",
+                     "TextStyle" : "extrasmall-Body",
+                     "VAlign" : "Center",
+                     "HAlign" : "Center",
+                     "Text_ko" : "카테고리로 점프",
+                     "Text_ja" : "カテゴリーに移動",
+                     "Text_zh-CN" : "跳转到分类",
+                     "Text_fr" : "Aller aux catégories",
+                     "Text_es" : "ir a las categorías",
+                     "Text_de" : "Zu Kategorien springen",
+                     "Text_it" : "passa alle categorie",
+                     "Text_ru" : "перейти в категорию",
+                     "Text_pl" : "przejdź do kategorii",
+                     "Text_pt-BR" : "ir para categorias",
+                     "Text_es-MX" : "ir a las categorías",
+                     "Text_ar" : "الانتقال إلى الفئات",
+                     "Text_tr" : "kategorilere atla",
+                     "Text_zh-Hans" : "跳转到分类",
+                     "Text_zh-Hant" : "跳到分類",
+                     "Text_th" : "ไปยังประเภท"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "Type" : "Panel",
+         "MinWidth" : 860,
+         "BackgroundImage" : "1.0, 1.0, 1.0, 0.5",
+         "Height" : 1,
+         "Padding" : {
+            "Left" : 5,
+            "Top" : 0,
+            "Right" : 15,
+            "Bottom" : 0
+         }
+      },
+      {
+         "Type" : "Grid",
+         "Includes" : [
+            "assets/environments",
+            "marketplace/environments"
+         ],
+         "Excludes" : [
+            "Items"
+         ],
+         "ElementHeight" : 242,
+         "ElementWidth" : 160,
+         "SortBy" : "ViewableDate",
+         "SortDirection" : "Descending",
+         "Layout" : "ui_GridV3.layout",
+         "Padding" : {
+            "Left" : 0,
+            "Top" : 15,
+            "Right" : 0,
+            "Bottom" : 0
+         }
+      },
+      {
+         "Type" : "Panel",
+         "Children" : [
+            {
+               "Type" : "Panel",
+               "Height" : 50,
+               "Width" : 724,
+               "Padding" : {
+                  "Left" : 0,
+                  "Top" : 10,
+                  "Right" : 0,
+                  "Bottom" : 0
+               },
+               "Text" : [
+                  {
+                     "VAlign" : "Bottom",
+                     "Padding" : {
+                        "Left" : 5,
+                        "Top" : 0,
+                        "Right" : 0,
+                        "Bottom" : 10
+                     },
+                     "TextStyle" : "h2",
+                     "Text_translate" : "true",
+                     "Text" : "Architectural Visualization",
+                     "Text_ko" : "건축 시각화",
+                     "Text_ja" : "建築ビジュアライゼーション",
+                     "Text_zh-CN" : "建筑可视化",
+                     "Text_fr" : "Visualisation architecturale",
+                     "Text_es" : "Visualización de arquitectura",
+                     "Text_de" : "Architektur",
+                     "Text_it" : "Concetto architettonico",
+                     "Text_ru" : "Предметы архитектуры",
+                     "Text_pl" : "Wizualizacja architektury",
+                     "Text_pt-BR" : "Visualização arquitetônica",
+                     "Text_es-MX" : "Visualización de la arquitectura",
+                     "Text_ar" : "التصور معماري",
+                     "Text_tr" : "Mimari Görselleştirme",
+                     "Text_zh-Hans" : "建筑可视化",
+                     "Text_zh-Hant" : "建築渲染",
+                     "Text_th" : "การสร้างภาพเชิงสถาปัตยกรรม"
+                  }
+               ]
+            },
+            {
+               "Type" : "Panel",
+               "HAlign" : "Right",
+               "Padding" : {
+                  "Left" : 0,
+                  "Top" : 20,
+                  "Right" : 20,
+                  "Bottom" : 0
+               },
+               "AnchorID" : "marketplace_architecturalvisualization",
+               "OnNavigateURL" : "#marketplace_categories",
+               "Text" : [
+                  {
+                     "Text_translate" : "true",
+                     "Text" : "jump to categories",
+                     "TextStyle" : "extrasmall-Body",
+                     "VAlign" : "Center",
+                     "HAlign" : "Center",
+                     "Text_ko" : "카테고리로 점프",
+                     "Text_ja" : "カテゴリーに移動",
+                     "Text_zh-CN" : "跳转到分类",
+                     "Text_fr" : "Aller aux catégories",
+                     "Text_es" : "ir a las categorías",
+                     "Text_de" : "Zu Kategorien springen",
+                     "Text_it" : "passa alle categorie",
+                     "Text_ru" : "перейти в категорию",
+                     "Text_pl" : "przejdź do kategorii",
+                     "Text_pt-BR" : "ir para categorias",
+                     "Text_es-MX" : "ir a las categorías",
+                     "Text_ar" : "الانتقال إلى الفئات",
+                     "Text_tr" : "kategorilere atla",
+                     "Text_zh-Hans" : "跳转到分类",
+                     "Text_zh-Hant" : "跳到分類",
+                     "Text_th" : "ไปยังประเภท"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "Type" : "Panel",
+         "MinWidth" : 860,
+         "BackgroundImage" : "1.0, 1.0, 1.0, 0.5",
+         "Height" : 1,
+         "Padding" : {
+            "Left" : 5,
+            "Top" : 0,
+            "Right" : 15,
+            "Bottom" : 0
+         }
+      },
+      {
+         "Type" : "Grid",
+         "Includes" : [
+            "assets/archvis"
+         ],
+         "Excludes" : [
+            "Items"
+         ],
+         "ElementHeight" : 242,
+         "ElementWidth" : 160,
+         "SortBy" : "ViewableDate",
+         "SortDirection" : "Descending",
+         "Layout" : "ui_GridV3.layout",
+         "Padding" : {
+            "Left" : 0,
+            "Top" : 15,
+            "Right" : 0,
+            "Bottom" : 0
+         }
+      },
+      {
+         "Type" : "Panel",
+         "Children" : [
+            {
+               "Type" : "Panel",
+               "Height" : 50,
+               "Width" : 724,
+               "Padding" : {
+                  "Left" : 0,
+                  "Top" : 10,
+                  "Right" : 0,
+                  "Bottom" : 0
+               },
+               "Text" : [
+                  {
+                     "VAlign" : "Bottom",
+                     "Padding" : {
+                        "Left" : 5,
+                        "Top" : 0,
+                        "Right" : 0,
+                        "Bottom" : 10
+                     },
+                     "TextStyle" : "h2",
+                     "Text_translate" : "true",
+                     "Text" : "Characters and Animations",
+                     "Text_ko" : "캐릭터 & 애니메이션",
+                     "Text_ja" : "キャラクター・アニメーション",
+                     "Text_zh-CN" : "角色和动画",
+                     "Text_fr" : "Personnages et animations",
+                     "Text_es" : "Personajes y animaciones",
+                     "Text_de" : "Charaktere und Animationen",
+                     "Text_it" : "Personaggi e animazioni",
+                     "Text_ru" : "Персонажи и анимации",
+                     "Text_pl" : "Postacie i animacje",
+                     "Text_pt-BR" : "Personagens e animações",
+                     "Text_es-MX" : "Personajes y animaciones",
+                     "Text_ar" : "الشخصيات والرسومات",
+                     "Text_tr" : "Karakterler ve Animasyonlar",
+                     "Text_zh-Hans" : "角色和动画",
+                     "Text_zh-Hant" : "角色與動畫",
+                     "Text_th" : "ตัวละครและแอนิเมชั่น"
+                  }
+               ]
+            },
+            {
+               "Type" : "Panel",
+               "HAlign" : "Right",
+               "Padding" : {
+                  "Left" : 0,
+                  "Top" : 20,
+                  "Right" : 20,
+                  "Bottom" : 0
+               },
+               "AnchorID" : "marketplace_charactersandanimations",
+               "OnNavigateURL" : "#marketplace_categories",
+               "Text" : [
+                  {
+                     "Text_translate" : "true",
+                     "Text" : "jump to categories",
+                     "TextStyle" : "extrasmall-Body",
+                     "VAlign" : "Center",
+                     "HAlign" : "Center",
+                     "Text_ko" : "카테고리로 점프",
+                     "Text_ja" : "カテゴリーに移動",
+                     "Text_zh-CN" : "跳转到分类",
+                     "Text_fr" : "Aller aux catégories",
+                     "Text_es" : "ir a las categorías",
+                     "Text_de" : "Zu Kategorien springen",
+                     "Text_it" : "passa alle categorie",
+                     "Text_ru" : "перейти в категорию",
+                     "Text_pl" : "przejdź do kategorii",
+                     "Text_pt-BR" : "ir para categorias",
+                     "Text_es-MX" : "ir a las categorías",
+                     "Text_ar" : "الانتقال إلى الفئات",
+                     "Text_tr" : "kategorilere atla",
+                     "Text_zh-Hans" : "跳转到分类",
+                     "Text_zh-Hant" : "跳到分類",
+                     "Text_th" : "ไปยังประเภท"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "Type" : "Panel",
+         "MinWidth" : 860,
+         "BackgroundImage" : "1.0, 1.0, 1.0, 0.5",
+         "Height" : 1,
+         "Padding" : {
+            "Left" : 5,
+            "Top" : 0,
+            "Right" : 15,
+            "Bottom" : 0
+         }
+      },
+      {
+         "Type" : "Grid",
+         "Includes" : [
+            "assets/characters",
+            "assets/animations",
+            "marketplace/characters",
+            "marketplace/animations"
+         ],
+         "Excludes" : [
+            "Items"
+         ],
+         "ElementHeight" : 242,
+         "ElementWidth" : 160,
+         "Layout" : "ui_GridV3.layout",
+         "SortBy" : "ViewableDate",
+         "SortDirection" : "Descending",
+         "Padding" : {
+            "Left" : 0,
+            "Top" : 15,
+            "Right" : 0,
+            "Bottom" : 0
+         }
+      },
+      {
+         "Type" : "Panel",
+         "Children" : [
+            {
+               "Type" : "Panel",
+               "Height" : 50,
+               "Width" : 724,
+               "Padding" : {
+                  "Left" : 0,
+                  "Top" : 10,
+                  "Right" : 0,
+                  "Bottom" : 0
+               },
+               "Text" : [
+                  {
+                     "VAlign" : "Bottom",
+                     "Padding" : {
+                        "Left" : 5,
+                        "Top" : 0,
+                        "Right" : 0,
+                        "Bottom" : 10
+                     },
+                     "TextStyle" : "h2",
+                     "Text_translate" : "true",
+                     "Text" : "Weapons and Props",
+                     "Text_ko" : "무기 & 소품",
+                     "Text_ja" : "武器・小物・プロップ",
+                     "Text_zh-CN" : "武器和道具",
+                     "Text_fr" : "Armes et accessoires",
+                     "Text_es" : "Armas y accesorios",
+                     "Text_de" : "Waffen und Requisiten",
+                     "Text_it" : "Armi e oggetti",
+                     "Text_ru" : "Оружие и предметы",
+                     "Text_pl" : "Broń i obiekty",
+                     "Text_pt-BR" : "Armas e objetos de cena",
+                     "Text_es-MX" : "Armas y accesorios",
+                     "Text_ar" : "الأسلحة والدعائم",
+                     "Text_tr" : "Silahlar ve Aksesuarlar",
+                     "Text_zh-Hans" : "武器和道具",
+                     "Text_zh-Hant" : "武器與道具",
+                     "Text_th" : "อาวุธและของตกแต่ง"
+                  }
+               ]
+            },
+            {
+               "Type" : "Panel",
+               "HAlign" : "Right",
+               "Padding" : {
+                  "Left" : 0,
+                  "Top" : 20,
+                  "Right" : 20,
+                  "Bottom" : 0
+               },
+               "AnchorID" : "marketplace_weaponsandprops",
+               "OnNavigateURL" : "#marketplace_categories",
+               "Text" : [
+                  {
+                     "Text_translate" : "true",
+                     "Text" : "jump to categories",
+                     "TextStyle" : "extrasmall-Body",
+                     "VAlign" : "Center",
+                     "HAlign" : "Center",
+                     "Text_ko" : "카테고리로 점프",
+                     "Text_ja" : "カテゴリーに移動",
+                     "Text_zh-CN" : "跳转到分类",
+                     "Text_fr" : "Aller aux catégories",
+                     "Text_es" : "ir a las categorías",
+                     "Text_de" : "Zu Kategorien springen",
+                     "Text_it" : "passa alle categorie",
+                     "Text_ru" : "перейти в категорию",
+                     "Text_pl" : "przejdź do kategorii",
+                     "Text_pt-BR" : "ir para categorias",
+                     "Text_es-MX" : "ir a las categorías",
+                     "Text_ar" : "الانتقال إلى الفئات",
+                     "Text_tr" : "kategorilere atla",
+                     "Text_zh-Hans" : "跳转到分类",
+                     "Text_zh-Hant" : "跳到分類",
+                     "Text_th" : "ไปยังประเภท"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "Type" : "Panel",
+         "MinWidth" : 860,
+         "BackgroundImage" : "1.0, 1.0, 1.0, 0.5",
+         "Height" : 1,
+         "Padding" : {
+            "Left" : 5,
+            "Top" : 0,
+            "Right" : 15,
+            "Bottom" : 0
+         }
+      },
+      {
+         "Type" : "Grid",
+         "Includes" : [
+            "assets/weapons",
+            "assets/props",
+            "marketplace/weapons",
+            "marketplace/props"
+         ],
+         "Excludes" : [
+            "Items"
+         ],
+         "ElementHeight" : 242,
+         "ElementWidth" : 160,
+         "Layout" : "ui_GridV3.layout",
+         "SortBy" : "ViewableDate",
+         "SortDirection" : "Descending",
+         "Padding" : {
+            "Left" : 0,
+            "Top" : 15,
+            "Right" : 0,
+            "Bottom" : 0
+         }
+      },
+      {
+         "Type" : "Panel",
+         "Children" : [
+            {
+               "Type" : "Panel",
+               "Height" : 50,
+               "Width" : 724,
+               "Padding" : {
+                  "Left" : 0,
+                  "Top" : 10,
+                  "Right" : 0,
+                  "Bottom" : 0
+               },
+               "Text" : [
+                  {
+                     "VAlign" : "Bottom",
+                     "Padding" : {
+                        "Left" : 5,
+                        "Top" : 0,
+                        "Right" : 0,
+                        "Bottom" : 10
+                     },
+                     "TextStyle" : "h2",
+                     "Text_translate" : "true",
+                     "Text" : "Materials and FX",
+                     "Text_ko" : "머티리얼 & FX",
+                     "Text_ja" : "マテリアル・エフェクト",
+                     "Text_zh-CN" : "材质和特效",
+                     "Text_fr" : "Matériaux et effets spéciaux",
+                     "Text_es" : "Materiales y efectos",
+                     "Text_de" : "Materialien und Effekte",
+                     "Text_it" : "Materiali ed effetti",
+                     "Text_ru" : "Материалы и эффекты",
+                     "Text_pl" : "Materiały i efekty specjalne",
+                     "Text_pt-BR" : "Materiais e efeitos especiais",
+                     "Text_es-MX" : "Materiales y efectos visuales",
+                     "Text_ar" : "المواد وFX",
+                     "Text_tr" : "Malzemeler ve Efektler",
+                     "Text_zh-Hans" : "材质和特效",
+                     "Text_zh-Hant" : "材質與特效",
+                     "Text_th" : "วัตถุดิบและ FX"
+                  }
+               ]
+            },
+            {
+               "Type" : "Panel",
+               "HAlign" : "Right",
+               "Padding" : {
+                  "Left" : 0,
+                  "Top" : 20,
+                  "Right" : 20,
+                  "Bottom" : 0
+               },
+               "AnchorID" : "marketplace_materialsandfx",
+               "OnNavigateURL" : "#marketplace_categories",
+               "Text" : [
+                  {
+                     "Text_translate" : "true",
+                     "Text" : "jump to categories",
+                     "TextStyle" : "extrasmall-Body",
+                     "VAlign" : "Center",
+                     "HAlign" : "Center",
+                     "Text_ko" : "카테고리로 점프",
+                     "Text_ja" : "カテゴリーに移動",
+                     "Text_zh-CN" : "跳转到分类",
+                     "Text_fr" : "Aller aux catégories",
+                     "Text_es" : "ir a las categorías",
+                     "Text_de" : "Zu Kategorien springen",
+                     "Text_it" : "passa alle categorie",
+                     "Text_ru" : "перейти в категорию",
+                     "Text_pl" : "przejdź do kategorii",
+                     "Text_pt-BR" : "ir para categorias",
+                     "Text_es-MX" : "ir a las categorías",
+                     "Text_ar" : "الانتقال إلى الفئات",
+                     "Text_tr" : "kategorilere atla",
+                     "Text_zh-Hans" : "跳转到分类",
+                     "Text_zh-Hant" : "跳到分類",
+                     "Text_th" : "ไปยังประเภท"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "Type" : "Panel",
+         "MinWidth" : 860,
+         "BackgroundImage" : "1.0, 1.0, 1.0, 0.5",
+         "Height" : 1,
+         "Padding" : {
+            "Left" : 5,
+            "Top" : 0,
+            "Right" : 15,
+            "Bottom" : 0
+         }
+      },
+      {
+         "Type" : "Grid",
+         "Includes" : [
+            "assets/textures",
+            "assets/FX",
+            "marketplace/textures",
+            "marketplace/fx"
+         ],
+         "Excludes" : [
+            "Items"
+         ],
+         "ElementHeight" : 242,
+         "ElementWidth" : 160,
+         "Layout" : "ui_GridV3.layout",
+         "SortBy" : "ViewableDate",
+         "SortDirection" : "Descending",
+         "Padding" : {
+            "Left" : 0,
+            "Top" : 15,
+            "Right" : 0,
+            "Bottom" : 0
+         }
+      },
+      {
+         "Type" : "Panel",
+         "Children" : [
+            {
+               "Type" : "Panel",
+               "Height" : 50,
+               "Width" : 724,
+               "Padding" : {
+                  "Left" : 0,
+                  "Top" : 10,
+                  "Right" : 0,
+                  "Bottom" : 0
+               },
+               "Text" : [
+                  {
+                     "VAlign" : "Bottom",
+                     "Padding" : {
+                        "Left" : 5,
+                        "Top" : 0,
+                        "Right" : 0,
+                        "Bottom" : 10
+                     },
+                     "TextStyle" : "h2",
+                     "Text_translate" : "true",
+                     "Text" : "2D Assets",
+                     "Text_ko" : "2D 애셋",
+                     "Text_ja" : "2Dアセット",
+                     "Text_zh-CN" : "2D资源",
+                     "Text_fr" : "Éléments 2D",
+                     "Text_es" : "Materiales 2D",
+                     "Text_de" : "2D-Elemente",
+                     "Text_it" : "Risorse 2D",
+                     "Text_ru" : "Двухмерные элементы",
+                     "Text_pl" : "Elementy 2D",
+                     "Text_pt-BR" : "Ativos 2D",
+                     "Text_es-MX" : "Activos 2D",
+                     "Text_ar" : "عناصر 2D",
+                     "Text_tr" : "2D Öğeler",
+                     "Text_zh-Hans" : "2D资源",
+                     "Text_zh-Hant" : "2D Assets",
+                     "Text_th" : "แอสเซท 2D"
+                  }
+               ]
+            },
+            {
+               "Type" : "Panel",
+               "HAlign" : "Right",
+               "Padding" : {
+                  "Left" : 0,
+                  "Top" : 20,
+                  "Right" : 20,
+                  "Bottom" : 0
+               },
+               "AnchorID" : "marketplace_2dassets",
+               "OnNavigateURL" : "#marketplace_categories",
+               "Text" : [
+                  {
+                     "Text_translate" : "true",
+                     "Text" : "jump to categories",
+                     "TextStyle" : "extrasmall-Body",
+                     "VAlign" : "Center",
+                     "HAlign" : "Center",
+                     "Text_ko" : "카테고리로 점프",
+                     "Text_ja" : "カテゴリーに移動",
+                     "Text_zh-CN" : "跳转到分类",
+                     "Text_fr" : "Aller aux catégories",
+                     "Text_es" : "ir a las categorías",
+                     "Text_de" : "Zu Kategorien springen",
+                     "Text_it" : "passa alle categorie",
+                     "Text_ru" : "перейти в категорию",
+                     "Text_pl" : "przejdź do kategorii",
+                     "Text_pt-BR" : "ir para categorias",
+                     "Text_es-MX" : "ir a las categorías",
+                     "Text_ar" : "الانتقال إلى الفئات",
+                     "Text_tr" : "kategorilere atla",
+                     "Text_zh-Hans" : "跳转到分类",
+                     "Text_zh-Hant" : "跳到分類",
+                     "Text_th" : "ไปยังประเภท"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "Type" : "Panel",
+         "MinWidth" : 860,
+         "BackgroundImage" : "1.0, 1.0, 1.0, 0.5",
+         "Height" : 1,
+         "Padding" : {
+            "Left" : 5,
+            "Top" : 0,
+            "Right" : 15,
+            "Bottom" : 0
+         }
+      },
+      {
+         "Type" : "Grid",
+         "Includes" : [
+            "assets/2d",
+            "marketplace/2d"
+         ],
+         "Excludes" : [
+            "Items"
+         ],
+         "ElementHeight" : 242,
+         "ElementWidth" : 160,
+         "Layout" : "ui_GridV3.layout",
+         "SortBy" : "ViewableDate",
+         "SortDirection" : "Descending",
+         "Padding" : {
+            "Left" : 0,
+            "Top" : 15,
+            "Right" : 0,
+            "Bottom" : 0
+         }
+      },
+      {
+         "Type" : "Panel",
+         "Children" : [
+            {
+               "Type" : "Panel",
+               "Height" : 50,
+               "Width" : 724,
+               "Padding" : {
+                  "Left" : 0,
+                  "Top" : 10,
+                  "Right" : 0,
+                  "Bottom" : 0
+               },
+               "Text" : [
+                  {
+                     "VAlign" : "Bottom",
+                     "Padding" : {
+                        "Left" : 5,
+                        "Top" : 0,
+                        "Right" : 0,
+                        "Bottom" : 10
+                     },
+                     "TextStyle" : "h2",
+                     "Text_translate" : "true",
+                     "Text" : "Blueprints",
+                     "Text_ko" : "블루프린트",
+                     "Text_ja" : "ブループリント",
+                     "Text_zh-CN" : "蓝图",
+                     "Text_fr" : "Schémas",
+                     "Text_es" : "Diseños",
+                     "Text_de" : "Blaupausen",
+                     "Text_it" : "Progetti",
+                     "Text_ru" : "Чертежи",
+                     "Text_pl" : "Plany",
+                     "Text_pt-BR" : "Projetos",
+                     "Text_es-MX" : "Diseños",
+                     "Text_ar" : "المخططات",
+                     "Text_tr" : "Şablonlar",
+                     "Text_zh-Hans" : "蓝图",
+                     "Text_zh-Hant" : "藍圖",
+                     "Text_th" : "พิมพ์เขียว"
+                  }
+               ]
+            },
+            {
+               "Type" : "Panel",
+               "HAlign" : "Right",
+               "Padding" : {
+                  "Left" : 0,
+                  "Top" : 20,
+                  "Right" : 20,
+                  "Bottom" : 0
+               },
+               "AnchorID" : "marketplace_blueprints",
+               "OnNavigateURL" : "#marketplace_categories",
+               "Text" : [
+                  {
+                     "Text_translate" : "true",
+                     "Text" : "jump to categories",
+                     "TextStyle" : "extrasmall-Body",
+                     "VAlign" : "Center",
+                     "HAlign" : "Center",
+                     "Text_ko" : "카테고리로 점프",
+                     "Text_ja" : "カテゴリーに移動",
+                     "Text_zh-CN" : "跳转到分类",
+                     "Text_fr" : "Aller aux catégories",
+                     "Text_es" : "ir a las categorías",
+                     "Text_de" : "Zu Kategorien springen",
+                     "Text_it" : "passa alle categorie",
+                     "Text_ru" : "перейти в категорию",
+                     "Text_pl" : "przejdź do kategorii",
+                     "Text_pt-BR" : "ir para categorias",
+                     "Text_es-MX" : "ir a las categorías",
+                     "Text_ar" : "الانتقال إلى الفئات",
+                     "Text_tr" : "kategorilere atla",
+                     "Text_zh-Hans" : "跳转到分类",
+                     "Text_zh-Hant" : "跳到分類",
+                     "Text_th" : "ไปยังประเภท"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "Type" : "Panel",
+         "MinWidth" : 860,
+         "BackgroundImage" : "1.0, 1.0, 1.0, 0.5",
+         "Height" : 1,
+         "Padding" : {
+            "Left" : 5,
+            "Top" : 0,
+            "Right" : 15,
+            "Bottom" : 0
+         }
+      },
+      {
+         "Type" : "Grid",
+         "Includes" : [
+            "assets/blueprints",
+            "marketplace/blueprints"
+         ],
+         "Excludes" : [
+            "Items"
+         ],
+         "ElementHeight" : 242,
+         "ElementWidth" : 160,
+         "Layout" : "ui_GridV3.layout",
+         "SortBy" : "ViewableDate",
+         "SortDirection" : "Descending",
+         "Padding" : {
+            "Left" : 0,
+            "Top" : 15,
+            "Right" : 0,
+            "Bottom" : 0
+         }
+      },
+      {
+         "Type" : "Panel",
+         "Children" : [
+            {
+               "Type" : "Panel",
+               "Height" : 50,
+               "Width" : 724,
+               "Padding" : {
+                  "Left" : 0,
+                  "Top" : 10,
+                  "Right" : 0,
+                  "Bottom" : 0
+               },
+               "Text" : [
+                  {
+                     "VAlign" : "Bottom",
+                     "Padding" : {
+                        "Left" : 5,
+                        "Top" : 0,
+                        "Right" : 0,
+                        "Bottom" : 10
+                     },
+                     "TextStyle" : "h2",
+                     "Text_translate" : "true",
+                     "Text" : "Community Samples",
+                     "Text_ko" : "커뮤니티 샘플",
+                     "Text_ja" : "コミュニティサンプル",
+                     "Text_zh-CN" : "社区范例",
+                     "Text_fr" : "Exemples de la communauté",
+                     "Text_es" : "Muestras de la comunidad",
+                     "Text_de" : "Community-Proben",
+                     "Text_it" : "Esempi della community",
+                     "Text_ru" : "Примеры сообщества",
+                     "Text_pl" : "Przykłady utworzone przez społeczność",
+                     "Text_pt-BR" : "Amostras da comunidade",
+                     "Text_es-MX" : "Muestras de la comunidad",
+                     "Text_ar" : "عينات المجتمع",
+                     "Text_tr" : "Topluluktan Örnekler",
+                     "Text_zh-Hans" : "社区范例",
+                     "Text_zh-Hant" : "社群樣本",
+                     "Text_th" : "ตัวอย่างคอมมูนิตี"
+                  }
+               ]
+            },
+            {
+               "Type" : "Panel",
+               "HAlign" : "Right",
+               "Padding" : {
+                  "Left" : 0,
+                  "Top" : 20,
+                  "Right" : 20,
+                  "Bottom" : 0
+               },
+               "AnchorID" : "marketplace_showcasesandcompleteprojects",
+               "OnNavigateURL" : "#marketplace_categories",
+               "Text" : [
+                  {
+                     "Text_translate" : "true",
+                     "Text" : "jump to categories",
+                     "TextStyle" : "extrasmall-Body",
+                     "VAlign" : "Center",
+                     "HAlign" : "Center",
+                     "Text_ko" : "카테고리로 점프",
+                     "Text_ja" : "カテゴリーに移動",
+                     "Text_zh-CN" : "跳转到分类",
+                     "Text_fr" : "Aller aux catégories",
+                     "Text_es" : "ir a las categorías",
+                     "Text_de" : "Zu Kategorien springen",
+                     "Text_it" : "passa alle categorie",
+                     "Text_ru" : "перейти в категорию",
+                     "Text_pl" : "przejdź do kategorii",
+                     "Text_pt-BR" : "ir para categorias",
+                     "Text_es-MX" : "ir a las categorías",
+                     "Text_ar" : "الانتقال إلى الفئات",
+                     "Text_tr" : "kategorilere atla",
+                     "Text_zh-Hans" : "跳转到分类",
+                     "Text_zh-Hant" : "跳到分類",
+                     "Text_th" : "ไปยังประเภท"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "Type" : "Panel",
+         "MinWidth" : 860,
+         "BackgroundImage" : "1.0, 1.0, 1.0, 0.5",
+         "Height" : 1,
+         "Padding" : {
+            "Left" : 5,
+            "Top" : 0,
+            "Right" : 15,
+            "Bottom" : 0
+         }
+      },
+      {
+         "Type" : "Grid",
+         "Includes" : [
+            "assets/communitysamples",
+            "marketplace/communitysamples"
+         ],
+         "Excludes" : [
+            "Items"
+         ],
+         "ElementHeight" : 242,
+         "ElementWidth" : 160,
+         "Layout" : "ui_GridV3.layout",
+         "SortBy" : "ViewableDate",
+         "SortDirection" : "Descending",
+         "Padding" : {
+            "Left" : 0,
+            "Top" : 15,
+            "Right" : 0,
+            "Bottom" : 0
+         }
+      },
+      {
+         "Type" : "Panel",
+         "Children" : [
+            {
+               "Type" : "Panel",
+               "Height" : 50,
+               "Width" : 724,
+               "Padding" : {
+                  "Left" : 0,
+                  "Top" : 10,
+                  "Right" : 0,
+                  "Bottom" : 0
+               },
+               "Text" : [
+                  {
+                     "VAlign" : "Bottom",
+                     "Padding" : {
+                        "Left" : 5,
+                        "Top" : 0,
+                        "Right" : 0,
+                        "Bottom" : 10
+                     },
+                     "TextStyle" : "h2",
+                     "Text_translate" : "true",
+                     "Text" : "Audio",
+                     "Text_ko" : "오디오",
+                     "Text_ja" : "オーディオ",
+                     "Text_zh-CN" : "声音素材",
+                     "Text_fr" : "Audio",
+                     "Text_es" : "Sonido",
+                     "Text_de" : "Audio",
+                     "Text_it" : "Audio",
+                     "Text_ru" : "Аудио",
+                     "Text_pl" : "Dźwięki",
+                     "Text_pt-BR" : "Áudio",
+                     "Text_es-MX" : "Audio",
+                     "Text_ar" : "الصوت",
+                     "Text_tr" : "Ses",
+                     "Text_zh-Hans" : "声音素材",
+                     "Text_zh-Hant" : "語音",
+                     "Text_th" : "เสียง"
+                  }
+               ]
+            },
+            {
+               "Type" : "Panel",
+               "HAlign" : "Right",
+               "Padding" : {
+                  "Left" : 0,
+                  "Top" : 20,
+                  "Right" : 20,
+                  "Bottom" : 0
+               },
+               "AnchorID" : "marketplace_audio",
+               "OnNavigateURL" : "#marketplace_categories",
+               "Text" : [
+                  {
+                     "Text_translate" : "true",
+                     "Text" : "jump to categories",
+                     "TextStyle" : "extrasmall-Body",
+                     "VAlign" : "Center",
+                     "HAlign" : "Center",
+                     "Text_ko" : "카테고리로 점프",
+                     "Text_ja" : "カテゴリーに移動",
+                     "Text_zh-CN" : "跳转到分类",
+                     "Text_fr" : "Aller aux catégories",
+                     "Text_es" : "ir a las categorías",
+                     "Text_de" : "Zu Kategorien springen",
+                     "Text_it" : "passa alle categorie",
+                     "Text_ru" : "перейти в категорию",
+                     "Text_pl" : "przejdź do kategorii",
+                     "Text_pt-BR" : "ir para categorias",
+                     "Text_es-MX" : "ir a las categorías",
+                     "Text_ar" : "الانتقال إلى الفئات",
+                     "Text_tr" : "kategorilere atla",
+                     "Text_zh-Hans" : "跳转到分类",
+                     "Text_zh-Hant" : "跳到分類",
+                     "Text_th" : "ไปยังประเภท"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "Type" : "Panel",
+         "MinWidth" : 860,
+         "BackgroundImage" : "1.0, 1.0, 1.0, 0.5",
+         "Height" : 1,
+         "Padding" : {
+            "Left" : 5,
+            "Top" : 0,
+            "Right" : 15,
+            "Bottom" : 0
+         }
+      },
+      {
+         "Type" : "Grid",
+         "Includes" : [
+            "assets/soundfx",
+            "assets/music",
+            "marketplace/soundfx",
+            "marketplace/music"
+         ],
+         "Excludes" : [
+            "Items"
+         ],
+         "ElementHeight" : 96,
+         "ElementWidth" : 300,
+         "Layout" : "ui_ListV3.layout",
+         "SortBy" : "ViewableDate",
+         "SortDirection" : "Descending",
+         "ItemAlignment" : "Fill",
+         "Padding" : {
+            "Left" : 0,
+            "Top" : 5,
+            "Right" : 0,
+            "Bottom" : 40
+         }
+      }
+   ]
+}

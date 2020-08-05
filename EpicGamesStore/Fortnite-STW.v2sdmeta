@@ -1,0 +1,229 @@
+﻿{
+   "DataType" : "SelDlMeta",
+   "Builds" : [
+      {
+         "Namespace" : "fn",
+         "Item" : "4fe75bbc5a674f4f9b356b5c90567da5",
+         "Asset" : "Fortnite",
+         "Version" : "Regex(\\+\\+Fortnite\\+Release-(\\d+)\\.(\\d+).*-CL-(\\d+)-.*) && RegexGroupInt64(1) >= 6 && RegexGroupInt64(3) >= 4367506 && (RegexGroupInt64(1) < 8 || (RegexGroupInt64(1) == 8 && RegexGroupInt64(2) < 30))"
+      },
+      {
+         "Namespace" : "fn",
+         "Item" : "25ce090e8a0849118cf6484f78206982",
+         "Asset" : "FortniteAthena",
+         "Version" : "Regex(\\+\\+Fortnite\\+Release-(\\d+)\\.(\\d+).*-CL-(\\d+)-.*) && RegexGroupInt64(1) >= 6 && RegexGroupInt64(3) >= 4367506 && (RegexGroupInt64(1) < 8 || (RegexGroupInt64(1) == 8 && RegexGroupInt64(2) < 30))"
+      },
+      {
+         "Namespace" : "fn",
+         "Item" : "868e5a09d6c141a7a14a2705d8fd7df0",
+         "Asset" : "FortniteLiveHK",
+         "Version" : "Regex(\\+\\+Fortnite\\+Release-(\\d+)\\.(\\d+).*-CL-(\\d+)-.*) && RegexGroupInt64(1) >= 6 && RegexGroupInt64(3) >= 4367506 && (RegexGroupInt64(1) < 8 || (RegexGroupInt64(1) == 8 && RegexGroupInt64(2) < 30))"
+      },
+      {
+         "Namespace" : "fn",
+         "Item" : "07dd3cfbd98b4d69bb2b974f58bd3c74",
+         "Asset" : "FortniteLiveTesting",
+         "Version" : "Regex(\\+\\+Fortnite\\+Release-(\\d+)\\.(\\d+).*-CL-(\\d+)-.*) && RegexGroupInt64(1) >= 6 && RegexGroupInt64(3) >= 4367506 && (RegexGroupInt64(1) < 8 || (RegexGroupInt64(1) == 8 && RegexGroupInt64(2) < 30))"
+      },
+      {
+         "Namespace" : "fn",
+         "Item" : "7afe28f3146b406f8833e13f9f16e5b8",
+         "Asset" : "FortniteLiveTestingHK",
+         "Version" : "Regex(\\+\\+Fortnite\\+Release-(\\d+)\\.(\\d+).*-CL-(\\d+)-.*) && RegexGroupInt64(1) >= 6 && RegexGroupInt64(3) >= 4367506 && (RegexGroupInt64(1) < 8 || (RegexGroupInt64(1) == 8 && RegexGroupInt64(2) < 30))"
+      },
+      {
+         "Namespace" : "fn",
+         "Item" : "0f3f913cb0bf4444a5cf63f1770401a7",
+         "Asset" : "FortnitePublicTest",
+         "Version" : "Regex(\\+\\+Fortnite\\+Release-(\\d+)\\.(\\d+).*-CL-(\\d+)-.*) && RegexGroupInt64(1) >= 6 && RegexGroupInt64(3) >= 4367506 && (RegexGroupInt64(1) < 8 || (RegexGroupInt64(1) == 8 && RegexGroupInt64(2) < 30))"
+      },
+      {
+         "Namespace" : "fn",
+         "Item" : "83802f6bd9a74f1e88af9a667a12602a",
+         "Asset" : "FortniteExtQAReleaseTesting",
+         "Version" : "Regex(\\+\\+Fortnite\\+Release-(\\d+)\\.(\\d+).*-CL-(\\d+)-.*) && RegexGroupInt64(1) >= 6 && RegexGroupInt64(3) >= 4367506 && (RegexGroupInt64(1) < 8 || (RegexGroupInt64(1) == 8 && RegexGroupInt64(2) < 30))"
+      },
+      {
+         "Namespace" : "fn",
+         "Item" : "1c050f17aed04ca5a7db4a39fcfd8dfb",
+         "Asset" : "FortniteExtQAReleaseTestingB",
+         "Version" : "Regex(\\+\\+Fortnite\\+Release-(\\d+)\\.(\\d+).*-CL-(\\d+)-.*) && RegexGroupInt64(1) >= 6 && RegexGroupInt64(3) >= 4367506 && (RegexGroupInt64(1) < 8 || (RegexGroupInt64(1) == 8 && RegexGroupInt64(2) < 30))"
+      }
+   ],
+   "Data" : [
+      {
+         "Title" : "Fortnite Core and Battle Royale",
+         "Title_translate" : "true",
+         "Description" : "Common files required to play Fortnite plus the entirety of Battle Royale.",
+         "Description_translate" : "true",
+         "IsRequired" : "true",
+         "UniqueId" : "A17316661F902216B15E8DAB34ECCD71",
+         "Tags" : [
+            "",
+            "chunk0"
+         ],
+         "Title_fr" : "Fortnite de base et Battle Royale",
+         "Description_fr" : "Fichiers nécessaires pour jouer à Fortnite et à l'intégralité de Battle Royale.",
+         "Title_de" : "Fortnite Hauptspiel und Battle Royale",
+         "Description_de" : "Benötigte gemeinsame Dateien, um Fortnite und das gesamte Battle Royale spielen zu können.",
+         "Title_ru" : "Основные файлы Fortnite и «Королевская битва»",
+         "Description_ru" : "Обязательные файлы для запуска Fortnite и игры в режиме «Королевская битва».",
+         "Title_ko" : "포트나이트 코어 및 배틀로얄",
+         "Description_ko" : "포트나이트와 배틀로얄을 플레이하는 데 필요한 공통 파일",
+         "Title_tr" : "Fortnite Ana Dosyalar ve Battle Royale",
+         "Description_tr" : "Fortnite’ı oynamak için gereken ortak dosyalar ve Battle Royale’in tamamı.",
+         "Title_it" : "Nucleo Fortnite e Battaglia reale",
+         "Description_it" : "Per giocare a Fortnite sono necessari i file comuni, più tutta Battaglia reale.",
+         "Title_es" : "Fortnite principal y Battle Royale",
+         "Description_es" : "los archivos comunes necesarios para jugar a Fortnite, además de Battle Royale al completo.",
+         "Title_es-MX" : "Fortnite principal y Batalla campal",
+         "Description_es-MX" : "Archivos comunes necesarios para jugar Fortnite, además de Batalla campal completo.",
+         "Title_pl" : "Kluczowe pliki Fortnite i Fortnite: Battle Royale",
+         "Description_pl" : "Pliki niezbędne do gry w Fortnite, a także całość danych Battle Royale.",
+         "Title_ar" : "الذاكرة الأساسية لـFortnite وBattle Royale المعارك الملكية",
+         "Description_ar" : "الملفات الشائعة مطلوبة للعب Fortnite بالإضافة إلى Battle Royale المعارك الملكية كاملة.",
+         "Title_ja" : "フォートナイト コア&バトルロイヤル",
+         "Description_ja" : "『フォートナイト』と「バトルロイヤル」の全てをプレイするには、共有ファイルが必要です。",
+         "Title_zh-CN" : "《堡垒之夜》空降行动 (Battle Royale)",
+         "Description_zh-CN" : "游玩《堡垒之夜》空降行动 (Battle Royale) 所需公共文件。",
+         "Title_pt-BR" : "Fortnite Básico e Battle Royale",
+         "Description_pt-BR" : "Arquivos comuns necessários para jogar o Fortnite, além do Battle Royale completo.",
+         "Title_zh-Hans" : "《堡垒之夜》空降行动 (Battle Royale)",
+         "Description_zh-Hans" : "游玩《堡垒之夜》空降行动 (Battle Royale) 所需公共文件。",
+         "Title_zh-Hant" : "《Fortnite》核心與大逃殺",
+         "Description_zh-Hant" : "需要一般檔案來遊玩《Fortnite》及進入大逃殺。",
+         "Title_th" : "Fortnite Core และ Battle Royale",
+         "Description_th" : "ต้องมีไฟล์ที่มีร่วมกันเพื่อเล่น Fortnite บวกกับทั้งหมดของ Battle Royale"
+      },
+      {
+         "Title" : "Fortnite Save the World",
+         "Title_translate" : "true",
+         "Description" : "Files required to play Fortnite Save the World, if owned.",
+         "Description_translate" : "true",
+         "UniqueId" : "6B7D8A45845F42F091CB05987CB2FC01",
+         "IsRequired" : "false",
+         "DefaultSelectedExpression" : "HasAccess(4217759881dd43209da2e89a9552a9a6)",
+         "IsDefaultSelected" : "true",
+         "UpgradePathLogic" : "3711A6568F844576B26E8CBB79EABC70",
+         "Tags" : [
+            "chunk1"
+         ],
+         "Title_fr" : "Fortnite Sauver le monde",
+         "Description_fr" : "Fichiers nécessaires pour jouer à Fortnite Sauver le monde, si vous le possédez.",
+         "Title_de" : "Fortnite Rette die Welt",
+         "Description_de" : "Benötigte Dateien, um Fortnite Rette die Welt spielen zu können (falls es im Besitz ist).",
+         "Title_ru" : "Fortnite: Сражение с Бурей",
+         "Description_ru" : "Обязательные файлы для запуска кампании «Сражение с Бурей», если она приобретена.",
+         "Title_ko" : "포트나이트 세이브 더 월드",
+         "Description_ko" : "포트나이트 세이브 더 월드를 보유한 경우 이를 플레이하는 데 필요한 파일",
+         "Title_tr" : "Fortnite Dünyayı Kurtar!",
+         "Description_tr" : "Satın alındıysa Fortnite Dünyayı Kurtar! modunu oynamak için gereken dosyalar.",
+         "Title_it" : "Fortnite Salva il mondo",
+         "Description_it" : "File richiesti per giocare a Salva il mondo, se si possiede.",
+         "Title_es" : "Salvar el mundo de Fortnite",
+         "Description_es" : "los archivos necesarios para jugar a Salvar el mundo de Fortnite, si está disponible.",
+         "Title_es-MX" : "Salva el mundo de Fortnite",
+         "Description_es-MX" : "Archivos necesarios para jugar Salva el mundo de Fortnite, si lo tienes.",
+         "Title_pl" : "Kampania Ratowanie Świata",
+         "Description_pl" : "Pliki niezbędne do gry w kampanię Ratowanie Świata, jeżeli gracz ją posiada.",
+         "Title_ar" : "Fortnite Save the World أنقذ العالم",
+         "Description_ar" : "ملفات مطلوبة للعب Fortnite Save the World أنقذ العالم، إن كانت بحوزتك.",
+         "Title_ja" : "フォートナイト 世界を救え",
+         "Description_ja" : "「フォートナイト 世界を救え」をプレイするには共通ファイルが必要です。",
+         "Title_zh-CN" : "《堡垒之夜》守护家园 (Save the World)",
+         "Description_zh-CN" : "如拥有《堡垒之夜》守护家园 (Save the World) 模式，游玩需要文件。",
+         "Title_pt-BR" : "Salve o Mundo do Fortnite",
+         "Description_pt-BR" : "Arquivos necessários para jogar o Salve o Mundo do Fortnite, se adquirido.",
+         "Title_zh-Hans" : "《堡垒之夜》守护家园 (Save the World)",
+         "Description_zh-Hans" : "如拥有《堡垒之夜》守护家园 (Save the World) 模式，游玩需要文件。",
+         "Title_zh-Hant" : "《Fortnite Save the World》",
+         "Description_zh-Hant" : "如果擁有的話，需要檔案才能《Fortnite Save the World》。",
+         "Title_th" : "Fortnite Save the World",
+         "Description_th" : "ต้องมีไฟล์เพื่อเล่น Fortnite Save the World ถ้ามีแล้ว"
+      },
+      {
+         "Title" : "Additional Languages",
+         "Title_translate" : "true",
+         "Description" : "Includes the additional voice over languages available.",
+         "Description_translate" : "true",
+         "IsDefaultExpanded" : "true",
+         "IsRequired" : "false",
+         "UniqueId" : "27F6E03BE9E94562A35E0D530C3DDC31",
+         "ConfigHandler" : "DefaultLanguage",
+         "Children" : [
+            {
+               "Title" : "Deutsch",
+               "UniqueId" : "5411AFEE311C476CA269834905E189A1",
+               "ConfigValue" : "de",
+               "Tags" : [
+                  "chunk2"
+               ]
+            },
+            {
+               "Title" : "français",
+               "UniqueId" : "B0E41D522AB748BA95ED6D5ABA6A6307",
+               "ConfigValue" : "fr",
+               "Tags" : [
+                  "chunk5"
+               ]
+            },
+            {
+               "Title" : "polski",
+               "UniqueId" : "48A0715044D24FB89124042314472F82",
+               "ConfigValue" : "pl",
+               "Tags" : [
+                  "chunk7"
+               ]
+            },
+            {
+               "Title" : "русский",
+               "UniqueId" : "016C279E75184A3999E6C6A89B21D249",
+               "ConfigValue" : "ru",
+               "Tags" : [
+                  "chunk8"
+               ]
+            },
+            {
+               "Title" : "中文（中国）",
+               "UniqueId" : "17089811470644EEAC341F8DF678D948",
+               "ConfigValue" : "zh-CN",
+               "Tags" : [
+                  "chunk9"
+               ]
+            }
+         ],
+         "Title_fr" : "Langues supplémentaires",
+         "Description_fr" : "Inclut les langues supplémentaires disponibles pour les dialogues.",
+         "Title_de" : "Zusätzliche Sprachen",
+         "Description_de" : "Enthält zusätzliche Sprachausgabe für weitere Sprachen.",
+         "Title_ru" : "Дополнительные языки",
+         "Description_ru" : "Включает в себя дополнительные варианты озвучения на других языках.",
+         "Title_ko" : "언어 추가",
+         "Description_ko" : "사용 가능한 추가 보이스오버 언어가 포함되어 있습니다.",
+         "Title_tr" : "Ek Diller",
+         "Description_tr" : "Var olan ek seslendirme dillerini içerir.",
+         "Title_it" : "Lingue aggiuntive",
+         "Description_it" : "Include le lingue aggiuntive di doppiaggio disponibili.",
+         "Title_es" : "Idiomas adicionales",
+         "Description_es" : "Incluye los idiomas de doblaje adicionales disponibles.",
+         "Title_es-MX" : "Idiomas adicionales",
+         "Description_es-MX" : "Incluye los archivos de voz adicionales para los idiomas disponibles.",
+         "Title_pl" : "Dodatkowe języki",
+         "Description_pl" : "Zawiera dostępne wersje językowe z dubbingiem.",
+         "Title_ar" : "لغات إضافية",
+         "Description_ar" : "تتضمن لغات الأداء الصوتي الإضافية.",
+         "Title_ja" : "言語の追加",
+         "Description_ja" : "指定言語に追加できるボイスを含む。",
+         "Title_zh-CN" : "额外的语言",
+         "Description_zh-CN" : "包含额外语言语音可用。",
+         "Title_pt-BR" : "Idiomas adicionais",
+         "Description_pt-BR" : "Inclui os idiomas de dublagem adicionais disponíveis.",
+         "Title_zh-Hans" : "额外的语言",
+         "Description_zh-Hans" : "包含额外语言语音可用。",
+         "Title_zh-Hant" : "額外語言",
+         "Description_zh-Hant" : "包含額外的語言配音。",
+         "Title_th" : "ภาษาเพิ่มเติม",
+         "Description_th" : "รวมเสียงเพิ่มเติมในภาษาต่างๆ ซึ่งพร้อมใช้งาน"
+      }
+   ]
+}

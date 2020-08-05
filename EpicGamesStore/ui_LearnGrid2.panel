@@ -1,0 +1,206 @@
+{
+	"Type": "Box",
+	"Orientation": "Vertical",
+	"Children":
+	[
+		{
+			"Type": "Box",
+			"Orientation": "Horizontal",
+			"Children":
+			[
+				{
+					"Type": "Panel",
+					"Height": 154,
+					"Width": 148,
+					"BackgroundImage": "panel_ThumbnailShadow.png",
+					"Padding": { "Left": 0, "Top": 0, "Right": 0, "Bottom": 0 },
+					"Children":
+					[
+						{
+							"Type": "Panel",
+							"Height": 144,
+							"Width": 140,
+							"Padding": { "Left": 0, "Top": 0, "Right": 0, "Bottom": 0 },
+							"BackgroundImage": "thumbnail",
+							"OnNavigateUrl": "Marketplace/{Id}"
+						}
+					]
+				},
+				{
+					"Type": "Panel",
+					"Height": 158,
+					"Width": 195,
+					"HiddenOnMouseHover": true,
+					"BackgroundImage": "",
+					"Children":
+					[
+						{
+							"Type": "Box",
+							"Orientation": "Vertical",
+							"Children":
+							[
+								{
+									"Type": "Panel",
+									"Height": 33,
+									"Width": 195,
+									"Padding": { "Left": 0, "Top": 7, "Right": 0, "Bottom": 0 },
+									"Children":
+									[
+										{
+											"Type": "Panel",
+											"Height": 54,
+											"Width": 195,
+											"BackgroundImage": "learn_box.png",
+											"OnNavigateUrl": "Marketplace/{Id}",
+											"Children":
+											[
+												{
+													"Type": "Panel",
+													"Height": 54,
+													"Width": 195,
+													"BackgroundImage": "learn_box_hover.png",
+													"VisibleOnlyOnMouseHover": true,
+													"OnNavigateUrl": "Marketplace/{Id}"
+												}
+											],
+											"Text": 
+											[
+												{
+													"HAlign": "Left",
+													"VAlign": "Center",
+															"WrapAt": 195,
+															"Padding": { "Left": 5, "Top": 5, "Right": 5, "Bottom": 5 },
+															"TextStyle": "strong",
+															"Binding": "Title"
+												}
+											]
+										}
+									]
+								},
+								{
+									"Type": "Panel",
+									"Height": 105,
+									"Width": 195,
+									"Padding": { "Left": 5, "Top": 5, "Right": 5, "Bottom": 15 },
+									"Children":
+									[
+										{
+											"Type": "Panel",
+											"Height": 110,
+											"Width": 195,
+											"BackgroundImage": "",
+											"OnNavigateUrl": "Marketplace/{Id}",
+											"Children":
+											[
+												{
+												}
+											],
+											"Text": 
+											[
+												{
+													"HAlign": "Left",
+													"VAlign": "Top",
+													"WrapAt": 185,
+													"Padding": { "Left": 0, "Top": 0, "Right": 0, "Bottom": 0 },
+													"TextStyle": "body",
+													"Binding": "Description"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "Panel",
+					"Height": 158,
+					"Width": 195,
+					"VisibleOnlyOnMouseHover": true,
+					"Children":
+					[
+						{
+							"Type": "Box",
+							"Orientation": "Vertical",
+							"Children":
+							[
+								{
+									"Type": "Panel",
+									"Height": 33,
+									"Width": 195,
+									"Padding": { "Left": 0, "Top": 7, "Right": 0, "Bottom": 0 },
+									"Children":
+									[
+										{
+											"Type": "Panel",
+											"Height": 54,
+											"Width": 195,
+											"BackgroundImage": "learn_box_hover.png",
+											"OnNavigateUrl": "Marketplace/{Id}",
+											"Children":
+											[
+												{
+												}
+											],
+											"Text": 
+											[
+												{
+													"HAlign": "Left",
+													"VAlign": "Center",
+													"WrapAt": 195,
+													"Padding": { "Left": 5, "Top": 5, "Right": 5, "Bottom": 5 },
+													"TextStyle": "strong",
+													"Binding": "Title"
+												}
+											]
+										}
+									]
+								},
+								{
+									"Type": "Panel",
+									"Height": 134,
+									"Width": 195,
+									"BackgroundImage": "layout_header.png",
+									"Padding": { "Left": 0, "Top": 0, "Right": 0, "Bottom": 15 },
+									"Children":
+									[
+										{
+											"Type": "Panel",
+											"Height": 135,
+											"Width": 195,
+											"OnNavigateUrl": "Marketplace/{Id}",
+											"Children":
+											[
+												{
+												}
+											],
+											"Text": 
+											[
+												{
+													"HAlign": "Left",
+													"VAlign": "Top",
+															"WrapAt": 185,
+															"Padding": { "Left": 5, "Top": 5, "Right": 5, "Bottom": 0 },
+															"TextStyle": "body",
+															"Binding": "Description"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "Panel",
+					"Height": 20,
+					"Width": 148,
+					"Padding": { "Left": 0, "Top": 0, "Right": 0, "Bottom": 10 }
+				}
+			]
+		}
+	]
+}
+	

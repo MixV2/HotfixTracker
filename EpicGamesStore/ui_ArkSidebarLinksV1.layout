@@ -1,0 +1,61 @@
+﻿{
+   "Type" : "Box",
+   "Orientation" : "Vertical",
+   "Width" : 250,
+   "HAlign" : "Left",
+   "VAlign" : "Bottom",
+   "Padding" : {
+      "Left" : 10,
+      "Top" : 60,
+      "Right" : 0,
+      "Bottom" : 40
+   },
+   "Children" : [
+      {
+         "Type" : "Link",
+         "HAlign" : "Left",
+         "VAlign" : "Bottom",
+         "Image" : {
+            "Image" : "Showcases.png",
+            "ColorAndOpacity" : "1, 1, 1"
+         },
+         "HoverIcon" : {
+            "Image" : "ExternalLink.png"
+         },
+         "Text" : {
+            "Text_translate" : "true",
+            "Text" : "ARK Website",
+            "TextStyle" : "inverted-body",
+            "Margin" : {
+               "Left" : 10,
+               "Top" : 0,
+               "Right" : 10,
+               "Bottom" : 0
+            },
+            "Text_zh-CN" : "《方舟:生存进化》网站",
+            "Text_ko" : "ARK 웹사이트",
+            "Text_ja" : "ARK ウェブサイト",
+            "Text_fr" : "Site ARK",
+            "Text_es-MX" : "Sitio web de ARK",
+            "Text_de" : "ARK-Website",
+            "Text_it" : "Sito web ARK",
+            "Text_ru" : "Веб-страница ARK",
+            "Text_es" : "Sitio web de ARK",
+            "Text_pl" : "Witryna ARK",
+            "Text_pt-BR" : "Site do ARK",
+            "Text_ar" : "موقع ARK الإلكتروني",
+            "Text_tr" : "ARK Web Sitesi",
+            "Text_zh-Hans" : "《方舟:生存进化》网站",
+            "Text_zh-Hant" : "《Ark》網頁",
+            "Text_th" : "เว็บไซต์ ARK"
+         },
+         "Padding" : {
+            "Left" : 0,
+            "Top" : 0,
+            "Right" : 0,
+            "Bottom" : 10
+         },
+         "OnNavigateUrl" : "http://www.playark.com/"
+      }
+   ]
+}

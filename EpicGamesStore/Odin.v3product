@@ -1,0 +1,57 @@
+﻿{
+	"Id": "odin",
+	"Priority": 60,
+	"Priority_ko": 1,
+	"AnalyticsId": "odin",
+	"DisplayName": "Robo Recall",
+	"DisplayName_ko": "로보 리콜",
+	"SupportedPlatforms": "Windows",
+	"CatalogNamespace": "odin",
+	"Categories": "Create",
+	"EulaExpression": "(odin && ue)",
+	"BackgroundImage": "",
+	"BackgroundFillImage": "0.08241, 0.08241, 0.08241",
+	"PrimaryColor": "0.54799, 0.00006, 0.00001",
+	"PressedPrimaryColor": "0.44787, 0.00006, 0.00001",
+	"HoveredPrimaryColor": "0.7372, 0.00011, 0.00002",
+	"Homepage": "/create/odin",
+	"Pages": [
+		{
+			"Id": "create.odin",
+			"PartialUrl": "/odin",
+			"SourceUrls" : [
+				{
+					"SourceUrl": "ui_Odin_Offline.layout",
+					"Conditions": [ "![BINDING_SOURCE], [PORTAL_VERSION]<2.12.24, ![PORTAL_VERSION]0.0.0" ] 
+				},
+				{
+					"SourceUrl": "ui_OdinV2_Offline.layout",
+					"Conditions": [ "![BINDING_SOURCE]" ] 
+				},
+				{
+					"SourceUrl": "ui_OdinCreateV1.layout",
+					"Conditions": [ "[PORTAL_VERSION]<2.12.24, ![PORTAL_VERSION]0.0.0" ] 
+				},
+				{
+					"SourceUrl": "ui_OdinCreateV2.layout"
+				}
+			]
+		}
+	],
+	"Redirects": [
+	
+	],
+	"Apps": [
+		{
+			"Name": "OdinEditor",
+			"GroupId": "Editor",
+			"OfferId": "cb264aabd7574ccb933ddf780325ec33",
+			"ItemId": "577992887048448fa933f9c645680d43",
+			"LaunchPermissions": "NoInternet,WithoutLauncher,MultiLaunch"
+		}
+	],
+	"DefaultRegionId": "",
+	"Regions": [
+
+	]
+}

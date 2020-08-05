@@ -1,0 +1,79 @@
+﻿{
+   "Type" : "ScrollBox",
+   "RequiresBindingSource" : false,
+   "Orientation" : "Vertical",
+   "AutoSize" : "false",
+   "Children" : [
+      {
+         "Type" : "Box",
+         "Orientation" : "Vertical",
+         "HAlign" : "Center",
+         "VAlign" : "Center",
+         "MaxWidth" : 750,
+         "AutoSize" : "false",
+         "Children" : [
+            {
+               "Type" : "BasicTile",
+               "VAlign" : "Bottom",
+               "MaxHeight" : 350,
+               "MinHeight" : 350,
+               "HasShadow" : "false",
+               "LoadSilently" : "true",
+               "Padding" : {
+                  "Left" : 0,
+                  "Top" : 0,
+                  "Right" : 0,
+                  "Bottom" : 0
+               },
+               "AutoSize" : "true",
+               "Images" : [
+                  {
+                     "Image" : "ue_Logo.png",
+                     "Stretch" : "ScaleToFit"
+                  }
+               ]
+            },
+            {
+               "Type" : "Box",
+               "Orientation" : "Vertical",
+               "Children" : [
+                  {
+                     "Type" : "Panel",
+                     "Padding" : {
+                        "Left" : 40,
+                        "Top" : 0,
+                        "Right" : 40,
+                        "Bottom" : 10
+                     },
+                     "Text" : [
+                        {
+                           "TextStyle" : "title",
+                           "Justification" : "Center",
+                           "AutoWrap" : true,
+                           "Text_translate" : "true",
+                           "Text" : "Uh oh, there is supposed to be something here.\nTry sorting out the connectivity issue and return to this page.",
+                           "Text_ko" : "페이지의 내용을 불러올 수 없습니다.\n연결 상태 관련 문제를 해결하시고 이 페이지로 돌아와 주세요.",
+                           "Text_ja" : "問題が発生したようです。\nインターネットの接続を確認して再度読み込んでください。",
+                           "Text_zh-CN" : "啊，这里的内容没有显示。\n请尝试解决连接问题，并回到这个页面。",
+                           "Text_fr" : "Quelque chose devrait apparaître ici.\nEssayez de régler les problèmes de connexion et revenez sur cette page.",
+                           "Text_es-MX" : "¡Oh, oh! Se supone que debe haber algo aquí.\nIntenta solucionar el problema de conexión y vuelve a esta página.",
+                           "Text_de" : "Der eigentliche Text konnte nicht angezeigt werden.\nBeheben Sie das Verbindungsproblem und rufen Sie die Seite erneut auf.",
+                           "Text_it" : "Oh no, qui dovrebbe esserci qualcosa.\nRisolvi i problemi di connessione e torna a questa pagina",
+                           "Text_ru" : "Ой, тут что-то должно быть, но вы этого не видите.\nРазберитесь с проблемами подключения и вернитесь на страницу.",
+                           "Text_es" : "Vaya, se supone que aquí tenía que haber algo.\nIntenta solucionar los problemas de conectividad y vuelve a esta página.",
+                           "Text_pl" : "W tym miejscu powinna być widoczna zawartość.\nSpróbuj rozwiązać problem z połączeniem i wróć do tej strony.",
+                           "Text_pt-BR" : "Opa, devia ter algo aqui.\nTente solucionar o problema de conexão e volte a esta página.",
+                           "Text_ar" : "يفترض وجود شيء ما هنا.\nحاول حل مشاكل الاتصال وعُد إلى هذه الصفحة.",
+                           "Text_tr" : "Hay aksi, burada bir şey olması gerekiyordu.\nBağlantı sorununu çözdükten sonra bu sayfaya tekrar dönmeyi dene.",
+                           "Text_zh-Hans" : "啊，这里的内容没有显示。\n请尝试解决连接问题，并回到这个页面。",
+                           "Text_zh-Hant" : "哎呀，東西怎麼不見了？\n請嘗試解決連線問題，然後回到此頁面。",
+                           "Text_th" : "โอ๊ะ ตรงนี้ควรจะมีอะไรอยู่นะ\nลองแก้ไขปัญหาการเชื่อมต่อแล้วกลับมาที่หน้านี้"
+                        }
+                     ]
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}

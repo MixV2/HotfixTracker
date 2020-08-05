@@ -1,0 +1,141 @@
+﻿{
+   "Type" : "Box",
+   "Orientation" : "Vertical",
+   "Width" : 250,
+   "HAlign" : "Left",
+   "VAlign" : "Bottom",
+   "Padding" : {
+      "Left" : 0,
+      "Top" : 0,
+      "Right" : 0,
+      "Bottom" : 0
+   },
+   "Children" : [
+      {
+         "Type" : "Link",
+         "HAlign" : "Left",
+         "VAlign" : "Bottom",
+         "HoverIcon" : {
+            "Image" : "ExternalLink.png"
+         },
+         "Text" : {
+            "Text_translate" : "true",
+            "Text" : "Discord Chat",
+            "TextStyle" : "inverted-tiny-h6",
+            "Margin" : {
+               "Left" : 10,
+               "Top" : 0,
+               "Right" : 10,
+               "Bottom" : 0
+            },
+            "Text_zh-CN" : "Discord聊天",
+            "Text_fr" : "Chat Discord",
+            "Text_de" : "Discord-Chat",
+            "Text_ko" : "디스코드 채팅",
+            "Text_it" : "Chat Discord",
+            "Text_ru" : "Чат в Discord",
+            "Text_pl" : "Czat Discord",
+            "Text_ar" : "محادثات مختلفة",
+            "Text_pt-BR" : "Bate-papo do Discord",
+            "Text_es-MX" : "Chat de Discord",
+            "Text_es" : "Chat de Discord",
+            "Text_ja" : "Discordチャット",
+            "Text_tr" : "Discord Sohbeti",
+            "Text_zh-Hans" : "Discord聊天",
+            "Text_zh-Hant" : "Discord 聊天",
+            "Text_th" : "แชทไม่สอดคล้อง"
+         },
+         "Padding" : {
+            "Left" : 0,
+            "Top" : 0,
+            "Right" : 0,
+            "Bottom" : 15
+         },
+         "OnNavigateUrl" : "https://discord.gg/0c3YbLKOx0YXgDmK"
+      },
+      {
+         "Type" : "Link",
+         "HAlign" : "Left",
+         "VAlign" : "Bottom",
+         "HoverIcon" : {
+            "Image" : "ExternalLink.png"
+         },
+         "Text" : {
+            "Text_translate" : "true",
+            "Text" : "Latest News",
+            "TextStyle" : "inverted-tiny-h6",
+            "Margin" : {
+               "Left" : 10,
+               "Top" : 0,
+               "Right" : 10,
+               "Bottom" : 0
+            },
+            "Text_ko" : "최신 뉴스",
+            "Text_ja" : "最新ニュース",
+            "Text_zh-CN" : "最新新闻",
+            "Text_fr" : "Dernières infos",
+            "Text_es-MX" : "Últimas noticias",
+            "Text_de" : "Aktuelle News",
+            "Text_it" : "Ultime novità",
+            "Text_ru" : "Последние новости",
+            "Text_es" : "Últimas noticias",
+            "Text_pl" : "Aktualności",
+            "Text_pt-BR" : "Últimas notícias",
+            "Text_ar" : "أحدث الأنباء",
+            "Text_tr" : "Son Haberler",
+            "Text_zh-Hans" : "最新新闻",
+            "Text_zh-Hant" : "最新消息",
+            "Text_th" : "ข่าวล่าสุด"
+         },
+         "Padding" : {
+            "Left" : 0,
+            "Top" : 15,
+            "Right" : 0,
+            "Bottom" : 15
+         },
+         "OnNavigateUrl" : "http://epic.gm/launcherblog"
+      },
+      {
+         "Type" : "Link",
+         "HAlign" : "Left",
+         "VAlign" : "Bottom",
+         "HoverIcon" : {
+            "Image" : "ExternalLink.png"
+         },
+         "Text" : {
+            "Text_translate" : "true",
+            "Text" : "Developer Videos",
+            "TextStyle" : "inverted-tiny-h6",
+            "Margin" : {
+               "Left" : 10,
+               "Top" : 0,
+               "Right" : 10,
+               "Bottom" : 0
+            },
+            "Text_ko" : "개발자 비디오",
+            "Text_zh-CN" : "开发者视频",
+            "Text_fr" : "Vidéos des développeurs",
+            "Text_de" : "Entwicklervideos",
+            "Text_it" : "Video degli sviluppatori",
+            "Text_ru" : "Видео разработчиков",
+            "Text_pl" : "Materiały wideo dla deweloperów",
+            "Text_ar" : "مقاطع فيديو المطور",
+            "Text_pt-BR" : "Vídeos do desenvolvedor",
+            "Text_es-MX" : "Videos del desarrollador",
+            "Text_es" : "Vídeos del desarrollador",
+            "Text_ja" : "デベロッパービデオ",
+            "Text_tr" : "Geliştirici Videoları",
+            "Text_zh-Hans" : "开发者视频",
+            "Text_zh-Hant" : "開發者影片",
+            "Text_th" : "วิดีโอของผู้พัฒนา"
+         },
+         "Padding" : {
+            "Left" : 0,
+            "Top" : 15,
+            "Right" : 0,
+            "Bottom" : 15
+         },
+         "OnNavigateUrl" : "https://www.youtube.com/playlist?list=PLC7LX1Iyxa-l7TNj5FHCSINfDCHMLGsrz"
+      }
+   ]
+}

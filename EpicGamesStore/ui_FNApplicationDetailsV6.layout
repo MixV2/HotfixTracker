@@ -1,0 +1,573 @@
+﻿{
+   "Type" : "Overlay",
+   "AutoSize" : "false",
+   "Children" : [
+      {
+         "Type" : "ScrollBox",
+         "AutoSize" : "false",
+         "Padding" : {
+            "Left" : 0,
+            "Top" : 0,
+            "Right" : 0,
+            "Bottom" : 0
+         },
+         "Children" : [
+            {
+               "Type" : "Box",
+               "Orientation" : "Vertical",
+               "AutoSize" : "false",
+               "Children" : [
+                  {
+                     "Type" : "Overlay",
+                     "Padding" : {
+                        "Left" : 0,
+                        "Top" : 0,
+                        "Right" : 0,
+                        "Bottom" : 0
+                     },
+                     "Children" : [
+                        {
+                           "Type" : "BasicTile",
+                           "Binding" : "faf7a85eec7b4e9c8ec45956b4152104",
+                           "HasShadow" : "false",
+                           "Height" : 640,
+                           "LoadSilently" : "true",
+                           "Images" : [
+                              {
+                                 "Image" : "Featured",
+                                 "HAlign" : "Right",
+                                 "VAlign" : "Center"
+                              }
+                           ]
+                        },
+                        {
+                           "Type" : "Panel",
+                           "HAlign" : "Left",
+                           "VAlign" : "Fill",
+                           "MinWidth" : 520,
+                           "BackgroundImage" : "0.0, 0.0, 0.0, 0.7",
+                           "Padding" : {
+                              "Left" : 0,
+                              "Top" : 0,
+                              "Right" : 0,
+                              "Bottom" : 0
+                           }
+                        },
+                        {
+                           "Type" : "Box",
+                           "Orientation" : "Vertical",
+                           "MinWidth" : 520,
+                           "AutoSize" : true,
+                           "HAlign" : "Left",
+                           "Padding" : {
+                              "Left" : 0,
+                              "Top" : 15,
+                              "Right" : 0,
+                              "Bottom" : 0
+                           },
+                           "Children" : [
+                              {
+                                 "Type" : "BuildSelector",
+                                 "HAlign" : "left",
+                                 "VAlign" : "Top",
+                                 "TextStyle" : "small-body",
+                                 "Padding" : {
+                                    "Left" : 55,
+                                    "Top" : 60,
+                                    "Right" : 0,
+                                    "Bottom" : 0
+                                 },
+                                 "SelectorId" : "Game",
+                                 "GroupId" : "Game"
+                              }
+                           ]
+                        },
+                        {
+                           "Type" : "Box",
+                           "Orientation" : "Vertical",
+                           "MinWidth" : 400,
+                           "MaxWidth" : 400,
+                           "MinHeight" : 540,
+                           "MaxHeight" : 540,
+                           "HAlign" : "Left",
+                           "VAlign" : "Top",
+                           "Padding" : {
+                              "Left" : 60,
+                              "Top" : 100,
+                              "Right" : 0,
+                              "Bottom" : 0
+                           },
+                           "Children" : [
+                              {
+                                 "Type" : "Panel",
+                                 "Padding" : {
+                                    "Left" : 0,
+                                    "Top" : 0,
+                                    "Right" : 0,
+                                    "Bottom" : 0
+                                 },
+                                 "Text" : [
+                                    {
+                                       "Binding" : "faf7a85eec7b4e9c8ec45956b4152104/Description",
+                                       "TextStyle" : "inverted-title",
+                                       "HAlign" : "Left",
+                                       "VAlign" : "Center",
+                                       "WrapAt" : 400,
+                                       "Margin" : {
+                                          "Left" : 0,
+                                          "Top" : 0,
+                                          "Right" : 0,
+                                          "Bottom" : 0
+                                       },
+                                       "LineHeightScalar" : 1.2
+                                    }
+                                 ]
+                              },
+                              {
+                                 "Type" : "Box",
+                                 "Orientation" : "Vertical",
+                                 "Padding" : {
+                                    "Left" : 0,
+                                    "Top" : 10,
+                                    "Right" : 0,
+                                    "Bottom" : 0
+                                 },
+                                 "Children" : [
+                                    {
+                                       "Type" : "Panel",
+                                       "AutoSize" : "false",
+                                       "Text" : [
+                                          {
+                                             "Binding" : "faf7a85eec7b4e9c8ec45956b4152104/LongDescription",
+                                             "TextStyle" : "inverted-extrasmall-body",
+                                             "Visibility" : "Visible",
+                                             "WrapAt" : 400,
+                                             "LineHeightScalar" : 1.2
+                                          }
+                                       ]
+                                    }
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           "Type" : "Box",
+                           "Orientation" : "Vertical",
+                           "MinWidth" : 400,
+                           "MaxWidth" : 400,
+                           "HAlign" : "Left",
+                           "VAlign" : "Bottom",
+                           "Padding" : {
+                              "Left" : 60,
+                              "Top" : 0,
+                              "Right" : 0,
+                              "Bottom" : 20
+                           },
+                           "Children" : [
+                              {
+                                 "Type" : "Box",
+                                 "Orientation" : "Horizontal",
+                                 "MinWidth" : 442,
+                                 "HAlign" : "Left",
+                                 "VAlign" : "Bottom",
+                                 "Padding" : {
+                                    "Left" : 0,
+                                    "Top" : 0,
+                                    "Right" : 0,
+                                    "Bottom" : 0
+                                 },
+                                 "Children" : [
+                                    {
+                                       "Type" : "ServerStatus",
+                                       "Text" : "SERVERS:",
+                                       "Text_translate" : "true",
+                                       "TextStyle" : "extrasmall-strong",
+                                       "HAlign" : "Left",
+                                       "AutoSize" : false,
+                                       "SelectorId" : "Game",
+                                       "GroupId" : "Game",
+                                       "Padding" : {
+                                          "Left" : 0,
+                                          "Top" : 10,
+                                          "Right" : 0,
+                                          "Bottom" : 0
+                                       },
+                                       "Text_zh-CN" : "服务器：",
+                                       "Text_fr" : "SERVEURS :",
+                                       "Text_de" : "SERVER:",
+                                       "Text_ko" : "서버:",
+                                       "Text_it" : "SERVER:",
+                                       "Text_ru" : "СЕРВЕРЫ:",
+                                       "Text_pl" : "SERWERY:",
+                                       "Text_ar" : "الخوادم:",
+                                       "Text_pt-BR" : "SERVIDORES:",
+                                       "Text_es-MX" : "SERVIDORES:",
+                                       "Text_es" : "SERVIDORES:",
+                                       "Text_ja" : "サーバー：",
+                                       "Text_tr" : "SUNUCULAR:",
+                                       "Text_zh-Hans" : "服务器：",
+                                       "Text_zh-Hant" : "伺服器：",
+                                       "Text_th" : "เซิร์ฟเวอร์:"
+                                    }
+                                 ]
+                              },
+                              {
+                                 "Type" : "ActionButton",
+                                 "HAlign" : "Left",
+                                 "MinWidth" : 442,
+                                 "MinHeight" : 124,
+                                 "Padding" : {
+                                    "Left" : -20,
+                                    "Top" : 0,
+                                    "Right" : -20,
+                                    "Bottom" : 15
+                                 },
+                                 "VAlign" : "Bottom",
+                                 "SelectorId" : "Game",
+                                 "GroupId" : "Game"
+                              },
+                              {
+                                 "Type" : "Panel",
+                                 "BackgroundImage" : "1.0, 1.0, 1.0, 0.5",
+                                 "Height" : 1,
+                                 "VAlign" : "Bottom",
+                                 "Padding" : {
+                                    "Left" : 0,
+                                    "Top" : 5,
+                                    "Right" : 0,
+                                    "Bottom" : 40
+                                 }
+                              },
+                              {
+                                 "Type" : "Panel",
+                                 "VAlign" : "Bottom",
+                                 "Text" : [
+                                    {
+                                       "TextStyle" : "inverted-tiny-body",
+                                       "LineHeightScalar" : 1.2,
+                                       "Text_translate" : "true",
+                                       "Text" : "VISIT FORTNITE ON:",
+                                       "Text_zh-CN" : "访问《堡垒之夜》于：",
+                                       "Text_fr" : "VISITER FORTNITE SUR :",
+                                       "Text_de" : "BESUCHEN SIE FORTNITE UNTER:",
+                                       "Text_ko" : "포트나이트 방문:",
+                                       "Text_it" : "VISITA FORTNITE SU:",
+                                       "Text_ru" : "FORTNITE В СОЦСЕТЯХ:",
+                                       "Text_pl" : "FORTNITE W INTERNECIE:",
+                                       "Text_ar" : "قم بزيارة FORTNITE على:",
+                                       "Text_pt-BR" : "VISITE FORTNITE EM:",
+                                       "Text_es-MX" : "VISITA FORTNITE EN:",
+                                       "Text_es" : "VISITA FORTNITE EN:",
+                                       "Text_ja" : "以下よりFORTNITEにアクセス：",
+                                       "Text_tr" : "FORTNITE’I ZİYARET ET:",
+                                       "Text_zh-Hans" : "访问《堡垒之夜》于：",
+                                       "Text_zh-Hant" : "到以下位置瀏覽《FORTNITE》：",
+                                       "Text_th" : "เยี่ยมชม FORTNITE ที่:"
+                                    }
+                                 ],
+                                 "Padding" : {
+                                    "Left" : 0,
+                                    "Top" : 0,
+                                    "Right" : 0,
+                                    "Bottom" : 12
+                                 }
+                              },
+                              {
+                                 "Type" : "Layout",
+                                 "Layout" : "ui_FNShareLinksV6",
+                                 "VAlign" : "Bottom",
+                                 "Padding" : {
+                                    "Left" : 0,
+                                    "Top" : 0,
+                                    "Right" : 0,
+                                    "Bottom" : 3
+                                 }
+                              }
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     "Type" : "Box",
+                     "Orientation" : "Vertical",
+                     "MaxWidth" : 1400,
+                     "MinWidth" : 1400,
+                     "HAlign" : "Center",
+                     "Children" : [
+                        {
+                           "Type" : "ResponsiveGrid",
+                           "Padding" : {
+                              "Left" : 30,
+                              "Top" : 30,
+                              "Right" : 30,
+                              "Bottom" : 0
+                           },
+                           "TotalColumns" : 12,
+                           "ColumnGutter" : 15,
+                           "Children" : [
+                              {
+                                 "Type" : "BasicTile",
+                                 "Row" : 0,
+                                 "ColumnSpans" : [
+                                    {
+                                       "LayoutSize" : 1050,
+                                       "Span" : 4
+                                    },
+                                    {
+                                       "LayoutSize" : 0,
+                                       "Span" : 4
+                                    }
+                                 ],
+                                 "Padding" : {
+                                    "Left" : 0,
+                                    "Top" : 0,
+                                    "Right" : 0,
+                                    "Bottom" : 30
+                                 },
+                                 "MinHeight" : 260,
+                                 "MaxHeight" : 260,
+                                 "HasShadow" : false,
+                                 "Binding" : "efc22ab8ff74465dac2f1b3c32d93ee3",
+                                 "Images" : [
+                                    {
+                                       "Image" : "Screenshot",
+                                       "HAlign" : "Right",
+                                       "VAlign" : "Center"
+                                    }
+                                 ],
+                                 "OnNavigateUrl" : "TechnicalDetails",
+                                 "HoverIcon" : {
+                                    "Image" : "ExternalLink.png",
+                                    "Margin" : {
+                                       "Left" : 15,
+                                       "Top" : 10,
+                                       "Right" : 15,
+                                       "Bottom" : 10
+                                    }
+                                 },
+                                 "Text" : [
+                                    {
+                                       "Text" : "Description",
+                                       "VAlign" : "Bottom",
+                                       "TextStyle" : "inverted-extralarge-h6",
+                                       "Margin" : {
+                                          "Left" : 30,
+                                          "Top" : 20,
+                                          "Right" : 15,
+                                          "Bottom" : 20
+                                       }
+                                    }
+                                 ]
+                              },
+                              {
+                                 "Type" : "BasicTile",
+                                 "Row" : 0,
+                                 "ColumnSpans" : [
+                                    {
+                                       "LayoutSize" : 1050,
+                                       "Span" : 4
+                                    },
+                                    {
+                                       "LayoutSize" : 0,
+                                       "Span" : 4
+                                    }
+                                 ],
+                                 "Padding" : {
+                                    "Left" : 0,
+                                    "Top" : 0,
+                                    "Right" : 0,
+                                    "Bottom" : 30
+                                 },
+                                 "MinHeight" : 260,
+                                 "MaxHeight" : 260,
+                                 "HasShadow" : false,
+                                 "Binding" : "cd53da460c2f4a80a9fde2fd5a65997f",
+                                 "Images" : [
+                                    {
+                                       "Image" : "Screenshot"
+                                    }
+                                 ],
+                                 "OnNavigateUrl" : "TechnicalDetails",
+                                 "HoverIcon" : {
+                                    "Image" : "ExternalLink.png",
+                                    "Margin" : {
+                                       "Left" : 15,
+                                       "Top" : 10,
+                                       "Right" : 15,
+                                       "Bottom" : 10
+                                    }
+                                 },
+                                 "Text" : [
+                                    {
+                                       "Text" : "Description",
+                                       "VAlign" : "Bottom",
+                                       "TextStyle" : "inverted-extralarge-h6",
+                                       "Margin" : {
+                                          "Left" : 30,
+                                          "Top" : 20,
+                                          "Right" : 15,
+                                          "Bottom" : 20
+                                       }
+                                    }
+                                 ]
+                              },
+                              {
+                                 "Type" : "BasicTile",
+                                 "Row" : 0,
+                                 "ColumnSpans" : [
+                                    {
+                                       "LayoutSize" : 1050,
+                                       "Span" : 4
+                                    },
+                                    {
+                                       "LayoutSize" : 0,
+                                       "Span" : 4
+                                    }
+                                 ],
+                                 "Padding" : {
+                                    "Left" : 0,
+                                    "Top" : 0,
+                                    "Right" : 0,
+                                    "Bottom" : 30
+                                 },
+                                 "MinHeight" : 260,
+                                 "MaxHeight" : 260,
+                                 "HasShadow" : false,
+                                 "Binding" : "4e5eb8ff3c32456c976ce68d428ba191",
+                                 "Images" : [
+                                    {
+                                       "Image" : "Screenshot"
+                                    }
+                                 ],
+                                 "OnNavigateUrl" : "TechnicalDetails",
+                                 "HoverIcon" : {
+                                    "Image" : "ExternalLink.png",
+                                    "Margin" : {
+                                       "Left" : 15,
+                                       "Top" : 10,
+                                       "Right" : 15,
+                                       "Bottom" : 10
+                                    }
+                                 },
+                                 "Text" : [
+                                    {
+                                       "Text" : "Description",
+                                       "VAlign" : "Bottom",
+                                       "TextStyle" : "inverted-extralarge-h6",
+                                       "Margin" : {
+                                          "Left" : 30,
+                                          "Top" : 20,
+                                          "Right" : 15,
+                                          "Bottom" : 20
+                                       }
+                                    }
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     "Type" : "Box",
+                     "Orientation" : "Vertical",
+                     "VAlign" : "Bottom",
+                     "AutoSize" : "false",
+                     "Children" : [
+                        {
+                           "Type" : "Panel",
+                           "BackgroundImage" : "1.0, 1.0, 1.0, 0.1",
+                           "Height" : 1,
+                           "VAlign" : "Bottom",
+                           "Padding" : {
+                              "Left" : 0,
+                              "Top" : 40,
+                              "Right" : 0,
+                              "Bottom" : 0
+                           }
+                        },
+                        {
+                           "Type" : "Box",
+                           "Orientation" : "Horizontal",
+                           "Padding" : {
+                              "Left" : 25,
+                              "Top" : 10,
+                              "Right" : 0,
+                              "Bottom" : 10
+                           },
+                           "Children" : [
+                              {
+                                 "Type" : "BuildInformation",
+                                 "HAlign" : "Left",
+                                 "AutoSize" : "True",
+                                 "TextStyle" : "inverted-tiny-subtleemphasis",
+                                 "Padding" : {
+                                    "Left" : 0,
+                                    "Top" : 4,
+                                    "Right" : 0,
+                                    "Bottom" : 0
+                                 },
+                                 "SelectorId" : "Game",
+                                 "GroupId" : "Game"
+                              },
+                              {
+                                 "Type" : "Panel",
+                                 "BackgroundImage" : "0.1, 0.1, 0.1, 1.0",
+                                 "Height" : 1,
+                                 "Width" : 2,
+                                 "MaxHeight" : 2,
+                                 "HAlign" : "Left",
+                                 "Padding" : {
+                                    "Left" : 10,
+                                    "Top" : 7,
+                                    "Right" : 5,
+                                    "Bottom" : 7
+                                 }
+                              },
+                              {
+                                 "Type" : "Link",
+                                 "HAlign" : "Left",
+                                 "Text" : {
+                                    "Text_translate" : "true",
+                                    "Text" : "Support",
+                                    "TextStyle" : "inverted-tiny-subtleemphasis",
+                                    "Margin" : {
+                                       "Left" : 0,
+                                       "Top" : 0,
+                                       "Right" : 0,
+                                       "Bottom" : 0
+                                    },
+                                    "Text_ko" : "지원",
+                                    "Text_fr" : "Assistance",
+                                    "Text_it" : "Supporto",
+                                    "Text_de" : "Support",
+                                    "Text_es" : "Atención al cliente",
+                                    "Text_es-MX" : "Asistencia",
+                                    "Text_ru" : "Поддержка",
+                                    "Text_pl" : "Pomoc techniczna",
+                                    "Text_ar" : "الدعم",
+                                    "Text_ja" : "サポート",
+                                    "Text_zh-CN" : "支持",
+                                    "Text_pt-BR" : "Suporte",
+                                    "Text_tr" : "Destek",
+                                    "Text_zh-Hans" : "支持",
+                                    "Text_zh-Hant" : "支援",
+                                    "Text_th" : "ฝ่ายสนับสนุน"
+                                 },
+                                 "Padding" : {
+                                    "Left" : 0,
+                                    "Top" : 0,
+                                    "Right" : 0,
+                                    "Bottom" : 0
+                                 },
+                                 "OnNavigateUrl" : "[fn_support]"
+                              }
+                           ]
+                        }
+                     ]
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}

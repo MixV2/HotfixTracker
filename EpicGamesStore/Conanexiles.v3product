@@ -1,0 +1,55 @@
+﻿{
+	"Id": "conanexiles",
+	"Priority": 40,
+	"AnalyticsId": "conanexiles",
+	"DisplayName": "Conan Exiles",
+	"SupportedPlatforms": "Windows",
+	"CatalogNamespace": "conanexiles",
+	"Categories": "Create",
+	"EulaExpression": "(conanexiles && ue)",
+	"BackgroundImage": "",
+	"BackgroundFillImage": "0.08241, 0.08241, 0.08241",
+	"PrimaryColor": "0.54799, 0.00006, 0.00001",
+	"PressedPrimaryColor": "0.44787, 0.00006, 0.00001",
+	"HoveredPrimaryColor": "0.7372, 0.00011, 0.00002",
+	"Homepage": "/create/conanexiles",
+	"Pages": [
+		{
+			"Id": "create.conanexiles",
+			"PartialUrl": "/conanexiles",
+			"SourceUrls" : [
+				{
+					"SourceUrl": "ui_ConanexilesV1_Offline.layout",
+					"Conditions": [ "![BINDING_SOURCE], [PORTAL_VERSION]<2.12.24, ![PORTAL_VERSION]0.0.0" ] 
+				},
+				{
+					"SourceUrl": "ui_ConanexilesV2_Offline.layout",
+					"Conditions": [ "![BINDING_SOURCE]" ] 
+				},
+				{
+					"SourceUrl": "ui_ConanexilesCreateV1.layout",
+					"Conditions": [ "[PORTAL_VERSION]<2.12.24, ![PORTAL_VERSION]0.0.0" ] 
+				},
+				{
+					"SourceUrl": "ui_ConanexilesCreateV2.layout"
+				}
+			]
+		}
+	],
+	"Redirects": [
+	
+	],
+	"Apps": [
+		{
+			"Name": "ConanExiles",
+			"GroupId": "Editor",
+			"OfferId": "1bf1c664fc664ac88733e46da2297f8e",
+			"ItemId": "4b24951512584889ad1224b8efb49bb1",
+			"LaunchPermissions": "NoInternet,WithoutLauncher,MultiLaunch"
+		}
+	],
+	"DefaultRegionId": "",
+	"Regions": [
+
+	]
+}

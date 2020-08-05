@@ -1,0 +1,88 @@
+{
+	"BaseUrls": [
+		{
+			"Name": "epicgamesnext",
+			"BaseUrl": "https://www.epicgames.com"
+		},
+		{
+			"Name": "epicgames",
+			"BaseUrl": "https://epicgames.com"
+		},
+		{
+			"Name": "epicgames.epicgames",
+			"BaseUrl": "https://epicgames.com"
+		},
+		{
+			"Name": "launcher.epicgames",
+			"BaseUrl": "https://ue-launcher-website-prod.ol.epicgames.com"
+		},
+		{
+			"Name": "accounts.epicgames",
+			"BaseUrl": "https://accounts.epicgames.com"
+		},
+		{
+			"Name": "accounts.launcher.epicgames",
+			"BaseUrl": "https://accounts.launcher-website-prod07.ol.epicgames.com"
+		},
+		{
+			"Name": "forums.unrealengine",
+			"BaseUrl": "https://forums.unrealengine.com"
+		},
+		{
+			"Name": "unrealengine",
+			"BaseUrl": "https://www.unrealengine.com"
+		},
+		{
+			"Name": "publish.unrealengine",
+			"BaseUrl": "https://publish.unrealengine.com"
+		},
+		{
+			"Name": "help.epicgames",
+			"BaseUrl": "https://launcherhelp.epicgames.com"
+		},
+		{
+			"Name": "fortnitehelp.epicgames",
+			"BaseUrl": "https://fortnitehelp.epicgames.com"
+		},
+		{
+			"Name": "help.unrealtournament",
+			"BaseUrl": "https://help.unrealtournament.com"
+		},
+		{
+			"Name": "paragonhelp.epicgames",
+			"BaseUrl": "https://paragonhelp.epicgames.com"
+		},
+		{
+			"Name": "shadowcomplexhelp.epicgames",
+			"BaseUrl": "https://shadowcomplexhelp.epicgames.com"
+		},
+		{
+			"Name": "accounts.unrealengine",
+			"BaseUrl": "https://accounts.unrealengine.com"
+		},
+		{
+			"Name": "answers.unrealengine",
+			"BaseUrl": "https://answers.unrealengine.com"
+		},
+		{
+			"Name": "wiki.unrealengine",
+			"BaseUrl": "https://wiki.unrealengine.com"
+		},
+		{
+			"Name": "docs.unrealengine",
+			"BaseUrl": "https://docs.unrealengine.com"
+		},
+		{
+			"Name": "unrealstudiohelp.epicgames",
+			"BaseUrl": "https://unrealstudiohelp.epicgames.com"
+		},
+		{
+			"Name": "twinmotionhelp.epicgames",
+			"BaseUrl": "https://twinmotionhelp.epicgames.com"
+		},
+		{
+			"Name": "unrealengine.twinmotion",
+			"BaseUrl": "https://www.unrealengine.com/twinmotion"
+		}
+	]
+}

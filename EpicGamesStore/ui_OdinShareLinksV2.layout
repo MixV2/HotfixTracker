@@ -1,0 +1,43 @@
+{
+	"Type": "Box",
+	"Orientation": "Horizontal",
+	"Children":
+	[
+        {
+            "Type": "BasicTile",
+            "Padding": { "Left": 0, "Top": 0, "Right": 10, "Bottom": 0 },
+            "MinWidth": 19, "MaxWidth": 19, "MinHeight": 16, "MaxHeight": 16, 
+            "LoadSilently": "true",
+            "HasShadow": false,
+            "Images": [ { "Image": "twitter_icon.png", "Stretch": "None" } ],
+            "OnNavigateUrl": "https://twitter.com/UnrealEngine"
+        },
+        {
+            "Type": "BasicTile",
+            "Padding": { "Left": 10, "Top": 0, "Right": 10, "Bottom": 0 },
+            "MinWidth": 8, "MaxWidth": 8, "MinHeight": 15, "MaxHeight": 15, 
+            "LoadSilently": "true",
+            "HasShadow": false,
+            "Images": [ { "Image": "facebook_icon.png", "Stretch": "None" } ],
+            "OnNavigateUrl": "https://www.facebook.com/unrealengine"
+        },
+        {
+            "Type": "BasicTile",
+            "Padding": { "Left": 10, "Top": 0, "Right": 10, "Bottom": 0 },
+            "MinWidth": 14, "MaxWidth": 14, "MinHeight": 15, "MaxHeight": 15, 
+            "LoadSilently": "true",
+            "HasShadow": false,
+            "Images": [ { "Image": "twitch_icon.png", "Stretch": "None" } ],
+            "OnNavigateUrl": "https://www.twitch.tv/UnrealEngine"
+        },
+        {
+            "Type": "BasicTile",
+            "Padding": { "Left": 10, "Top": 0, "Right": 10, "Bottom": 0 },
+            "MinWidth": 16, "MaxWidth": 16, "MinHeight": 15, "MaxHeight": 15,
+            "LoadSilently": "true",
+            "HasShadow": false,
+            "Images": [ { "Image": "instagram_icon.png", "Stretch": "None" } ],
+            "OnNavigateUrl": "https://www.instagram.com/UnrealEngine"
+        }
+	]
+}

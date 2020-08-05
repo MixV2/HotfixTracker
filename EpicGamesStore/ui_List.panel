@@ -1,0 +1,40 @@
+{
+	"Type": "Box",
+	"Orientation": "Horizontal",
+	"Children":
+	[
+		{
+			"Type": "Panel",
+			"Height": 86,
+			"Width": 80,
+			"BackgroundImage": "panel_ListThumbnailShadow.png",
+			"Padding": 0,
+			"Children":
+			[
+				{
+					"Type": "Panel",
+					"Height": 72,
+					"Width": 72,
+					"BackgroundImage": "thumbnail",
+					"OnNavigateUrl": "Marketplace/{Id}"
+				}
+			]
+		},
+		{
+			"Type": "Panel",
+			"Height": 86,
+			"Width": 265,
+			"Text": 
+			[
+				{
+					"HAlign": "Left",
+					"VAlign": "Top",
+					"WrapAt": 270,
+					"Padding": { "Left": 5, "Top": 7, "Right": 0, "Bottom": 0 },
+					"TextStyle": "Body",
+					"Binding": "Details"
+				}
+			]
+		}
+	]
+}

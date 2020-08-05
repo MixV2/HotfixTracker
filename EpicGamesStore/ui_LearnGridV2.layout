@@ -1,0 +1,48 @@
+{
+	"Type": "Box",
+	"Orientation": "Vertical",
+    "Padding": { "Left": 0, "Top": 0, "Right": 10, "Bottom": 10 },
+	"AutoSize": "false",
+	"Children":
+	[
+ 		{
+            "Type": "DetailsTile",
+			"VAlign": "Fill",
+			"HAlign": "Fill",
+			"AutoSize": false,
+            "Binding": "",
+            "HoveredBackgroundImage": { "Image": "0.02188, 0.02188, 0.02188" },
+            "BackgroundImage": { "Image": "0.01188, 0.01188, 0.01188" },
+            "Images": 
+            [
+                { "Image": "Featured" },
+				{ "Image": "ComingSoon_Small", "HAlign": "Right", "VAlign": "Top", "Stretch": "None", "IsOptional": "true" }
+            ],
+			"OnNavigateUrl": "/ue/learn/{Id}",
+            "Text": 
+            [
+                { 
+                	"Text": "Title", 
+					"TextStyle": "h4",
+                	"Margin": { "Left": 0, "Top": 10, "Right": 0, "Bottom": 0 }, 
+                	"Justification": "Center",
+                	"LineHeightScalar": 1.2
+                },
+                { 
+                	"Text": "Description",
+					"TextStyle": "small-body",
+                	"Margin": { "Left": 20, "Top": 5, "Right": 10, "Bottom": 10 },
+                	"LineHeightScalar": 1.2
+                }
+            ],
+            "ChildrenFillSize": 0.10,
+            "Children": 
+            [
+                {
+                    "Layout": "ui_LearnSampleInfoV2.layout",
+                    "AutoSize": "false"
+                }
+            ]
+        }
+	]
+}

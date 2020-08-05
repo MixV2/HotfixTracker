@@ -1,0 +1,411 @@
+﻿{
+   "Type" : "Overlay",
+   "RequiresBindingSource" : false,
+   "AutoSize" : "false",
+   "Children" : [
+      {
+         "Type" : "UIView",
+         "AutoSize" : "false",
+         "Padding" : {
+            "Left" : 250,
+            "Top" : 0,
+            "Right" : 0,
+            "Bottom" : 0
+         }
+      },
+      {
+         "Type" : "Box",
+         "Orientation" : "Vertical",
+         "Width" : 250,
+         "HAlign" : "Left",
+         "Padding" : {
+            "Left" : 0,
+            "Top" : 44,
+            "Right" : 0,
+            "Bottom" : 10
+         },
+         "Children" : [
+            {
+               "Type" : "NavBarLink",
+               "Name" : "community",
+               "Text" : "Community",
+               "Text_translate" : "true",
+               "Url" : "/ue/community",
+               "Text_fr" : "Communauté",
+               "Text_it" : "Community",
+               "Text_de" : "Community",
+               "Text_es" : "Comunidad",
+               "Text_es-MX" : "Comunidad",
+               "Text_ar" : "المجتمع",
+               "Text_ko" : "커뮤니티",
+               "Text_pt-BR" : "Comunidade",
+               "Text_ru" : "Сообщество",
+               "Text_pl" : "Społeczność",
+               "Text_ja" : "コミュニティ",
+               "Text_zh-CN" : "社区",
+               "Text_tr" : "Topluluk",
+               "Text_zh-Hans" : "社区",
+               "Text_zh-Hant" : "社群",
+               "Text_th" : "คอมมูนิตี"
+            },
+            {
+               "Type" : "NavBarLink",
+               "Name" : "learn",
+               "Text" : "Learn",
+               "Text_translate" : "true",
+               "Url" : "/ue/learn",
+               "Text_fr" : "Apprendre",
+               "Text_it" : "Impara",
+               "Text_de" : "Erlernen",
+               "Text_es" : "Más información",
+               "Text_es-MX" : "Aprender",
+               "Text_ar" : "تعلُم",
+               "Text_ko" : "학습",
+               "Text_pt-BR" : "Aprender",
+               "Text_ru" : "Обучиться",
+               "Text_pl" : "Nauka",
+               "Text_ja" : "ラーニング",
+               "Text_zh-CN" : "学习",
+               "Text_tr" : "Bilgi Edin",
+               "Text_zh-Hans" : "学习",
+               "Text_zh-Hant" : "學習",
+               "Text_th" : "เรียนรู้"
+            },
+            {
+               "Type" : "NavBarLink",
+               "Name" : "marketplace",
+               "Text" : "Marketplace",
+               "Text_translate" : "true",
+               "Url" : "/ue/marketplace",
+               "Text_fr" : "Marché",
+               "Text_it" : "Marketplace",
+               "Text_de" : "Marktplatz",
+               "Text_es" : "Bazar",
+               "Text_es-MX" : "Marketplace",
+               "Text_ru" : "Магазин",
+               "Text_pl" : "Rynek",
+               "Text_ar" : "السوق",
+               "Text_ko" : "마켓플레이스",
+               "Text_ja" : "マーケットプレイス",
+               "Text_zh-CN" : "虚幻商城",
+               "Text_pt-BR" : "Loja",
+               "Text_tr" : "Mağaza",
+               "Text_zh-Hans" : "虚幻商城",
+               "Text_zh-Hant" : "市集",
+               "Text_th" : "แหล่งซื้อขาย"
+            },
+            {
+               "Type" : "Overlay",
+               "Children" : [
+                  {
+                     "Type" : "NavBarLink",
+                     "Name" : "library",
+                     "Text" : "Library",
+                     "Text_translate" : "true",
+                     "Url" : "/ue/library",
+                     "Text_fr" : "Bibliothèque",
+                     "Text_it" : "Biblioteca",
+                     "Text_de" : "Bibliothek",
+                     "Text_es" : "Biblioteca",
+                     "Text_es-MX" : "Biblioteca",
+                     "Text_ar" : "مكتبة",
+                     "Text_ko" : "라이브러리",
+                     "Text_pt-BR" : "Biblioteca",
+                     "Text_ru" : "Библиотека",
+                     "Text_pl" : "Biblioteka",
+                     "Text_ja" : "ライブラリ",
+                     "Text_zh-CN" : "库",
+                     "Text_tr" : "Kütüphane",
+                     "Text_zh-Hans" : "库",
+                     "Text_zh-Hant" : "遊戲庫",
+                     "Text_th" : "ไลบรารี"
+                  },
+                  {
+                     "Type" : "NotificationBadge",
+                     "SubType" : "EngineLibrary",
+                     "Style" : "Aggregate",
+                     "Visibility" : "SelfHitTestInvisible",
+                     "HAlign" : "Right",
+                     "VAlign" : "Center",
+                     "Padding" : {
+                        "Left" : 0,
+                        "Top" : 0,
+                        "Right" : 15,
+                        "Bottom" : 0
+                     }
+                  }
+               ]
+            },
+            {
+               "Type" : "Panel",
+               "BackgroundImage" : "1.0, 1.0, 1.0, 0.15",
+               "Height" : 1,
+               "Padding" : {
+                  "Left" : 10,
+                  "Top" : 20,
+                  "Right" : 10,
+                  "Bottom" : 30
+               }
+            },
+            {
+               "Type" : "QuickEngineLaunch",
+               "Padding" : {
+                  "Left" : 15,
+                  "Top" : 0,
+                  "Right" : 15,
+                  "Bottom" : 10
+               }
+            },
+            {
+               "Type" : "SubscriptionPanel",
+               "Padding" : {
+                  "Left" : 0,
+                  "Top" : 30,
+                  "Right" : 5,
+                  "Bottom" : 10
+               }
+            },
+            {
+               "Type" : "Box",
+               "AutoSize" : "false"
+            },
+            {
+               "Type" : "Panel",
+               "VAlign" : "Bottom",
+               "Padding" : {
+                  "Left" : 10,
+                  "Top" : 0,
+                  "Right" : 0,
+                  "Bottom" : 10
+               },
+               "Text" : [
+                  {
+                     "Text" : "VISIT UNREAL ENGINE ON:",
+                     "Text_translate" : "true",
+                     "TextStyle" : "tiny-body",
+                     "Text_fr" : "VISITER L'UNREAL ENGINE SUR :",
+                     "Text_it" : "VISITA UNREAL ENGINE SU:",
+                     "Text_de" : "BESUCHE UNREAL ENGINE AUF:",
+                     "Text_es" : "VISITA UNREAL ENGINE EN:",
+                     "Text_es-MX" : "VISITA UNREAL ENGINE EN:",
+                     "Text_ar" : "زيارة UNREAL ENGINE على:",
+                     "Text_ko" : "언리얼 엔진 방문:",
+                     "Text_pt-BR" : "VISITE O UNREAL ENGINE EM:",
+                     "Text_ru" : "ПОСЕТИТЬ САЙТ UNREAL ENGINE:",
+                     "Text_pl" : "UNREAL ENGINE W INTERNECIE:",
+                     "Text_ja" : "UNREAL ENGINEを確認:",
+                     "Text_zh-CN" : "查看虚幻引擎于：",
+                     "Text_tr" : "UNREAL ENGINE'İ ZİYARET ET:",
+                     "Text_zh-Hans" : "查看虚幻引擎于：",
+                     "Text_zh-Hant" : "到以下位置瀏覽 Unreal Engine：",
+                     "Text_th" : "เยี่ยมชม UNREAL ENGINE ที่:"
+                  }
+               ]
+            },
+            {
+               "Type" : "Box",
+               "Orientation" : "Horizontal",
+               "AutoSize" : "true",
+               "VAlign" : "Bottom",
+               "Padding" : {
+                  "Left" : 5,
+                  "Top" : 0,
+                  "Right" : 5,
+                  "Bottom" : 0
+               },
+               "Children" : [
+                  {
+                     "Type" : "BasicTile",
+                     "MetaData" : "ut-link: Instagram",
+                     "Padding" : {
+                        "Left" : 5,
+                        "Top" : 0,
+                        "Right" : 5,
+                        "Bottom" : 0
+                     },
+                     "MinWidth" : 16,
+                     "MaxWidth" : 16,
+                     "MinHeight" : 15,
+                     "MaxHeight" : 15,
+                     "LoadSilently" : "true",
+                     "HasShadow" : false,
+                     "Images" : [
+                        {
+                           "Image" : "instagram_icon.png",
+                           "ColorAndOpacity" : "0.1, 0.1, 0.1",
+                           "Stretch" : "None"
+                        }
+                     ],
+                     "OnNavigateUrl" : "[Instagram]"
+                  },
+                  {
+                     "Type" : "BasicTile",
+                     "MetaData" : "ut-link: Facebook",
+                     "Padding" : {
+                        "Left" : 5,
+                        "Top" : 0,
+                        "Right" : 5,
+                        "Bottom" : 0
+                     },
+                     "MinWidth" : 8,
+                     "MaxWidth" : 8,
+                     "MinHeight" : 15,
+                     "MaxHeight" : 15,
+                     "LoadSilently" : "true",
+                     "HasShadow" : false,
+                     "Images" : [
+                        {
+                           "Image" : "facebook_icon.png",
+                           "ColorAndOpacity" : "0.1, 0.1, 0.1",
+                           "Stretch" : "None"
+                        }
+                     ],
+                     "OnNavigateUrl" : "[Facebook]"
+                  },
+                  {
+                     "Type" : "BasicTile",
+                     "MetaData" : "ut-link: YouTube",
+                     "Padding" : {
+                        "Left" : 5,
+                        "Top" : 0,
+                        "Right" : 5,
+                        "Bottom" : 0
+                     },
+                     "MinWidth" : 37,
+                     "MaxWidth" : 37,
+                     "MinHeight" : 15,
+                     "MaxHeight" : 15,
+                     "LoadSilently" : "true",
+                     "HasShadow" : false,
+                     "Images" : [
+                        {
+                           "Image" : "youtube_icon.png",
+                           "ColorAndOpacity" : "0.1, 0.1, 0.1",
+                           "Stretch" : "None"
+                        }
+                     ],
+                     "OnNavigateUrl" : "[Youtube]"
+                  },
+                  {
+                     "Type" : "BasicTile",
+                     "MetaData" : "ut-link: Twitter",
+                     "Padding" : {
+                        "Left" : 5,
+                        "Top" : 0,
+                        "Right" : 5,
+                        "Bottom" : 0
+                     },
+                     "MinWidth" : 19,
+                     "MaxWidth" : 19,
+                     "MinHeight" : 16,
+                     "MaxHeight" : 16,
+                     "LoadSilently" : "true",
+                     "HasShadow" : false,
+                     "Images" : [
+                        {
+                           "Image" : "twitter_icon.png",
+                           "ColorAndOpacity" : "0.1, 0.1, 0.1",
+                           "Stretch" : "None"
+                        }
+                     ],
+                     "OnNavigateUrl" : "[Twitter]"
+                  },
+                  {
+                     "Type" : "BasicTile",
+                     "MetaData" : "ut-link: Twitch",
+                     "Padding" : {
+                        "Left" : 5,
+                        "Top" : 0,
+                        "Right" : 5,
+                        "Bottom" : 0
+                     },
+                     "MinWidth" : 14,
+                     "MaxWidth" : 14,
+                     "MinHeight" : 15,
+                     "MaxHeight" : 15,
+                     "LoadSilently" : "true",
+                     "HasShadow" : false,
+                     "Images" : [
+                        {
+                           "Image" : "twitch_icon.png",
+                           "ColorAndOpacity" : "0.1, 0.1, 0.1",
+                           "Stretch" : "None"
+                        }
+                     ],
+                     "OnNavigateUrl" : "[Twitch]"
+                  },
+                  {
+                     "Type" : "BasicTile",
+                     "Padding" : {
+                        "Left" : 5,
+                        "Top" : 0,
+                        "Right" : 5,
+                        "Bottom" : 0
+                     },
+                     "MinWidth" : 20,
+                     "MaxWidth" : 20,
+                     "MinHeight" : 17,
+                     "MaxHeight" : 17,
+                     "LoadSilently" : "true",
+                     "HasShadow" : false,
+                     "Images" : [
+                        {
+                           "Image" : "weibo_icon.png",
+                           "ColorAndOpacity" : "0.1, 0.1, 0.1",
+                           "Stretch" : "ScaleToFit"
+                        }
+                     ],
+                     "OnNavigateUrl" : "[Weibo]"
+                  },
+                  {
+                     "Type" : "BasicTile",
+                     "Padding" : {
+                        "Left" : 5,
+                        "Top" : 0,
+                        "Right" : 5,
+                        "Bottom" : 0
+                     },
+                     "MinWidth" : 20,
+                     "MaxWidth" : 20,
+                     "MinHeight" : 17,
+                     "MaxHeight" : 17,
+                     "LoadSilently" : "true",
+                     "HasShadow" : false,
+                     "Images" : [
+                        {
+                           "Image" : "youku_icon.png",
+                           "ColorAndOpacity" : "0.1, 0.1, 0.1",
+                           "Stretch" : "ScaleToFit"
+                        }
+                     ],
+                     "OnNavigateUrl" : "[Youku]"
+                  },
+                  {
+                     "Type" : "BasicTile",
+                     "Padding" : {
+                        "Left" : 5,
+                        "Top" : 0,
+                        "Right" : 5,
+                        "Bottom" : 0
+                     },
+                     "MinWidth" : 20,
+                     "MaxWidth" : 20,
+                     "MinHeight" : 17,
+                     "MaxHeight" : 17,
+                     "LoadSilently" : "true",
+                     "HasShadow" : false,
+                     "Images" : [
+                        {
+                           "Image" : "navers_icon.png",
+                           "ColorAndOpacity" : "0.1, 0.1, 0.1",
+                           "Stretch" : "ScaleToFit"
+                        }
+                     ],
+                     "OnNavigateUrl" : "[Naver]"
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}

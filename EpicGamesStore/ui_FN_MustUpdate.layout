@@ -1,0 +1,109 @@
+﻿{
+	"Type": "Overlay",
+	"AutoSize": "false",
+	"Children": [
+		{
+			"Type": "ScrollBox",
+			"AutoSize": "false",
+			"Padding": {
+				"Left": 0,
+				"Top": 0,
+				"Right": 0,
+				"Bottom": 0
+			},
+			"Children": [
+				{
+					"Type": "Overlay",
+					"HAlign": "Center",
+					"VAlign": "Center",
+					"Padding": {
+						"Left": 0,
+						"Top": 40,
+						"Right": 0,
+						"Bottom": 0
+					},
+					"Children": [
+						{
+							"Type": "BasicTile",
+							"Padding": {
+								"Left": 0,
+								"Top": 0,
+								"Right": 0,
+								"Bottom": 0
+							},
+							"Images": [
+								{
+									"Image": "0, 0, 0, 0.7"
+								}
+							],
+							"LoadSilently": "true",
+							"AutoSize": "false"
+						},
+						{
+							"Type": "Box",
+							"Orientation": "Vertical",
+							"Children": [
+								{
+									"Type": "BasicTile",
+									"Padding": {
+										"Left": 0,
+										"Top": 40,
+										"Right": 0,
+										"Bottom": 40
+									},
+									"HAlign": "Center",
+									"VAlign": "Top",
+									"Binding": "31f31e6e9ac5416a96be26c3dec4cf6c",
+									"Images": [
+										{
+											"Image": "Screenshot",
+											"Stretch": "ScaleToFit"
+										}
+									],
+									"HasShadow": "false",
+									"LoadSilently": "true",
+									"AutoSize": "true",
+									"MaxHeight": 200,
+									"MinHeight": 200,
+									"MaxWidth": 320
+								},
+								{
+									"Type": "Panel",
+									"Padding": {
+										"Left": 50,
+										"Top": 0,
+										"Right": 50,
+										"Bottom": 40
+									},
+									"Text": [
+										{
+											"TextStyle": "Body",
+											"Justification": "Center",
+											"WrapAt": 420,
+											"LineHeightScalar": 1.5,
+											"Visibility": "Visible",
+											"Text_translate": "true",
+											"Text": "Looks like your launcher is out of date.\nYou'll need to update in order to experience Fortnite.\nJust restart the launcher after being prompted to update.\n\nIf you are having troubles updating try these <a href=\"http://help.epicgames.com/customer/portal/articles/2350603-how-do-i-restart-the-epic-games-launcher\">steps here</>.",
+											"Text_ko": "런처 버전이 오래된 것 같습니다.\n포트나이트 플레이를 위해서는 업데이트가 필요합니다.\n업데이트 확인 창이 뜬 이후 런처를 재시작하면 됩니다.\n\n업데이트에 문제가 있을 경우 <a href=\"http://help.epicgames.com/customer/portal/articles/2350603-how-do-i-restart-the-epic-games-launcher\">이 글</>을 참고하세요.",
+											"Text_zh-CN": "您的启动程序已过期。\n要体验 Fortnite，必须先更新启动程序。\n只需在显示更新提示后将启动程序重新启动即可完成更新。\n\n如果更新时遇到问题，请尝试<a href=\"http://help.epicgames.com/customer/portal/articles/2350603-how-do-i-restart-the-epic-games-launcher\">这些步骤</>。",
+											"Text_fr": "On dirait que votre lanceur n'est plus à jour.\nVous allez devoir le mettre à jour pour profiter de l'expérience Fortnite.\nRedémarrez juste le lanceur après avoir reçu l'instruction de le mettre à jour.\n\nSi vous avez des problèmes pour le mettre à jour, essayez de suivre ces <a href=\"http://help.epicgames.com/customer/portal/articles/2350603-how-do-i-restart-the-epic-games-launcher\">étapes</>.",
+											"Text_de": "Dein Launcher scheint nicht mehr aktuell zu sein.\nDu musst ihn aktualisieren, um Fortnite spielen zu können.\nBitte starte den Launcher neu, nachdem du die Aufforderung zum Aktualisieren erhalten hast.\n\nSollten beim Aktualisieren Probleme auftreten, dann probiere es bitte mit diesen <a href=\"http://help.epicgames.com/customer/portal/articles/2350603-how-do-i-restart-the-epic-games-launcher\">Schritten</> hier.",
+											"Text_it": "La versione del tuo launcher è obsoleta.\nDovrai aggiornarlo per giocare a Fortnite.\nNon devi fare altro che riavviare il launcher quando ti viene chiesto di aggiornare.\n\nSe hai problemi con l'aggiornamento, segui <a href=\"http://help.epicgames.com/customer/portal/articles/2350603-how-do-i-restart-the-epic-games-launcher\">queste istruzioni</>.",
+											"Text_ru": "Похоже, что вы используете старую версию приложения запуска.\nЧтобы играть в Fortnite, вам необходимо обновить программу.\nПросто перезапустите приложение запуска после получения сообщения об обновлении.\n\nЕсли у вас возникнут какие-то проблемы с обновлением, попробуйте воспользоваться <a href=\"http://help.epicgames.com/customer/portal/articles/2350603-how-do-i-restart-the-epic-games-launcher\">данной инструкцией</>.",
+											"Text_pl": "Korzystasz ze starej wersji programu uruchamiającego.\nZaktualizuj go, aby uruchomić grę Fortnite.\nW tym celu po wyświetleniu komunikatu o dostępnej aktualizacji uruchom ponownie program uruchamiający.\n\nJeśli masz problemy z aktualizacją, zapoznaj się z tą <a href=\"http://help.epicgames.com/customer/portal/articles/2350603-how-do-i-restart-the-epic-games-launcher\">instrukcją</>.",
+											"Text_ar": "يبدو أن برنامج الإطلاق لديك غير محدث.\nستحتاج إلى تحديثه لتتمكن من تجربة Fortnite.\nأعد تشغيل برنامج الإطلاق بعد مطالبتك بالتحديث.\n\nإن كنت تواجه مشاكل في التحديث، فعليك تجربة هذه <a href=\"http://help.epicgames.com/customer/portal/articles/2350603-how-do-i-restart-the-epic-games-launcher\">الخطوات هنا</>.",
+											"Text_pt-BR": "Parece que seu inicializador está desatualizado.\nAtualize para poder curtir a experiência de Fortnite.\nReinicie o inicializador depois da caixa de diálogo da atualização.\n\nSe tiver problemas para atualizar, siga <a href=\"http://help.epicgames.com/customer/portal/articles/2350603-how-do-i-restart-the-epic-games-launcher\">estes passos</>.",
+											"Text_es-MX": "Parece que tu iniciador está obsoleto.\nNecesitas actualizarlo para poder disfrutar de Fortnite.\nSolo reinicia el iniciador de inicio después de ponerlo al día.\n\nSi tienes problemas para actualizar, prueba estos <a href=\"http://help.epicgames.com/customer/portal/articles/2350603-how-do-i-restart-the-epic-games-launcher\">pasos aquí</>.",
+											"Text_es": "Parece que tu pantalla inicial está desactualizada.\nTendrás que actualizarla para jugar a Fortnite.\nReinicia la pantalla inicial después de que se haya actualizado.\n\nSi estás teniendo problemas con la actualización, prueba a realizar estos <a href=\"http://help.epicgames.com/customer/portal/articles/2350603-how-do-i-restart-the-epic-games-launcher\">pasos (en inglés)</>.",
+											"Text_ja": "ランチャーが最新バージョンではありません。\nFortnite をプレイするにはランチャーを更新する必要があります。\n更新の確認が表示された後で、ランチャーを再起動してください。\n\n上手く更新できない場合は、<a href=\"http://help.epicgames.com/customer/portal/articles/2350603-how-do-i-restart-the-epic-games-launcher\">こちらの手順</>をお試しください。"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

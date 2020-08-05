@@ -1,0 +1,52 @@
+{
+	"Type": "Box",
+	"Orientation": "Horizontal",
+	"Children":
+	[
+		{
+            "Type": "BasicTile",
+            "Padding": { "Left": 5, "Top": 0, "Right": 5, "Bottom": 0 },
+            "MinWidth": 32, "MaxWidth": 32, "MinHeight": 32, "MaxHeight": 32,
+            "LoadSilently": "true",
+            "HasShadow": false,
+            "Images": [ { "Image": "facebook.png", "ColorAndOpacity": "0.26003, 0.25112, 0.23288" } ],
+            "OnNavigateUrl": "https://facebook.com/paragon"
+        },
+        {
+            "Type": "BasicTile",
+            "Padding": { "Left": 5, "Top": 0, "Right": 5, "Bottom": 0 },
+            "MinWidth": 32, "MaxWidth": 32, "MinHeight": 32, "MaxHeight": 32,
+            "LoadSilently": "true",
+            "HasShadow": false,
+            "Images": [ { "Image": "twitter.png", "ColorAndOpacity": "0.26003, 0.25112, 0.23288" } ],
+            "OnNavigateUrl": "https://twitter.com/paragon"
+        },
+		{
+            "Type": "BasicTile",
+            "Padding": { "Left": 5, "Top": 0, "Right": 5, "Bottom": 0 },
+            "MinWidth": 32, "MaxWidth": 32, "MinHeight": 32, "MaxHeight": 32,
+            "LoadSilently": "true",
+            "HasShadow": false,
+            "Images": [ { "Image": "youtube.png", "ColorAndOpacity": "0.26003, 0.25112, 0.23288" } ],
+            "OnNavigateUrl": "https://youtube.com/paragon"
+        },
+        {
+            "Type": "BasicTile",
+            "Padding": { "Left": 5, "Top": 0, "Right": 5, "Bottom": 0 },
+            "MinWidth": 32, "MaxWidth": 32, "MinHeight": 32, "MaxHeight": 32,
+            "LoadSilently": "true",
+            "HasShadow": false,
+            "Images": [ { "Image": "instagram.png", "ColorAndOpacity": "0.26003, 0.25112, 0.23288" } ],
+            "OnNavigateUrl": "https://www.instagram.com/playparagon/"
+        },
+        {
+            "Type": "BasicTile",
+            "Padding": { "Left": 5, "Top": 0, "Right": 5, "Bottom": 0 },
+            "MinWidth": 32, "MaxWidth": 32, "MinHeight": 32, "MaxHeight": 32,
+            "LoadSilently": "true",
+            "HasShadow": false,
+            "Images": [ { "Image": "twitch.png", "ColorAndOpacity": "0.26003, 0.25112, 0.23288" } ],
+            "OnNavigateUrl": "https://twitch.tv/playparagon"
+        }
+	]
+}

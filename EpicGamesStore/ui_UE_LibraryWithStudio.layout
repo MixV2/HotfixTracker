@@ -1,0 +1,893 @@
+﻿{
+   "Type" : "ScrollBox",
+   "RequiresBindingSource" : false,
+   "Orientation" : "Vertical",
+   "AutoSize" : "false",
+   "Children" : [
+      {
+         "Type" : "Box",
+         "Padding" : {
+            "Left" : 0,
+            "Top" : 20,
+            "Right" : 0,
+            "Bottom" : 0
+         }
+      },
+      {
+         "Type" : "Box",
+         "Orientation" : "Horizontal",
+         "Padding" : {
+            "Left" : 20,
+            "Top" : 20,
+            "Right" : 50,
+            "Bottom" : 0
+         },
+         "Children" : [
+            {
+               "Type" : "Panel",
+               "Visibility" : "Visible",
+               "ToolTipText" : "This is your one stop shop for managing Engine installs.",
+               "ToolTipText_translate" : "true",
+               "Text" : [
+                  {
+                     "Text_translate" : "true",
+                     "Text" : "ENGINE VERSIONS",
+                     "TextStyle" : "h4",
+                     "Text_fr" : "VERSIONS DU MOTEUR",
+                     "Text_de" : "ENGINE-VERSIONEN",
+                     "Text_es" : "VERSIONES DE UNREAL ENGINE",
+                     "Text_es-MX" : "VERSIONES DE ENGINE",
+                     "Text_ru" : "ВЕРСИИ UNREAL ENGINE",
+                     "Text_ko" : "엔진 버전",
+                     "Text_it" : "VERSIONI MOTORE",
+                     "Text_pl" : "WERSJE SILNIKA",
+                     "Text_ar" : "إصدارات المحرّك",
+                     "Text_ja" : "Engine バージョン",
+                     "Text_zh-CN" : "引擎版本",
+                     "Text_pt-BR" : "VERSÕES DE ENGINE",
+                     "Text_tr" : "MOTOR SÜRÜMLERİ",
+                     "Text_zh-Hans" : "引擎版本",
+                     "Text_zh-Hant" : "引擎版本",
+                     "Text_th" : "เวอร์ชันเอนจิ้น"
+                  }
+               ],
+               "ToolTipText_fr" : "Cette boutique vous suffit pour gérer les installations du moteur.",
+               "ToolTipText_de" : "Hier kannst du alle Engine-Installationen auf einen Blick verwalten.",
+               "ToolTipText_es" : "Esta es tu tienda general para gestionar las instalaciones de Unreal Engine.",
+               "ToolTipText_es-MX" : "Esta tu primera parada para administrar instalaciones de Engine.",
+               "ToolTipText_ru" : "Главный центр управления установленными версиями Unreal Engine.",
+               "ToolTipText_ko" : "엔진 설치를 관리할 수 있는 원 스톱 센터입니다.",
+               "ToolTipText_it" : "È il luogo in cui gestire le tutte installazioni del motore.",
+               "ToolTipText_pl" : "W tym miejscu możesz zarządzać wszystkimi instalacjami silnika.",
+               "ToolTipText_ar" : "هذا هو متجر الخدمات المتكاملة المناسب لك لإدارة إصدارات المحرّك المثبتة.",
+               "ToolTipText_ja" : "Engine のインストール管理を行うためのワンストップショップです。",
+               "ToolTipText_zh-CN" : "您可在这里一站式管理引擎的安装。",
+               "ToolTipText_pt-BR" : "Essa é a sua loja única para gerenciar suas instalações de Engine.",
+               "ToolTipText_tr" : "Motor yüklemelerinin hepsini buradan yönetebilirsin.",
+               "ToolTipText_zh-Hans" : "您可在这里一站式管理引擎的安装。",
+               "ToolTipText_zh-Hant" : "這是您管理引擎安裝的一次購足工作站。",
+               "ToolTipText_th" : "นี่คือร้านค้าครบวงจรของคุณสำหรับจัดการการติดตั้งเอนจิ้น"
+            },
+            {
+               "Type" : "NotificationBadge",
+               "Style" : "Info",
+               "SubType" : "NewEngineVersion",
+               "Visibility" : "SelfHitTestInvisible",
+               "Padding" : {
+                  "Left" : 7,
+                  "Top" : 0,
+                  "Right" : 0,
+                  "Bottom" : 0
+               }
+            },
+            {
+               "Type" : "Button",
+               "ButtonStyle" : "Library.ActionButton",
+               "MetaData" : "ue-addVersions",
+               "VAlign" : "Top",
+               "Execute" : "commandId:CreateSlotCommand",
+               "ToolTipText" : "Install a new version of the Unreal Engine",
+               "ToolTipText_translate" : "true",
+               "ForegroundColor" : "#8b8b8b",
+               "Padding" : {
+                  "Left" : 7,
+                  "Top" : 0,
+                  "Right" : 0,
+                  "Bottom" : 0
+               },
+               "Child" : {
+                  "Type" : "Box",
+                  "Orientation" : "Horizontal",
+                  "Children" : [
+                     {
+                        "Type" : "Box",
+                        "Orientation" : "Vertical",
+                        "Children" : [
+                           {
+                              "Type" : "BasicTile",
+                              "Padding" : {
+                                 "Left" : 0,
+                                 "Top" : 0,
+                                 "Right" : 0,
+                                 "Bottom" : 0
+                              },
+                              "MinWidth" : 16,
+                              "MaxWidth" : 16,
+                              "MinHeight" : 16,
+                              "MaxHeight" : 16,
+                              "LoadSilently" : "true",
+                              "HasShadow" : false,
+                              "Images" : [
+                                 {
+                                    "Image" : "plus.png",
+                                    "ColorAndOpacity" : "0, 0, 0",
+                                    "Stretch" : "ScaleToFit"
+                                 }
+                              ]
+                           }
+                        ]
+                     }
+                  ]
+               },
+               "ToolTipText_fr" : "Installer une nouvelle version de l'Unreal Engine",
+               "ToolTipText_de" : "Installiere eine neue Version der Unreal Engine",
+               "ToolTipText_es" : "Instalar una nueva versión de Unreal Engine",
+               "ToolTipText_es-MX" : "Instala una nueva versión de Unreal Engine.",
+               "ToolTipText_ru" : "Установить новую версию Unreal Engine",
+               "ToolTipText_ko" : "언리얼 엔진 새 버전을 설치하세요.",
+               "ToolTipText_it" : "Installa una nuova versione dell'Unreal Engine",
+               "ToolTipText_pl" : "Zainstaluj nową wersję silnika Unreal Engine.",
+               "ToolTipText_ar" : "بادر بتثبيت إصدار جديد من Unreal Engine",
+               "ToolTipText_ja" : "Unreal Engine の最新版インストール",
+               "ToolTipText_zh-CN" : "安装新版虚幻引擎",
+               "ToolTipText_pt-BR" : "Instalar uma nova versão do Unreal Engine",
+               "ToolTipText_tr" : "Unreal Engine’in yeni bir sürümünü yükle",
+               "ToolTipText_zh-Hans" : "安装新版虚幻引擎",
+               "ToolTipText_zh-Hant" : "為 Unreal Engine 安裝新版本。",
+               "ToolTipText_th" : "ติดตั้งเวอร์ชันใหม่ของ Unreal Engine"
+            },
+            {
+               "Type" : "Panel",
+               "HAlign" : "Fill",
+               "VAlign" : "Bottom",
+               "AutoSize" : false,
+               "BackgroundImage" : "1.0, 1.0, 1.0, 0.25",
+               "Height" : 1,
+               "Padding" : {
+                  "Left" : 30,
+                  "Top" : 0,
+                  "Right" : 0,
+                  "Bottom" : 6
+               }
+            }
+         ]
+      },
+      {
+         "Type" : "Box",
+         "Orientation" : "Horizontal",
+         "AutoSize" : "false",
+         "HAlign" : "Right",
+         "Padding" : {
+            "Left" : 0,
+            "Top" : 0,
+            "Right" : 78,
+            "Bottom" : 0
+         },
+         "Children" : [
+            {
+               "Type" : "Link",
+               "HAlign" : "Right",
+               "VAlign" : "Bottom",
+               "AutoSize" : "true",
+               "HoverIcon" : {
+                  "Image" : "ExternalLink.png"
+               },
+               "Text" : {
+                  "Text_translate" : "true",
+                  "Text" : "GITHUB SOURCE",
+                  "TextStyle" : "tiny-h6",
+                  "Margin" : {
+                     "Left" : 10,
+                     "Top" : 0,
+                     "Right" : 10,
+                     "Bottom" : 0
+                  },
+                  "Text_fr" : "SOURCE GITHUB ",
+                  "Text_de" : "GITHUB SOURCE",
+                  "Text_es" : "FUENTE DE GITHUB",
+                  "Text_es-MX" : "FUENTE DE GITHUB",
+                  "Text_ru" : "ИСХОДНЫЙ КОД НА GITHUB",
+                  "Text_ko" : "GITHUB 소스",
+                  "Text_it" : "FONTE GITHUB",
+                  "Text_pl" : "ŹRÓDŁO GITHUB",
+                  "Text_ar" : "مصدر GITHUB",
+                  "Text_ja" : "GITHUB ソース",
+                  "Text_zh-CN" : "GITHUB资源",
+                  "Text_pt-BR" : "GITHUB SOURCE",
+                  "Text_tr" : "GITHUB KAYNAĞI",
+                  "Text_zh-Hans" : "GITHUB资源",
+                  "Text_zh-Hant" : "GitHub 來源",
+                  "Text_th" : "แหล่ง GITHUB"
+               },
+               "Padding" : {
+                  "Left" : 0,
+                  "Top" : 0,
+                  "Right" : 0,
+                  "Bottom" : 0
+               },
+               "OnNavigateUrl" : "[GitHub]"
+            },
+            {
+               "Type" : "Link",
+               "HAlign" : "Right",
+               "VAlign" : "Bottom",
+               "AutoSize" : "true",
+               "HoverIcon" : {
+                  "Image" : "ExternalLink.png"
+               },
+               "Text" : {
+                  "Text_translate" : "true",
+                  "Text" : "RELEASE NOTES",
+                  "TextStyle" : "tiny-h6",
+                  "Margin" : {
+                     "Left" : 10,
+                     "Top" : 0,
+                     "Right" : 10,
+                     "Bottom" : 0
+                  },
+                  "Text_fr" : "NOTES DE PATCH",
+                  "Text_de" : "RELEASE-NOTES",
+                  "Text_es" : "NOTAS DE LANZAMIENTO",
+                  "Text_es-MX" : "NOTAS DE LANZAMIENTO",
+                  "Text_ru" : "ОПИСАНИЕ ОБНОВЛЕНИЯ",
+                  "Text_ko" : "릴리즈 노트",
+                  "Text_it" : "NOTE DI PUBBLICAZIONE",
+                  "Text_pl" : "INFORMACJE DOTYCZĄCE WERSJI",
+                  "Text_ar" : "ملاحظات الإصدار",
+                  "Text_ja" : "リリースノート",
+                  "Text_zh-CN" : "发布版本说明文档",
+                  "Text_pt-BR" : "NOTAS DE LANÇAMENTO",
+                  "Text_tr" : "SÜRÜM NOTLARI",
+                  "Text_zh-Hans" : "发布版本说明文档",
+                  "Text_zh-Hant" : "釋出資訊",
+                  "Text_th" : "ข้อความแจ้งการปรับปรุง"
+               },
+               "Padding" : {
+                  "Left" : 0,
+                  "Top" : 0,
+                  "Right" : 0,
+                  "Bottom" : 0
+               },
+               "OnNavigateUrl" : "[Release_Notes]"
+            },
+            {
+               "Type" : "Box",
+               "Orientation" : "Horizontal",
+               "Padding" : {
+                  "Left" : 10,
+                  "Top" : 0,
+                  "Right" : 0,
+                  "Bottom" : 0
+               },
+               "ToolTipText" : "Total size of all installed engine versions",
+               "ToolTipText_translate" : "true",
+               "Children" : [
+                  {
+                     "Type" : "BasicTile",
+                     "Padding" : {
+                        "Left" : 5,
+                        "Top" : -2,
+                        "Right" : 0,
+                        "Bottom" : 0
+                     },
+                     "MinWidth" : 16,
+                     "MaxWidth" : 16,
+                     "MinHeight" : 16,
+                     "MaxHeight" : 16,
+                     "LoadSilently" : "true",
+                     "HasShadow" : false,
+                     "Images" : [
+                        {
+                           "Image" : "localcache_icon_small.png",
+                           "ColorAndOpacity" : "0.7, 0.7, 0.7",
+                           "Stretch" : "ScaleToFit"
+                        }
+                     ]
+                  },
+                  {
+                     "Type" : "Panel",
+                     "Visibility" : "Visible",
+                     "Padding" : {
+                        "Left" : 5,
+                        "Top" : 5,
+                        "Right" : 0,
+                        "Bottom" : 0
+                     },
+                     "Text" : [
+                        {
+                           "Text_translate" : "true",
+                           "Binding" : "textId:SizeOfAllInstalledEngines",
+                           "TextStyle" : "tiny-h6"
+                        }
+                     ]
+                  }
+               ],
+               "ToolTipText_fr" : "Taille totale de toutes les versions installées du moteur",
+               "ToolTipText_de" : "Gesamtgröße aller installierten Engine-Versionen",
+               "ToolTipText_es" : "Tamaño total de todas las versiones del motor instaladas.",
+               "ToolTipText_es-MX" : "Tamaño total de todas las versiones de Engine instaladas",
+               "ToolTipText_ru" : "Общий размер всех установленных версий Unreal Engine",
+               "ToolTipText_ko" : "설치된 모든 버전의 엔진 전체 크기",
+               "ToolTipText_it" : "Dimensione totale di tutte le versioni del motore installate",
+               "ToolTipText_pl" : "Łączny rozmiar wszystkich zainstalowanych wersji silnika",
+               "ToolTipText_ar" : "إجمالي حجم جميع إصدارات المحرّك المثبتة",
+               "ToolTipText_ja" : "インストールされた Engine バージョンの合計サイズ",
+               "ToolTipText_zh-CN" : "所有已安装引擎版本的总容量",
+               "ToolTipText_pt-BR" : "Tamanho total de todas as versões instaladas de engine",
+               "ToolTipText_tr" : "Yüklü motor versiyonlarının toplam boyutu",
+               "ToolTipText_zh-Hans" : "所有已安装引擎版本的总容量",
+               "ToolTipText_zh-Hant" : "所有引擎版本的總大小",
+               "ToolTipText_th" : "ขนาดโดยรวมของเวอร์ชันเอนจิ้นที่ติดตั้งไว้ทั้งหมด"
+            }
+         ]
+      },
+      {
+         "Type" : "EngineSlots",
+         "Padding" : {
+            "Left" : 20,
+            "Top" : 5,
+            "Right" : 50,
+            "Bottom" : 0
+         }
+      },
+      {
+         "Type" : "Box",
+         "Orientation" : "Horizontal",
+         "Padding" : {
+            "Left" : 20,
+            "Top" : 60,
+            "Right" : 50,
+            "Bottom" : 0
+         },
+         "Children" : [
+            {
+               "Type" : "Panel",
+               "Visibility" : "Visible",
+               "ToolTipText" : "A single place to find all your projects for any Engine on your machine. Opens with the associated editor. Even clone existing projects.",
+               "ToolTipText_translate" : "true",
+               "Padding" : {
+                  "Left" : 0,
+                  "Top" : 7,
+                  "Right" : 0,
+                  "Bottom" : 0
+               },
+               "Text" : [
+                  {
+                     "Text_translate" : "true",
+                     "Text" : "MY PROJECTS",
+                     "TextStyle" : "h4",
+                     "Text_fr" : "MES PROJETS",
+                     "Text_de" : "MEINE PROJEKTE",
+                     "Text_es" : "MIS PROYECTOS",
+                     "Text_es-MX" : "MIS PROYECTOS",
+                     "Text_ru" : "МОИ ПРОЕКТЫ",
+                     "Text_ko" : "내 프로젝트",
+                     "Text_it" : "I MIEI PROGETTI",
+                     "Text_pl" : "MOJE PROJEKTY",
+                     "Text_ar" : "مشروعاتي",
+                     "Text_ja" : "マイプロジェクト",
+                     "Text_zh-CN" : "我的工程",
+                     "Text_pt-BR" : "MEUS PROJETOS",
+                     "Text_tr" : "PROJELERİM",
+                     "Text_zh-Hans" : "我的工程",
+                     "Text_zh-Hant" : "我的專案",
+                     "Text_th" : "โปรเจกต์ของฉัน"
+                  }
+               ],
+               "ToolTipText_fr" : "Un lieu unique où trouver tous vos projets, quel que soit le moteur installé sur votre machine. Ouvrez avec l'outil de modification associé. Concerne même les clones de projets existants.",
+               "ToolTipText_de" : "Hier findest du alle Projekte jeder Engine, die du installiert hast. Einträge werden mit dem entsprechenden Bearbeitungsprogramm geöffnet. Bestehende Projekte können dupliziert werden.",
+               "ToolTipText_es" : "Un único lugar donde encontrar todos tus proyectos de cualquier motor en tu equipo. Se abre con el editor asociado. También puede clonar los proyectos existentes.",
+               "ToolTipText_es-MX" : "Un solo lugar para encontrar todos tus proyectos para cualquier Engine en tu máquina. Se abre con el editor asociado. Incluso clona los proyectos existentes.",
+               "ToolTipText_ru" : "Отправная точка для поиска всех проектов, использующих любую версию Unreal Engine на вашем компьютере. Открывается с помощью приложенного редактора. Вы даже можете клонировать существующие проекты.",
+               "ToolTipText_ko" : "컴퓨터에 설치된 엔진에서 쓸 수 있는 모든 프로젝트를 찾을 수 있는 곳입니다. 연결된 에디터를 열 수도 있고, 심지어 기존 프로젝트를 복제할 수도 있습니다.",
+               "ToolTipText_it" : "Il luogo in cui trovare tutti i tuoi progetti per qualunque motore sulla tua macchina. Si apre con l'editor associato. Clona anche i progetti esistenti.",
+               "ToolTipText_pl" : "W tym miejscu znajdziesz wszystkie projekty utworzone z użyciem silników zainstalowanych na komputerze. Do otwierania projektów służy odpowiedni edytor. Możesz nawet klonować istniejące projekty.",
+               "ToolTipText_ar" : "إنه مكان واحد؛ حيث يُمكنك تجميع كل مشروعاتك الخاصة بأي محرِّك على جهازك. ويعمل باستخدام المحرّر المصاحب، كما يستنسخ المشاريع القائمة.",
+               "ToolTipText_ja" : "お使いのマシンで利用可能な Engine 用プロジェクトのすべてがここで入手できます。対応エディタで開こう。既存プロジェクトの複製も可能。",
+               "ToolTipText_zh-CN" : "这里显示了各个版本的引擎所创建的工程，您可以用对应版本的引擎打开工程，也可以克隆现有的工程。",
+               "ToolTipText_pt-BR" : "Um só lugar para encontrar todos os seus projetos de qualquer Engine na sua máquina. Abre com o editor associado. Pode até clonar projetos existentes.",
+               "ToolTipText_tr" : "Bilgisayarındaki herhangi bir Motor’a ait tüm projeleri bulabileceğin bir yer. İlişkili olduğu editörle birlikte açılır. Var olan projeleri de klonlar.",
+               "ToolTipText_zh-Hans" : "这里显示了各个版本的引擎所创建的工程，您可以用对应版本的引擎打开工程，也可以克隆现有的工程。",
+               "ToolTipText_zh-Hant" : "一個您能找到您機器中所有引擎所有專案的地方。 使用相關的編輯器開啟。 就連現存的專案也複製。",
+               "ToolTipText_th" : "สถานที่แห่งเดียวในการค้นหาโปรเจกต์ทั้งหมดสำหรับเอนจิ้นใดก็ตามบนเครื่องของคุณ เปิดด้วยตัวโปรแกรมแก้ไขที่เกี่ยวข้อง หรือแม้กระทั่งโคลนโปรเจกต์ที่มีอยู่แล้ว"
+            },
+            {
+               "Type" : "Panel",
+               "HAlign" : "Fill",
+               "VAlign" : "Bottom",
+               "AutoSize" : false,
+               "BackgroundImage" : "1.0, 1.0, 1.0, 0.25",
+               "Height" : 1,
+               "Padding" : {
+                  "Left" : 30,
+                  "Top" : 0,
+                  "Right" : 0,
+                  "Bottom" : 6
+               }
+            }
+         ]
+      },
+      {
+         "Type" : "SearchBox",
+         "HAlign" : "Right",
+         "MinWidth" : 450,
+         "HintText" : "Search Projects",
+         "HintText_translate" : "true",
+         "FilterId" : "EngineUserProjectsTextFilter",
+         "Padding" : {
+            "Left" : 30,
+            "Top" : 0,
+            "Right" : 50,
+            "Bottom" : 0
+         },
+         "HintText_fr" : "Chercher dans les projets",
+         "HintText_de" : "Projekte durchsuchen",
+         "HintText_es" : "Buscar proyectos",
+         "HintText_es-MX" : "Buscar proyectos",
+         "HintText_ru" : "Поиск по проектам",
+         "HintText_ko" : "프로젝트 검색",
+         "HintText_it" : "Cerca Progetti",
+         "HintText_pl" : "Przeszukaj projekty",
+         "HintText_ar" : "ابحث في المشروعات",
+         "HintText_ja" : "プロジェクトを検索しよう",
+         "HintText_zh-CN" : "搜索工程",
+         "HintText_pt-BR" : "Buscar Projetos",
+         "HintText_tr" : "Projeleri Ara",
+         "HintText_zh-Hans" : "搜索工程",
+         "HintText_zh-Hant" : "搜尋專案",
+         "HintText_th" : "ค้นหาโปรเจกต์"
+      },
+      {
+         "Type" : "EngineUserProjects",
+         "MinHeight" : 60,
+         "Padding" : {
+            "Left" : 20,
+            "Top" : 5,
+            "Right" : 50,
+            "Bottom" : 0
+         },
+         "FilterId" : "EngineUserProjectsTextFilter"
+      },
+      {
+         "Type" : "Box",
+         "Orientation" : "Horizontal",
+         "Padding" : {
+            "Left" : 20,
+            "Top" : 60,
+            "Right" : 50,
+            "Bottom" : 0
+         },
+         "Children" : [
+            {
+               "Type" : "Panel",
+               "Visibility" : "Visible",
+               "ToolTipText" : "This section contains all the content that comes with your Unreal Studio Beta subscription.",
+               "ToolTipText_translate" : "true",
+               "Padding" : {
+                  "Left" : 0,
+                  "Top" : 0,
+                  "Right" : 0,
+                  "Bottom" : 0
+               },
+               "Text" : [
+                  {
+                     "Text_translate" : "true",
+                     "Text" : "UNREAL STUDIO BETA",
+                     "TextStyle" : "h4",
+                     "Text_fr" : "UNREAL STUDIO BETA",
+                     "Text_de" : "UNREAL STUDIO BETA",
+                     "Text_es" : "BETA DE UNREAL STUDIO",
+                     "Text_es-MX" : "UNREAL STUDIO BETA",
+                     "Text_ru" : "UNREAL STUDIO BETA",
+                     "Text_ko" : "언리얼 스튜디오 베타",
+                     "Text_it" : "BETA DI UNREAL STUDIO",
+                     "Text_pl" : "UNREAL STUDIO - WERSJA BETA",
+                     "Text_ar" : "UNREAL STUDIO BETA",
+                     "Text_ja" : "Unreal Studioベータ版",
+                     "Text_zh-CN" : "UNREAL STUDIO BETA",
+                     "Text_pt-BR" : "UNREAL STUDIO BETA",
+                     "Text_tr" : "UNREAL STUDIO BETA",
+                     "Text_zh-Hans" : "UNREAL STUDIO BETA",
+                     "Text_zh-Hant" : "UNREAL STUDIO BETA",
+                     "Text_th" : "UNREAL STUDIO BETA"
+                  }
+               ],
+               "ToolTipText_fr" : "Cette section contient tous les contenus livrés avec l'abonnement à Unreal Studio Beta.",
+               "ToolTipText_de" : "Dieser Bereich enthält alle Inhalte, die zum Abonnement der Unreal Studio Beta dazugehören.",
+               "ToolTipText_es" : "En esta sección encontrarás todo el contenido que incluye la suscripción a la beta de Unreal Studio.",
+               "ToolTipText_es-MX" : "Esta sección incluye todo el contenido que viene con la suscripción de Unreal Studio Beta.",
+               "ToolTipText_ru" : "Здесь находится весь контент, который вы получаете как подписчик Unreal Studio Beta.",
+               "ToolTipText_ko" : "이 섹션에는 언리얼 스튜디오 베타 구독권에 포함된 모든 콘텐츠가 있습니다.",
+               "ToolTipText_it" : "Questa sezione contiene tutti i contenuti associati alla tua iscrizione alla beta di Unreal Studio.",
+               "ToolTipText_pl" : "W tej sekcji znajdziesz całą zawartość subskrypcji Unreal Studio w wersji beta.",
+               "ToolTipText_ar" : "يحتوي هذا القسم على جميع المحتويات التي تأتي مع اشتراك Unreal Studio Beta.",
+               "ToolTipText_ja" : "このセクションには、Unreal Studioベータ版登録に付属する全てのコンテンツが含まれます。",
+               "ToolTipText_zh-CN" : "该部分包含随 Unreal Studio Beta 订阅一同提供的所有内容。",
+               "ToolTipText_pt-BR" : "Essa seção contém todo o conteúdo que vem com a sua assinatura do Unreal Studio Beta.",
+               "ToolTipText_tr" : "Bu bölümde Unreal Studio Beta aboneliğiyle gelen içeriklerin tümü bulunur.",
+               "ToolTipText_zh-Hans" : "该部分包含随 Unreal Studio Beta 订阅一同提供的所有内容。",
+               "ToolTipText_zh-Hant" : "這個區域包含了所有您來自 Unreal Studio Beta 的訂閱內容。",
+               "ToolTipText_th" : "ส่วนนี้มีเนื้อหาทั้งหมดที่มาพร้อมการสมัครใช้งาน Unreal Studio Beta"
+            },
+            {
+               "Type" : "Panel",
+               "HAlign" : "Fill",
+               "VAlign" : "Bottom",
+               "AutoSize" : false,
+               "BackgroundImage" : "1.0, 1.0, 1.0, 0.25",
+               "Height" : 1,
+               "Padding" : {
+                  "Left" : 30,
+                  "Top" : 0,
+                  "Right" : 0,
+                  "Bottom" : 6
+               }
+            }
+         ]
+      },
+      {
+         "Type" : "Box",
+         "Orientation" : "Horizontal",
+         "AutoSize" : "false",
+         "HAlign" : "Right",
+         "Padding" : {
+            "Left" : 0,
+            "Top" : 0,
+            "Right" : 50,
+            "Bottom" : 0
+         },
+         "Children" : [
+            {
+               "Type" : "Link",
+               "HAlign" : "Right",
+               "VAlign" : "Bottom",
+               "AutoSize" : "true",
+               "HoverIcon" : {
+                  "Image" : "ExternalLink.png"
+               },
+               "Text" : {
+                  "Text_translate" : "true",
+                  "Text" : "LEARNING",
+                  "TextStyle" : "tiny-h6",
+                  "Margin" : {
+                     "Left" : 10,
+                     "Top" : 0,
+                     "Right" : 10,
+                     "Bottom" : 0
+                  },
+                  "Text_fr" : "APPRENTISSAGE",
+                  "Text_it" : "ISTRUZIONE",
+                  "Text_de" : "ERLERNEN",
+                  "Text_es" : "MÁS INFORMACIÓN",
+                  "Text_es-MX" : "APRENDIENDO",
+                  "Text_ar" : "تعلُم",
+                  "Text_ko" : "학습",
+                  "Text_pt-BR" : "APRENDIZAGEM",
+                  "Text_ru" : "ОБУЧЕНИЕ",
+                  "Text_pl" : "NAUKA",
+                  "Text_ja" : "ラーニング",
+                  "Text_zh-CN" : "学习",
+                  "Text_tr" : "ÖĞRENME",
+                  "Text_zh-Hans" : "学习",
+                  "Text_zh-Hant" : "學習",
+                  "Text_th" : "กำลังเรียนรู้"
+               },
+               "OnNavigateUrl" : "{unrealengine}/{locale}/video-tutorials"
+            },
+            {
+               "Type" : "Link",
+               "HAlign" : "Right",
+               "VAlign" : "Bottom",
+               "AutoSize" : "true",
+               "HoverIcon" : {
+                  "Image" : "ExternalLink.png"
+               },
+               "Text" : {
+                  "Text_translate" : "true",
+                  "Text" : "DOCUMENTATION",
+                  "TextStyle" : "tiny-h6",
+                  "Margin" : {
+                     "Left" : 10,
+                     "Top" : 0,
+                     "Right" : 10,
+                     "Bottom" : 0
+                  },
+                  "Text_fr" : "DOCUMENTATION",
+                  "Text_it" : "DOCUMENTAZIONE",
+                  "Text_de" : "DOKUMENTATION",
+                  "Text_es" : "DOCUMENTACIÓN",
+                  "Text_es-MX" : "MANUAL",
+                  "Text_ar" : "توثيق",
+                  "Text_ko" : "문서",
+                  "Text_pt-BR" : "DOCUMENTAÇÃO",
+                  "Text_ru" : "ДОКУМЕНТАЦИЯ",
+                  "Text_pl" : "DOKUMENTACJA",
+                  "Text_ja" : "ドキュメント",
+                  "Text_zh-CN" : "文档",
+                  "Text_tr" : "BELGELER",
+                  "Text_zh-Hans" : "文档",
+                  "Text_zh-Hant" : "文件分類",
+                  "Text_th" : "เอกสารประกอบโปรแกรม"
+               },
+               "OnNavigateUrl" : "{docs.unrealengine}/latest/INT/Enterprise/index.html"
+            },
+            {
+               "Type" : "Link",
+               "HAlign" : "Right",
+               "VAlign" : "Bottom",
+               "AutoSize" : "true",
+               "HoverIcon" : {
+                  "Image" : "ExternalLink.png"
+               },
+               "Text" : {
+                  "Text_translate" : "true",
+                  "Text" : "SUPPORT",
+                  "TextStyle" : "tiny-h6",
+                  "Margin" : {
+                     "Left" : 10,
+                     "Top" : 0,
+                     "Right" : 10,
+                     "Bottom" : 0
+                  },
+                  "Text_fr" : "ASSISTANCE",
+                  "Text_it" : "ASSISTENZA",
+                  "Text_de" : "SUPPORT",
+                  "Text_es" : "ATENCIÓN AL CLIENTE",
+                  "Text_es-MX" : "ASISTENCIA",
+                  "Text_ar" : "الدعم",
+                  "Text_ko" : "기술지원",
+                  "Text_pt-BR" : "SUPORTE",
+                  "Text_ru" : "ПОДДЕРЖКА",
+                  "Text_pl" : "POMOC",
+                  "Text_ja" : "サポート",
+                  "Text_zh-CN" : "支持",
+                  "Text_tr" : "DESTEK",
+                  "Text_zh-Hans" : "支持",
+                  "Text_zh-Hant" : "支援",
+                  "Text_th" : "ฝ่ายสนับสนุน"
+               },
+               "OnNavigateUrl" : "{unrealstudiohelp.epicgames}"
+            }
+         ]
+      },
+      {
+         "Type" : "NonShrinkingBox",
+         "Child" : {
+            "Type" : "EngineVault",
+            "Padding" : {
+               "Left" : 20,
+               "Top" : 5,
+               "Right" : 50,
+               "Bottom" : 0
+            },
+            "FilterId" : "StudioVaultTextFilter",
+            "Includes" : [
+               "unrealstudio",
+               "unrealstudioextra"
+            ],
+            "Excludes" : [
+               
+            ]
+         }
+      },
+      {
+         "Type" : "Box",
+         "Orientation" : "Horizontal",
+         "Padding" : {
+            "Left" : 20,
+            "Top" : 60,
+            "Right" : 50,
+            "Bottom" : 0
+         },
+         "Children" : [
+            {
+               "Type" : "Panel",
+               "Visibility" : "Visible",
+               "ToolTipText" : "The Vault contains all the items you have downloaded from the marketplace. You can quickly create new projects from the Vault. The Vault allows you to easily remove or update Vault items without worry of impacting projects you have already created.",
+               "ToolTipText_translate" : "true",
+               "Padding" : {
+                  "Left" : 0,
+                  "Top" : 7,
+                  "Right" : 0,
+                  "Bottom" : 0
+               },
+               "Text" : [
+                  {
+                     "Text_translate" : "true",
+                     "Text" : "VAULT",
+                     "TextStyle" : "h4",
+                     "Text_fr" : "COFFRE",
+                     "Text_de" : "TRESOR",
+                     "Text_es" : "CÁMARA",
+                     "Text_es-MX" : "BÓVEDA",
+                     "Text_ru" : "ХРАНИЛИЩЕ",
+                     "Text_ko" : "보관함",
+                     "Text_it" : "VAULT",
+                     "Text_pl" : "SKARBIEC",
+                     "Text_ar" : "المخزن",
+                     "Text_ja" : "マイダウンロード",
+                     "Text_zh-CN" : "保管库",
+                     "Text_pt-BR" : "COFRE",
+                     "Text_tr" : "KASA",
+                     "Text_zh-Hans" : "保管库",
+                     "Text_zh-Hant" : "收藏庫",
+                     "Text_th" : "ชุดเก็บข้อมูลประจำตัว"
+                  }
+               ],
+               "ToolTipText_fr" : "Le coffre contient tous les éléments que vous avez téléchargés depuis le marché. Vous pouvez créer rapidement de nouveaux projets dans le cofftre. Ce dernier vous permet de supprimer ou de mettre à jour facilement les objets qu'il contient, sans crainte d'impact sur les projets que vous avez déjà créés.",
+               "ToolTipText_de" : "Der Tresor enthält alle Objekte, die vom Marktplatz heruntergeladen wurden. Vom Tresor aus kannst du schnell neue Projekte erstellen. Außerdem kannst du alle Objekte im Tresor einfach entfernen oder aktualisieren, ohne dass sich dies auf deine bereits erstellten Projekte auswirkt.",
+               "ToolTipText_es" : "La cámara contiene todos los objetos que hayas descargado de la tienda. Desde la cámara puedes crear proyectos nuevos rápidamente. La cámara te permite eliminar o actualizar fácilmente los objetos que se encuentren dentro sin preocuparte de que esto afecte a los proyectos que ya hayas creado.",
+               "ToolTipText_es-MX" : "La bóveda contiene todos los objetos que has descargado desde la tienda. Puedes crear proyectos nuevos rápidamente desde la bóveda. La bóveda te permite eliminar o actualizar con facilidad objetos sin la preocupación de afectar proyectos que ya creaste.",
+               "ToolTipText_ru" : "Хранилище содержит все материалы, загруженные вами из магазина. Здесь же вы можете быстро создавать новые проекты. Удаляйте и обновляйте материалы в хранилище, не беспокоясь о том, как это повлияет на ранее созданные вами проекты.",
+               "ToolTipText_ko" : "보관함에는 마켓플레이스에서 다운로드한 아이템이 전부 들어있습니다. 보관함에서 새 프로젝트를 빠르게 만들 수 있으며, 보관함 아이템은 지우거나 업데이트해도 이미 생성된 프로젝트에 영향을 주지 않습니다.",
+               "ToolTipText_it" : "Il Vault contiene tutti gli oggetti che hai scaricato dal Marketplace. Dal Vault puoi creare rapidamente nuovi progetti. Il Vault ti consente di rimuovere facilmente o di aggiornare gli oggetti al suo interno senza che ciò abbia effetto sui progetti che hai già creato.",
+               "ToolTipText_pl" : "Skarbiec zawiera wszystkie elementy pobrane ze strony rynku. Możesz w nim szybko tworzyć nowe projekty oraz usuwać lub aktualizować elementy bez ingerowania w istniejące projekty.",
+               "ToolTipText_ar" : "يحتوي المخزن على جميع العناصر التي تم تنزيلها من السوق. ويُمكنك إنشاء مشروعات جديدة بسرعة من خلال المخزن. كما يتيح لك المخزن إزالة أو تحديث عناصر المخزن بسهولة دون القلق من التأثير سلبًا على المشروعات التي أنشأتها بالفعل.",
+               "ToolTipText_ja" : "マーケットプレイスからダウンロードした全てのアイテムはマイダウンロードに保存されます。保存されたアイテムから素早く新しいプロジェクトを作成することができます。また、既に作成されたプロジェクトに影響を与えずにアイテムを更新・削除することができます。",
+               "ToolTipText_zh-CN" : "保管库包含了您从虚幻商城下载的所有商品。您可以快速地从保管库创建新工程。保管库允许您轻松地删除及更新保管库中的商品，不必担心影响您已经创建的工程。",
+               "ToolTipText_pt-BR" : "O Cofre contém todos os itens que você baixou no mercado. Você pode criar novos projetos rapidamente no Cofre. O Cofre permite que você remova ou atualize itens do Cofre facilmente sem se preocupar em afetar projetos que você já criou.",
+               "ToolTipText_tr" : "Kasa’da Mağaza’dan indirdiğin eşyalar bulunur. Kasa’dan hemen yeni bir proje başlatabilirsin. Kasa ayrıca daha önce oluşturduğun projelere zarar verme korkusu olmadan Kasa Eşyaları’nı kaldırmana veya güncellemene olanak tanır.",
+               "ToolTipText_zh-Hans" : "保管库包含了您从虚幻商城下载的所有商品。您可以快速地从保管库创建新工程。保管库允许您轻松地删除及更新保管库中的商品，不必担心影响您已经创建的工程。",
+               "ToolTipText_zh-Hant" : "這個收藏庫內含所有下載自市集的物品。 您能從收藏庫中快速建立專案。 收藏庫讓您能輕鬆移除或是更新收藏庫物品，而不用擔心會對已經建立的專案產生影響。",
+               "ToolTipText_th" : "ชุดเก็บข้อมูลประจำตัวมีรายการทั้งหมดที่คุณได้ดาวน์โหลดจาก Marketplace คุณสามารถสร้างโปรเจกต์ใหม่ๆ จากชุดเก็บข้อมูลประจำตัวได้อย่างรวดเร็ว ชุดเก็บข้อมูลประจำตัวช่วยให้คุณสามารถลบหรืออัปเดตรายการของชุดเก็บข้อมูลประจำตัวได้อย่างง่ายดาย โดยไม่ต้องกังวลถึงผลกระทบที่มาจากโปรเจกต์ของคุณ"
+            },
+            {
+               "Type" : "Panel",
+               "HAlign" : "Fill",
+               "VAlign" : "Bottom",
+               "AutoSize" : false,
+               "BackgroundImage" : "1.0, 1.0, 1.0, 0.25",
+               "Height" : 1,
+               "Padding" : {
+                  "Left" : 30,
+                  "Top" : 0,
+                  "Right" : 0,
+                  "Bottom" : 6
+               }
+            }
+         ]
+      },
+      {
+         "Type" : "Box",
+         "Orientation" : "Horizontal",
+         "AutoSize" : "false",
+         "HAlign" : "Right",
+         "Padding" : {
+            "Left" : 0,
+            "Top" : 0,
+            "Right" : 50,
+            "Bottom" : 0
+         },
+         "Children" : [
+            {
+               "Type" : "Box",
+               "Orientation" : "Horizontal",
+               "Padding" : {
+                  "Left" : 0,
+                  "Top" : 0,
+                  "Right" : 30,
+                  "Bottom" : 0
+               },
+               "ToolTipText" : "Total size of all locally cached vault content",
+               "ToolTipText_translate" : "true",
+               "Children" : [
+                  {
+                     "Type" : "BasicTile",
+                     "Padding" : {
+                        "Left" : 5,
+                        "Top" : 0,
+                        "Right" : 5,
+                        "Bottom" : 0
+                     },
+                     "MinWidth" : 16,
+                     "MaxWidth" : 16,
+                     "MinHeight" : 16,
+                     "MaxHeight" : 16,
+                     "LoadSilently" : "true",
+                     "HasShadow" : false,
+                     "Images" : [
+                        {
+                           "Image" : "localcache_icon_small.png",
+                           "ColorAndOpacity" : "0.7, 0.7, 0.7",
+                           "Stretch" : "ScaleToFit"
+                        }
+                     ]
+                  },
+                  {
+                     "Type" : "Panel",
+                     "Visibility" : "Visible",
+                     "Padding" : {
+                        "Left" : 5,
+                        "Top" : 14,
+                        "Right" : 0,
+                        "Bottom" : 0
+                     },
+                     "Text" : [
+                        {
+                           "Binding" : "textId:SizeOfVaultCache",
+                           "TextStyle" : "tiny-h6"
+                        }
+                     ]
+                  }
+               ],
+               "ToolTipText_fr" : "Taille totale de tout le contenu du coffre mis en cache localement",
+               "ToolTipText_de" : "Gesamtgröße aller lokal abgelegten Tresorinhalte",
+               "ToolTipText_es" : "Tamaño total de todo el contenido de la cámara almacenado localmente.",
+               "ToolTipText_es-MX" : "Tamaño total de todo el contenido guardado localmente",
+               "ToolTipText_ru" : "Общий размер локального контента в хранилище",
+               "ToolTipText_ko" : "로컬 캐시에 저장된 보관함 콘텐츠 전체 크기",
+               "ToolTipText_it" : "Dimensione totale di tutti i contenuti del magazzino nella cache locale",
+               "ToolTipText_pl" : "Łączny rozmiar całkowitej przechowywanej lokalnie zawartości skarbca",
+               "ToolTipText_ar" : "إجمالي حجم جميع محتويات المخزن التي تم تخزينها محليًا تخزينًا مؤقتًا.",
+               "ToolTipText_ja" : "ローカルのマイダウンロードコンテンツの合計サイズ",
+               "ToolTipText_zh-CN" : "所有本地保管库缓存内容的总容量",
+               "ToolTipText_pt-BR" : "Tamanho total de todo o conteúdo do cofre armazenado em cache local",
+               "ToolTipText_tr" : "Yerel önbelleğe alınmış kasa içeriklerinin toplam boyutu",
+               "ToolTipText_zh-Hans" : "所有本地保管库缓存内容的总容量",
+               "ToolTipText_zh-Hant" : "所有本機快取收藏庫內容的總大小。",
+               "ToolTipText_th" : "ขนาดโดยรวมของเนื้อหาชุดเก็บข้อมูลประจำตัวที่แคชภายในเครื่อง"
+            },
+            {
+               "Type" : "SearchBox",
+               "HAlign" : "Right",
+               "MinWidth" : 450,
+               "HintText" : "Search Vault",
+               "HintText_translate" : "true",
+               "FilterId" : "VaultTextFilter",
+               "Padding" : {
+                  "Left" : 0,
+                  "Top" : 0,
+                  "Right" : 0,
+                  "Bottom" : 0
+               },
+               "HintText_fr" : "Chercher dans le coffre",
+               "HintText_de" : "Tresor durchsuchen",
+               "HintText_es" : "Buscar en la cámara",
+               "HintText_es-MX" : "Buscar bóveda",
+               "HintText_ru" : "Поиск в хранилище",
+               "HintText_ko" : "보관함 검색",
+               "HintText_it" : "Cerca Vault",
+               "HintText_pl" : "Wyszukaj w Skarbcu",
+               "HintText_ar" : "ابحث في المخزن",
+               "HintText_ja" : "マイダウンロードを検索しよう",
+               "HintText_zh-CN" : "搜索保管库",
+               "HintText_pt-BR" : "Vasculhar Cofre",
+               "HintText_tr" : "Kasa’yı Ara",
+               "HintText_zh-Hans" : "搜索保管库",
+               "HintText_zh-Hant" : "搜尋收藏庫",
+               "HintText_th" : "ค้นหาชุดเก็บข้อมูลประจำตัว"
+            }
+         ]
+      },
+      {
+         "Type" : "NonShrinkingBox",
+         "Child" : {
+            "Type" : "EngineVault",
+            "Padding" : {
+               "Left" : 20,
+               "Top" : 5,
+               "Right" : 50,
+               "Bottom" : 30
+            },
+            "FilterId" : "VaultTextFilter",
+            "Includes" : [
+               "all"
+            ],
+            "Excludes" : [
+               "unrealstudio",
+               "unrealstudioextra"
+            ]
+         }
+      }
+   ]
+}

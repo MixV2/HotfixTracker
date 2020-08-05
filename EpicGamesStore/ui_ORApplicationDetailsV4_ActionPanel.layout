@@ -1,0 +1,66 @@
+{
+    "Type": "Overlay",
+    "Children": 
+    [
+        {
+			"Type": "BasicTile",
+			"Padding": { "Left": 15, "Top": 75, "Right": 0, "Bottom": 0 },
+			"HAlign": "Center",
+            "VAlign": "Top",
+            "Binding": "22605fe02e2a4f86997762b83a36d757",
+			"Images": 
+            [
+                { "Image": "Screenshot", "Stretch": "ScaleToFill"}
+            ],
+			"HasShadow": "false",
+			"LoadSilently": "true",
+			"AutoSize": "true",
+			"MaxHeight": 500		
+        },
+        {
+            "Type": "BuildSelector",
+            "HAlign": "Right",
+            "Padding": { "Left": 15, "Top": 0, "Right": 0, "Bottom": 0 },
+            "VAlign": "Top",
+			"SelectorId": "Game",
+			"GroupId": "Game"
+        },
+        {
+            "Type": "Box",
+            "Orientation": "Vertical",
+            "Padding": { "Left": 15, "Top": 400, "Right": 0, "Bottom": 0 },
+            "AutoSize": "false",
+            "Children": 
+            [
+                {
+                    "Type": "ServerStatus",
+					"HAlign": "Center",
+					"SelectorId": "Game",
+					"GroupId": "Game"
+                },
+                {
+                    "Type": "ActionButton",
+					"MinWidth": 442,
+					"MinHeight": 115,
+					"HAlign": "Center",
+					"SelectorId": "Game",
+					"GroupId": "Game"
+                },
+                {
+                    "Type": "Box",
+                    "Orientation": "Horizontal",
+                    "Padding": { "Left": 0, "Top": 0, "Right": 0, "Bottom": 0 },
+                    "HAlign": "Center",
+                    "Children": 
+                    [
+                        {
+                            "Type": "Layout",
+                            "Layout": "ui_ORShareLinksV4.layout",
+                            "Padding": { "Left": 0, "Top": 0, "Right": 0, "Bottom": 0 }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

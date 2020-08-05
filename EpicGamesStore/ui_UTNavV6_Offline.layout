@@ -1,0 +1,354 @@
+﻿{
+   "Type" : "Overlay",
+   "AutoSize" : "false",
+   "HAlign" : "Left",
+   "RequiresBindingSource" : false,
+   "Children" : [
+      {
+         "Type" : "Box",
+         "Orientation" : "Vertical",
+         "Width" : 250,
+         "HAlign" : "Left",
+         "Padding" : {
+            "Left" : 0,
+            "Top" : 39,
+            "Right" : 0,
+            "Bottom" : 10
+         },
+         "Children" : [
+            {
+               "Type" : "Overlay",
+               "Children" : [
+                  {
+                     "Type" : "Button",
+                     "ButtonStyle" : "SidebarNavigation.ActiveButton",
+                     "MetaData" : "launcher-subtab: play",
+                     "Padding" : {
+                        "Left" : 0,
+                        "Top" : 0,
+                        "Right" : 0,
+                        "Bottom" : 0
+                     },
+                     "ContentPadding" : {
+                        "Left" : 26,
+                        "Top" : 15,
+                        "Right" : 0,
+                        "Bottom" : 15
+                     },
+                     "OnNavigateUrl" : "/ut/play",
+                     "Child" : {
+                        "Type" : "Link",
+                        "Row" : 0,
+                        "ColumnSpans" : [
+                           {
+                              "LayoutSize" : 0,
+                              "Span" : 4
+                           }
+                        ],
+                        "HAlign" : "Left",
+                        "Text" : {
+                           "Text_translate" : "true",
+                           "Text" : "Play",
+                           "TextStyle" : "inverted-h6",
+                           "Margin" : {
+                              "Left" : 10,
+                              "Top" : 0,
+                              "Right" : 10,
+                              "Bottom" : 0
+                           },
+                           "Text_ko" : "플레이",
+                           "Text_ja" : "プレイ",
+                           "Text_zh-CN" : "运行",
+                           "Text_fr" : "Jouer",
+                           "Text_es" : "Jugar",
+                           "Text_de" : "Spielen",
+                           "Text_it" : "Gioca",
+                           "Text_ru" : "Играть",
+                           "Text_pl" : "Graj",
+                           "Text_ar" : "تشغيل",
+                           "Text_pt-BR" : "Jogar",
+                           "Text_es-MX" : "Jugar",
+                           "Text_tr" : "Oyna",
+                           "Text_zh-Hans" : "运行",
+                           "Text_zh-Hant" : "遊玩",
+                           "Text_th" : "เล่น"
+                        },
+                        "OnNavigateUrl" : "/ut/play"
+                     }
+                  },
+                  {
+                     "Type" : "NotificationBadge",
+                     "Visibility" : "SelfHitTestInvisible",
+                     "Style" : "Aggregate",
+                     "AppDiscoveryMapKeys" : [
+                        "Play"
+                     ],
+                     "GroupId" : "Game",
+                     "Title" : "Unreal Tournament Notifications",
+                     "Title_translate" : true,
+                     "Description" : "Unreal Tournament updates are available.",
+                     "Description_translate" : true,
+                     "Padding" : {
+                        "Left" : 160,
+                        "Top" : 0,
+                        "Right" : 0,
+                        "Bottom" : 16
+                     },
+                     "Title_ko" : "언리얼 토너먼트 알림",
+                     "Description_ko" : "언리얼 토너먼트 업데이트가 가능합니다.",
+                     "Title_ja" : "Unreal Tournament 通知",
+                     "Description_ja" : "Unreal Tournament のアップデートがあります。",
+                     "Title_zh-CN" : "虚幻竞技场通知",
+                     "Description_zh-CN" : "有虚幻竞技场更新。",
+                     "Title_zh-Hans-CN" : "虚幻竞技场通知",
+                     "Description_zh-Hans-CN" : "有虚幻竞技场更新。",
+                     "Title_fr" : "Notifications Unreal Tournament",
+                     "Description_fr" : "Des mises à jour sont disponibles pour Unreal Tournament.",
+                     "Title_es" : "Notificaciones de Unreal Tournament",
+                     "Description_es" : "Actualizaciones de Unreal Tournament disponibles.",
+                     "Title_de" : "Benachrichtigungen zu Unreal Tournament",
+                     "Description_de" : "Updates für Unreal Tournament sind verfügbar.",
+                     "Title_it" : "Notifiche Unreal Tournament",
+                     "Description_it" : "Sono disponibili aggiornamenti per Unreal Tournament.",
+                     "Title_ru" : "Уведомления игры Unreal Tournament",
+                     "Description_ru" : "Доступны обновления для Unreal Tournament.",
+                     "Title_pl" : "Powiadomienia dotyczące Unreal Tournament",
+                     "Description_pl" : "Dostępne są aktualizacje dla gry Unreal Tournament.",
+                     "Title_ar" : "إشعارات Unreal Tournament",
+                     "Description_ar" : "تحديثات Unreal Tournament متاحة.",
+                     "Title_pt-BR" : "Notificações do Unreal Tournament",
+                     "Description_pt-BR" : "Atualizações do Unreal Tournament disponíveis.",
+                     "Title_es-MX" : "Notificaciones de Unreal Tournament",
+                     "Description_es-MX" : "Hay actualizaciones de Unreal Tournament disponibles.",
+                     "Title_tr" : "Unreal Tournament Bildirimleri",
+                     "Description_tr" : "Unreal Tournament için güncellemeler var.",
+                     "Title_zh-Hans" : "虚幻竞技场通知",
+                     "Description_zh-Hans" : "有虚幻竞技场更新。",
+                     "Title_zh-Hant" : "《Unreal Tournament》通知",
+                     "Description_zh-Hant" : "《Unreal Tournament》有更新可用。",
+                     "Title_th" : "การแจ้งเตือน Unreal Tournament",
+                     "Description_th" : "มีอัปเดต Unreal Tournament"
+                  },
+                  {
+                     "Type" : "Panel",
+                     "BackgroundImage" : "#95c990ff",
+                     "HAlign" : "Left",
+                     "MaxWidth" : 4,
+                     "MinWidth" : 4
+                  }
+               ]
+            },
+            {
+               "Type" : "Overlay",
+               "Children" : [
+                  {
+                     "Type" : "Button",
+                     "ButtonStyle" : "SidebarNavigation.Button",
+                     "MetaData" : "launcher-subtab: Create",
+                     "Padding" : {
+                        "Left" : 0,
+                        "Top" : 0,
+                        "Right" : 0,
+                        "Bottom" : 0
+                     },
+                     "ContentPadding" : {
+                        "Left" : 26,
+                        "Top" : 15,
+                        "Right" : 0,
+                        "Bottom" : 15
+                     },
+                     "OnNavigateUrl" : "/ut/create",
+                     "ForegroundColor" : "#8b8b8b",
+                     "Child" : {
+                        "Type" : "Link",
+                        "Row" : 0,
+                        "ColumnSpans" : [
+                           {
+                              "LayoutSize" : 0,
+                              "Span" : 4
+                           }
+                        ],
+                        "HAlign" : "Left",
+                        "Text" : {
+                           "Text_translate" : "true",
+                           "Text" : "Create",
+                           "TextStyle" : "inverted-h6",
+                           "UseForegroundColor" : "true",
+                           "Margin" : {
+                              "Left" : 10,
+                              "Top" : 0,
+                              "Right" : 10,
+                              "Bottom" : 0
+                           },
+                           "Text_ko" : "제작",
+                           "Text_ja" : "クリエイト",
+                           "Text_zh-CN" : "创建",
+                           "Text_fr" : "Créer",
+                           "Text_es" : "Crear",
+                           "Text_de" : "Erstellen",
+                           "Text_it" : "Crea",
+                           "Text_ru" : "Создать",
+                           "Text_pl" : "Twórz",
+                           "Text_ar" : "إنشاء",
+                           "Text_pt-BR" : "Criar",
+                           "Text_es-MX" : "Crear",
+                           "Text_tr" : "Oluştur",
+                           "Text_zh-Hans" : "创建",
+                           "Text_zh-Hant" : "建立",
+                           "Text_th" : "สร้าง"
+                        },
+                        "Padding" : {
+                           "Left" : 0,
+                           "Top" : 0,
+                           "Right" : 0,
+                           "Bottom" : 40
+                        },
+                        "OnNavigateUrl" : "/ut/create"
+                     }
+                  },
+                  {
+                     "Type" : "NotificationBadge",
+                     "Visibility" : "SelfHitTestInvisible",
+                     "Style" : "Aggregate",
+                     "AppDiscoveryMapKeys" : [
+                        "Create"
+                     ],
+                     "GroupId" : "Editor",
+                     "Title" : "Unreal Tournament Notifications",
+                     "Title_translate" : true,
+                     "Description" : "Unreal Tournament updates are available.",
+                     "Description_translate" : true,
+                     "Padding" : {
+                        "Left" : 160,
+                        "Top" : 0,
+                        "Right" : 0,
+                        "Bottom" : 16
+                     },
+                     "Title_ko" : "언리얼 토너먼트 알림",
+                     "Description_ko" : "언리얼 토너먼트 업데이트가 가능합니다.",
+                     "Title_ja" : "Unreal Tournament 通知",
+                     "Description_ja" : "Unreal Tournament のアップデートがあります。",
+                     "Title_zh-CN" : "虚幻竞技场通知",
+                     "Description_zh-CN" : "有虚幻竞技场更新。",
+                     "Title_zh-Hans-CN" : "虚幻竞技场通知",
+                     "Description_zh-Hans-CN" : "有虚幻竞技场更新。",
+                     "Title_fr" : "Notifications Unreal Tournament",
+                     "Description_fr" : "Des mises à jour sont disponibles pour Unreal Tournament.",
+                     "Title_es" : "Notificaciones de Unreal Tournament",
+                     "Description_es" : "Actualizaciones de Unreal Tournament disponibles.",
+                     "Title_de" : "Benachrichtigungen zu Unreal Tournament",
+                     "Description_de" : "Updates für Unreal Tournament sind verfügbar.",
+                     "Title_it" : "Notifiche Unreal Tournament",
+                     "Description_it" : "Sono disponibili aggiornamenti per Unreal Tournament.",
+                     "Title_ru" : "Уведомления игры Unreal Tournament",
+                     "Description_ru" : "Доступны обновления для Unreal Tournament.",
+                     "Title_pl" : "Powiadomienia dotyczące Unreal Tournament",
+                     "Description_pl" : "Dostępne są aktualizacje dla gry Unreal Tournament.",
+                     "Title_ar" : "إشعارات Unreal Tournament",
+                     "Description_ar" : "تحديثات Unreal Tournament متاحة.",
+                     "Title_pt-BR" : "Notificações do Unreal Tournament",
+                     "Description_pt-BR" : "Atualizações do Unreal Tournament disponíveis.",
+                     "Title_es-MX" : "Notificaciones de Unreal Tournament",
+                     "Description_es-MX" : "Hay actualizaciones de Unreal Tournament disponibles.",
+                     "Title_tr" : "Unreal Tournament Bildirimleri",
+                     "Description_tr" : "Unreal Tournament için güncellemeler var.",
+                     "Title_zh-Hans" : "虚幻竞技场通知",
+                     "Description_zh-Hans" : "有虚幻竞技场更新。",
+                     "Title_zh-Hant" : "《Unreal Tournament》通知",
+                     "Description_zh-Hant" : "《Unreal Tournament》有更新可用。",
+                     "Title_th" : "การแจ้งเตือน Unreal Tournament",
+                     "Description_th" : "มีอัปเดต Unreal Tournament"
+                  }
+               ]
+            },
+            {
+               "Type" : "Button",
+               "ButtonStyle" : "SidebarNavigation.Button",
+               "MetaData" : "launcher-subtab: Marketplace",
+               "Padding" : {
+                  "Left" : 0,
+                  "Top" : 0,
+                  "Right" : 0,
+                  "Bottom" : 0
+               },
+               "ContentPadding" : {
+                  "Left" : 26,
+                  "Top" : 15,
+                  "Right" : 0,
+                  "Bottom" : 15
+               },
+               "OnNavigateUrl" : "/ut/marketplace",
+               "ForegroundColor" : "#8b8b8b",
+               "Child" : {
+                  "Type" : "Link",
+                  "Row" : 0,
+                  "ColumnSpans" : [
+                     {
+                        "LayoutSize" : 0,
+                        "Span" : 4
+                     }
+                  ],
+                  "HAlign" : "Left",
+                  "Text" : {
+                     "Text_translate" : "true",
+                     "Text" : "Marketplace",
+                     "TextStyle" : "inverted-h6",
+                     "UseForegroundColor" : "true",
+                     "Margin" : {
+                        "Left" : 10,
+                        "Top" : 0,
+                        "Right" : 10,
+                        "Bottom" : 0
+                     },
+                     "Text_ko" : "마켓플레이스",
+                     "Text_ja" : "マーケットプレイス",
+                     "Text_zh-CN" : "虚幻商城",
+                     "Text_fr" : "Marché",
+                     "Text_es" : "Bazar",
+                     "Text_de" : "Marktplatz",
+                     "Text_it" : "Marketplace",
+                     "Text_ru" : "Магазин",
+                     "Text_pl" : "Rynek",
+                     "Text_ar" : "السوق",
+                     "Text_pt-BR" : "Loja",
+                     "Text_es-MX" : "Marketplace",
+                     "Text_tr" : "Mağaza",
+                     "Text_zh-Hans" : "虚幻商城",
+                     "Text_zh-Hant" : "市集",
+                     "Text_th" : "แหล่งซื้อขาย"
+                  },
+                  "Padding" : {
+                     "Left" : 0,
+                     "Top" : 0,
+                     "Right" : 0,
+                     "Bottom" : 40
+                  },
+                  "OnNavigateUrl" : "/ut/marketplace"
+               }
+            },
+            {
+               "Type" : "Panel",
+               "BackgroundImage" : "1.0, 1.0, 1.0, 0.5",
+               "Height" : 1,
+               "Padding" : {
+                  "Left" : 20,
+                  "Top" : 20,
+                  "Right" : 20,
+                  "Bottom" : 40
+               }
+            },
+            {
+               "Type" : "Layout",
+               "Layout" : "ui_UTSidebarLinksV6",
+               "VAlign" : "Bottom",
+               "Padding" : {
+                  "Left" : 26,
+                  "Top" : 0,
+                  "Right" : 0,
+                  "Bottom" : 10
+               }
+            }
+         ]
+      }
+   ]
+}

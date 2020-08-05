@@ -1,0 +1,77 @@
+﻿{
+   "Type" : "Box",
+   "RequiresBindingSource" : false,
+   "Orientation" : "Vertical",
+   "Padding" : {
+      "Left" : 0,
+      "Top" : 20,
+      "Right" : 0,
+      "Bottom" : 0
+   },
+   "HAlign" : "Center",
+   "MaxWidth" : 1000,
+   "AutoSize" : "false",
+   "Children" : [
+      {
+         "Type" : "BasicTile",
+         "VAlign" : "Bottom",
+         "MaxHeight" : 350,
+         "MinHeight" : 350,
+         "HasShadow" : "false",
+         "LoadSilently" : "true",
+         "Padding" : {
+            "Left" : 0,
+            "Top" : 0,
+            "Right" : 0,
+            "Bottom" : 0
+         },
+         "AutoSize" : "true",
+         "Images" : [
+            {
+               "Image" : "ue_Logo.png",
+               "Stretch" : "ScaleToFit"
+            }
+         ]
+      },
+      {
+         "Type" : "Box",
+         "Orientation" : "Vertical",
+         "Children" : [
+            {
+               "Type" : "Panel",
+               "AutoSize" : "false",
+               "Padding" : {
+                  "Left" : 40,
+                  "Top" : 0,
+                  "Right" : 40,
+                  "Bottom" : 40
+               },
+               "Text" : [
+                  {
+                     "TextStyle" : "Title",
+                     "AutoWrap" : true,
+                     "Text_translate" : "true",
+                     "Text" : "Uh oh, there is supposed to be something here but you can't see it.  Try sorting out the connectivity issue and return to this page.\n\nIn the meantime this should not prevent you from using the Unreal Engine.",
+                     "Text_ko" : "페이지의 내용을 불러올 수 없습니다. 연결 상태 관련 문제를 해결하시고 이 페이지로 돌아와 주세요.\n\n이 문제는 언리얼 엔진의 사용에 영향을 주지 않습니다.",
+                     "Text_ja" : "表示されるはずのものが表示されていない状態です。ネットワークの接続を確認してください。\n\nUNREAL ENGINE の使用には基本的に影響はありません。",
+                     "Text_zh-CN" : "啊，这里应该会显示一些内容，但您无法看见。请尝试解决连接问题，并回到这个页面。\n\n同时，这应该不会妨碍您使用虚幻引擎。",
+                     "Text_fr" : "Quelque chose devrait apparaître ici. Essayez de régler les problèmes de connexion et revenez sur cette page.\n\nEn attendant, cela ne vous empêche pas d'utiliser Unreal Engine.",
+                     "Text_es" : "Vaya, se supone que aquí tenía que haber algo, pero no puedes verlo. Intenta solucionar los problemas de conectividad y vuelve a esta página.\n\nMientras tanto, no deberías tener problemas para usar Unreal Engine.",
+                     "Text_de" : "Der eigentliche Text konnte nicht angezeigt werden. Beheben Sie das Verbindungsproblem und rufen Sie die Seite erneut auf.\n\nDie Verwendung der Unreal Engine wird davon nicht beeinträchtigt.",
+                     "Text_it" : "Oh no, qui c'era qualcosa che non è stato possibile visualizzare. Risolvi i problemi di connessione e torna a questa pagina.\n\nNel frattempo, dovresti comunque riuscire a usare Unreal Engine.",
+                     "Text_ru" : "Ой, тут что-то должно быть, но вы этого не видите. Разберитесь с проблемами подключения и вернитесь на страницу.\n\nОднако эта проблема не помешает вам пользоваться Unreal Engine.",
+                     "Text_pl" : "W tym miejscu powinna być widoczna zawartość, ale nic tu nie ma. Spróbuj rozwiązać problem z połączeniem i wróć do tej strony.\n\nTymczasem możesz korzystać z silnika Unreal Engine.",
+                     "Text_pt-BR" : "Opa, devia ter algo aqui só que não da pra ver. Tente solucionar o problema de conexão e volte a esta página.\n\nEnquanto isso, você ainda pode utilizar o Unreal Engine.",
+                     "Text_es-MX" : "¡Oh-oh! Se supone que debe haber algo aquí, pero no puedes verlo. Intenta solucionar el problema de conexión y vuelve a esta página.\n\nMientras tanto, esto no debería impedir que uses el Unreal Engine.",
+                     "Text_ar" : "يفترض وجود شيء ما هنا لكنك لا تراه. حاول حل مشاكل الاتصال وعُد إلى هذه الصفحة.\n\nيفترض في الوقت ذاته ألا يمنعك هذا من استخدام Unreal Engine.",
+                     "Text_tr" : "Hay aksi, burada bir şey olması gerekiyordu ama şu an göremiyorsun. Bağlantı sorununu çözdükten sonra bu sayfaya tekrar dönmeyi dene.\n\nBu süre içinde Unreal Engine’i kullanabilirsin.",
+                     "Text_zh-Hans" : "啊，这里应该会显示一些内容，但您无法看见。请尝试解决连接问题，并回到这个页面。\n\n同时，这应该不会妨碍您使用虚幻引擎。",
+                     "Text_zh-Hant" : "哎呀，這裡本來該有東西的，但您看不見它。  請嘗試解決連線問題，然後回到此頁面。\n\n同時這應該不會阻止您使用 Unreal Engine。",
+                     "Text_th" : "โอ๊ะ ตรงนี้ควรจะมีอะไรอยู่นะแต่คุณมองไม่เห็น  ลองแก้ไขปัญหาการเชื่อมต่อแล้วกลับมาที่หน้านี้\n\nในระหว่างนี้นี่จะไม่ขัดขวางคุณจากการใช้ Unreal Engine"
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}

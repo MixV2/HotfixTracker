@@ -1,0 +1,47 @@
+{
+	"Type": "Box",
+	"Orientation": "Horizontal",
+	"Padding": { "Left": 5, "Top": 0, "Right": 5, "Bottom": 0 },
+	"Children":
+	[
+		{
+			"Type": "Panel",
+			"Height": 86,
+			"Width": 80,
+            "HAlign": "Center",
+            "VAlign": "Center",
+			"BackgroundImage": "panel_ListThumbnailShadow.png",
+			"Padding": 0,
+			"Children":
+			[
+				{
+					"Type": "Panel",
+					"Height": 72,
+                    "Width": 72,
+                    "HAlign": "Center",
+                    "VAlign": "Center",
+					"BackgroundImage": "thumbnail",
+					"OnNavigateUrl": "/ue/marketplace/{Id}"
+				}
+			]
+		},
+		{
+			"Type": "Panel",
+			"Height": 86,
+			"AutoSize": false,
+			"BackgroundImage": "0.0, 0.0, 0.0, 0.08",
+			"Padding": { "Left": 5, "Top": 7, "Right": 5, "Bottom": 5 },
+			"Text": 
+			[
+				{
+					"HAlign": "Left",
+					"VAlign": "Top",
+					"AutoWrap": true,
+					"Padding": { "Left": 7, "Top": 7, "Right": 0, "Bottom": 0 },
+					"TextStyle": "Body",
+					"Binding": "Details"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,235 @@
+﻿{
+	"Id": "ut",
+	"Priority": 30,
+	"AnalyticsId": "ut",
+	"DisplayName": "Unreal Tournament",
+	"DisplayName_ko": "언리얼 토너먼트",
+	"ShortDisplayName": "UT",
+	"CatalogNamespace": "ut",
+	"BackgroundImage": "",
+	"BackgroundFillImage": "#1e1e1e",
+	"PrimaryColor": "#95c990ff",
+	"PressedPrimaryColor": "#95c990ff",
+	"HoveredPrimaryColor": "#aae0a4ff",
+	"TabForegroundColor": "1.0, 1.0, 1.0",
+	"ServiceOptionsFilepath": "UTServiceOptions.json",
+	"Homepage": "/ut",
+	"Pages": [
+		{
+			"Id": "ut",
+			"PartialUrl": "/ut",
+			"IsAbstract": true
+		},
+		{
+			"Id": "ut.play",
+			"PartialUrl": "/play",
+			"SourceUrls": [ 
+				{
+					"SourceUrl": "ui_MustUpdate.layout",
+					"Conditions": [ 
+						"[PORTAL_VERSION]>=6.5.0, [PORTAL_VERSION]<=6.5.2"
+					] 
+				},
+				{
+					"SourceUrl": "ui_UTApplicationDetailsV4_Offline.layout",
+					"Conditions": [ "![BINDING_SOURCE], [PORTAL_VERSION]<3.0.3, ![PORTAL_VERSION]0.0.0" ] 
+				},
+				{
+					"SourceUrl": "ui_UTApplicationDetailsV6_Offline.layout",
+					"Conditions": [ "![BINDING_SOURCE]" ] 
+				},
+				{
+					"SourceUrl": "ui_UT_MustUpdate.layout",
+					"Conditions": [ "[PORTAL_VERSION]<3.0.3, ![PORTAL_VERSION]0.0.0" ] 
+				},
+				{
+					"SourceUrl": "ui_MustUpdate.layout",
+					"Conditions": [ 
+						"[PORTAL_VERSION]>=3.0.3, [PORTAL_VERSION]<6.8.0"
+					] 
+				},
+				{
+					"SourceUrl": "ui_UTApplicationDetailsV6.layout"
+				}
+			]
+		},
+		{
+			"Id": "ut.create",
+			"PartialUrl": "/create",
+			"SourceUrls": [ 
+				{
+					"SourceUrl": "ui_MustUpdate.layout",
+					"Conditions": [ 
+						"[PORTAL_VERSION]>=6.5.0, [PORTAL_VERSION]<=6.5.2"
+					] 
+				},
+				{
+					"SourceUrl": "ui_UTEditorDetailsV4_Offline.layout",
+					"Conditions": [ "![BINDING_SOURCE], [PORTAL_VERSION]<3.0.3, ![PORTAL_VERSION]0.0.0" ] 
+				},
+				{
+					"SourceUrl": "ui_UTEditorDetailsV6_Offline.layout",
+					"Conditions": [ "![BINDING_SOURCE]" ] 
+				},
+				{
+					"SourceUrl": "ui_UTEditorDetailsV4.layout",
+					"Conditions": [ "[PORTAL_VERSION]<3.0.3, ![PORTAL_VERSION]0.0.0" ] 
+				},
+				{
+					"SourceUrl": "ui_UTEditorDetailsV6.layout"
+				}
+			]
+		},
+		{
+			"Id": "ut.marketplace",
+			"PartialUrl": "/marketplace",
+			"SourceUrls": [
+				{
+					"SourceUrl": "ui_MustUpdate.layout",
+					"Conditions": [ 
+						"[PORTAL_VERSION]>=6.5.0, [PORTAL_VERSION]<=6.5.2"
+					] 
+				},
+				{
+					"SourceUrl": "ui_UTMarketplaceV4_Offline.layout",
+					"Conditions": [ "![BINDING_SOURCE], [PORTAL_VERSION]<3.0.3, ![PORTAL_VERSION]0.0.0" ] 
+				},			
+				{
+					"SourceUrl": "ui_UTMarketplaceV6_Offline.layout",
+					"Conditions": [ "![BINDING_SOURCE]" ] 
+				},
+				{
+					"SourceUrl": "ui_UTMarketplaceV4.layout",
+					"Conditions": [ "[PORTAL_VERSION]<3.0.3, ![PORTAL_VERSION]0.0.0" ] 
+				},
+				{
+					"SourceUrl": "ui_UTMarketplaceV6.layout"
+				}
+			]
+		},
+		{
+			"Id": "ut.marketplacedetails",
+			"PartialUrl": "/marketplace/:OfferId",
+			"IsTransient": true,
+			"SourceUrls": [ 
+				{
+					"SourceUrl": "ui_MustUpdate.layout",
+					"Conditions": [ 
+						"[PORTAL_VERSION]>=6.5.0, [PORTAL_VERSION]<=6.5.2"
+					] 
+				},
+				{
+					"SourceUrl": "ui_UTMarketplaceV4_Offline.layout",
+					"Conditions": [ "![BINDING_SOURCE], [PORTAL_VERSION]<3.0.3, ![PORTAL_VERSION]0.0.0" ] 
+				},
+				{
+					"SourceUrl": "ui_UTMarketplaceV6_Offline.layout",
+					"Conditions": [ "![BINDING_SOURCE]" ] 
+				},
+				{
+					"SourceUrl": "ui_UTMarketplaceDetailsV5.layout",
+					"Conditions": [ "[PORTAL_VERSION]<3.0.3, ![PORTAL_VERSION]0.0.0" ] 
+				},
+				{
+					"SourceUrl": "ui_UTMarketplaceDetailsV6.layout"
+				}
+			]
+		}
+	],
+	"Redirects": [
+		"/ut -> MOST_RECENT_LOCATION || /ut/play"
+	],
+	"Apps": [
+		{
+			"Name": "UnrealTournamentEditor",
+			"GroupId": "Editor",
+			"OfferId": "86911468c5d04a1d8a4e78eb45ceb955",
+			"ItemId": "0cae1a97d47f4ee2ba4e112b9601637f",
+			"LaunchPermissions": "NoInternet,WithoutLauncher,MultiLaunch"
+		},
+		{
+			"Name": "UnrealTournamentEditorDevPlaytest",
+			"GroupId": "Editor",
+			"ItemId": "dce1037dafae4d01834b7bb6de52b37d",
+			"LaunchPermissions": "NoInternet,WithoutLauncher,MultiLaunch"
+		},
+		{
+			"Name": "UnrealTournamentEditorPublicTest",
+			"GroupId": "Editor",
+			"ItemId": "2d32a47c7d76466db8e66e755a43d139",
+			"LaunchPermissions": "NoInternet,WithoutLauncher,MultiLaunch"
+		},
+		{
+			"Name": "UnrealTournamentEditorReleaseTesting",
+			"GroupId": "Editor",
+			"ItemId": "1ce8b048677546fcb03a59f02d522e1f",
+			"LaunchPermissions": "NoInternet,WithoutLauncher,MultiLaunch"
+		},
+		{
+			"Name": "UnrealTournamentEditorDevTesting",
+			"GroupId": "Editor",
+			"ItemId": "f9e3099dfd4e4e0bb1d624d2d37b6cba",
+			"LaunchPermissions": "NoInternet,WithoutLauncher,MultiLaunch"
+		},
+		{
+			"Name": "UnrealTournamentEditorLiveTesting",
+			"GroupId": "Editor",
+			"ItemId": "3d218f3874ad4713b250e16bcf2bfe9b",
+			"LaunchPermissions": "NoInternet,WithoutLauncher,MultiLaunch"
+		},
+		{
+			"Name": "UnrealTournamentDev",
+			"GroupId": "Game",
+			"OfferId": "9a85e064672249f6976b92c2d8db56b5",
+			"ItemId": "b8538c739273426aa35a98220e258d55",
+			"ClientId": "1252412dc7704a9690f6ea4611bc81ee",
+			"AppId": "unrealTournamentDev",
+			"RecentPlayersNamespace": "ut",
+			"LaunchPermissions": "NoInternet,WithoutLauncher,NoKoreanIdVerification"
+		},
+		{
+			"Name": "UnrealTournamentReleaseTesting",
+			"GroupId": "Game",
+			"ItemId": "5bd92bda35d34522a764a47f8160c4df",
+			"AppId": "UnrealTournamentReleaseTesting",
+			"RecentPlayersNamespace": "ut",
+			"LaunchPermissions": "NoInternet,WithoutLauncher,NoKoreanIdVerification"
+		},
+		{
+			"Name": "UnrealTournamentDevTesting",
+			"GroupId": "Game",
+			"ItemId": "95ab58637a8d441a85ec0417c14f11dc",
+			"AppId": "UnrealTournamentDevTesting",
+			"RecentPlayersNamespace": "ut",
+			"LaunchPermissions": "NoInternet,WithoutLauncher,NoKoreanIdVerification"
+		},
+		{
+			"Name": "UnrealTournamentLiveTesting",
+			"GroupId": "Game",
+			"ItemId": "d5f173ecd4144dfc8976fc79d79eb491",
+			"AppId": "UnrealTournamentLiveTesting",
+			"RecentPlayersNamespace": "ut",
+			"LaunchPermissions": "NoInternet,WithoutLauncher,NoKoreanIdVerification"
+		},
+		{
+			"Name": "UnrealTournamentPublicTest",
+			"GroupId": "Game",
+			"ItemId": "fbd90bc3d83e4b62b56deb900169d1ad",
+			"AppId": "UnrealTournamentPublicTest",
+			"RecentPlayersNamespace": "ut",
+			"LaunchPermissions": "NoInternet,WithoutLauncher,NoKoreanIdVerification"
+		},
+		{
+			"Name": "UnrealTournamentDevPlaytest",
+			"GroupId": "Game",
+			"ItemId": "af8b4842651d442cad527b5330b7785f",
+			"AppId": "UnrealTournamentDevPlaytest",
+			"RecentPlayersNamespace": "ut",
+			"LaunchPermissions": "NoInternet,WithoutLauncher,NoKoreanIdVerification"
+		}
+	],
+	"DefaultRegionId": "",
+	"Regions": [
+
+	]
+}

@@ -1,0 +1,958 @@
+﻿{
+   "Type" : "Box",
+   "Orientation" : "Vertical",
+   "Padding" : {
+      "Left" : 0,
+      "Top" : 0,
+      "Right" : 0,
+      "Bottom" : 0
+   },
+   "HAlign" : "Center",
+   "MaxWidth" : 1400,
+   "Children" : [
+      {
+         "Type" : "ResponsiveGrid",
+         "HAlign" : "Center",
+         "MaxWidth" : 1400,
+         "MinWidth" : 1400,
+         "TotalColumns" : 12,
+         "ColumnGutter" : 0,
+         "Children" : [
+            {
+               "Type" : "Panel",
+               "Row" : 0,
+               "Binding" : "",
+               "Padding" : {
+                  "Left" : 0,
+                  "Top" : 10,
+                  "Right" : 0,
+                  "Bottom" : 0
+               },
+               "Children" : [
+                  {
+                     "Type" : "Box",
+                     "Orientation" : "Vertical",
+                     "Padding" : {
+                        "Left" : 0,
+                        "Top" : 0,
+                        "Right" : 0,
+                        "Bottom" : 0
+                     },
+                     "Children" : [
+                        {
+                           "Type" : "DocSearch",
+                           "Padding" : {
+                              "Left" : 10,
+                              "Top" : 30,
+                              "Right" : 10,
+                              "Bottom" : 0
+                           },
+                           "MaxWidth" : 900,
+                           "MinWidth" : 900,
+                           "MinHeight" : 40,
+                           "HAlign" : "Center"
+                        },
+                        {
+                           "Type" : "ResponsiveGrid",
+                           "HAlign" : "Center",
+                           "AutoSize" : "true",
+                           "MaxWidth" : 900,
+                           "MinWidth" : 900,
+                           "TotalColumns" : 12,
+                           "ColumnGutter" : 5,
+                           "Padding" : {
+                              "Left" : 0,
+                              "Top" : 20,
+                              "Right" : 0,
+                              "Bottom" : 0
+                           },
+                           "Children" : [
+                              {
+                                 "Type" : "Link",
+                                 "Row" : 0,
+                                 "ColumnSpans" : [
+                                    {
+                                       "LayoutSize" : 0,
+                                       "Span" : 4
+                                    }
+                                 ],
+                                 "Binding" : "7b9900aa0da24a8c92b84138e42cdb85",
+                                 "HAlign" : "Center",
+                                 "Image" : {
+                                    "Image" : "Read_Icon.png"
+                                 },
+                                 "HoverIcon" : {
+                                    "Image" : "ExternalLink.png"
+                                 },
+                                 "Text" : {
+                                    "Text" : "Description",
+                                    "TextStyle" : "Body",
+                                    "Margin" : {
+                                       "Left" : 10,
+                                       "Top" : 0,
+                                       "Right" : 10,
+                                       "Bottom" : 0
+                                    }
+                                 },
+                                 "OnNavigateUrl" : "TechnicalDetails"
+                              },
+                              {
+                                 "Type" : "Link",
+                                 "Row" : 0,
+                                 "ColumnSpans" : [
+                                    {
+                                       "LayoutSize" : 0,
+                                       "Span" : 4
+                                    }
+                                 ],
+                                 "Binding" : "40b2657719f24604b8573262cd76a25d",
+                                 "HAlign" : "Center",
+                                 "Image" : {
+                                    "Image" : "Watch_Icon.png"
+                                 },
+                                 "HoverIcon" : {
+                                    "Image" : "ExternalLink.png"
+                                 },
+                                 "Text" : {
+                                    "Text" : "Description",
+                                    "TextStyle" : "Body",
+                                    "Margin" : {
+                                       "Left" : 10,
+                                       "Top" : 0,
+                                       "Right" : 10,
+                                       "Bottom" : 0
+                                    }
+                                 },
+                                 "OnNavigateUrl" : "TechnicalDetails"
+                              },
+                              {
+                                 "Type" : "Link",
+                                 "Row" : 0,
+                                 "ColumnSpans" : [
+                                    {
+                                       "LayoutSize" : 0,
+                                       "Span" : 4
+                                    }
+                                 ],
+                                 "Binding" : "150bf1f0d6f44dfeb600fcb5b851d7a9",
+                                 "HAlign" : "Center",
+                                 "Image" : {
+                                    "Image" : "Wiki_Icon.png"
+                                 },
+                                 "HoverIcon" : {
+                                    "Image" : "ExternalLink.png"
+                                 },
+                                 "Text" : {
+                                    "Text" : "Description",
+                                    "TextStyle" : "Body",
+                                    "Margin" : {
+                                       "Left" : 10,
+                                       "Top" : 0,
+                                       "Right" : 10,
+                                       "Bottom" : 0
+                                    }
+                                 },
+                                 "OnNavigateUrl" : "TechnicalDetails"
+                              }
+                           ]
+                        }
+                     ]
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "Type" : "Panel",
+         "Height" : 50,
+         "Width" : 724,
+         "Padding" : {
+            "Left" : 5,
+            "Top" : 20,
+            "Right" : 0,
+            "Bottom" : 0
+         },
+         "Text" : [
+            {
+               "HAlign" : "Left",
+               "VAlign" : "Bottom",
+               "Padding" : {
+                  "Left" : 0,
+                  "Top" : 0,
+                  "Right" : 0,
+                  "Bottom" : 10
+               },
+               "TextStyle" : "h2",
+               "Text_translate" : "true",
+               "Text" : "Begin Your Journey",
+               "Text_ko" : "여정을 시작하세요",
+               "Text_ja" : "まずはここから始めよう",
+               "Text_zh-CN" : "开启旅程",
+               "Text_fr" : "Entamez votre périple.",
+               "Text_es" : "Comienza tu viaje",
+               "Text_de" : "Beginnen Sie Ihre Reise",
+               "Text_it" : "Inizia il tuo viaggio",
+               "Text_ru" : "Начать путешествие",
+               "Text_pl" : "Rozpocznij przygodę",
+               "Text_pt-BR" : "Comece a sua jornada",
+               "Text_es-MX" : "Comienza tu viaje",
+               "Text_ar" : "ابدأ رحلتك",
+               "Text_tr" : "Yolculuğuna Başla",
+               "Text_zh-Hans" : "开启旅程",
+               "Text_zh-Hant" : "開始你的旅程",
+               "Text_th" : "เริ่มการเดินทางของคุณ"
+            }
+         ]
+      },
+      {
+         "Type" : "Panel",
+         "MinWidth" : 860,
+         "BackgroundImage" : "1.0, 1.0, 1.0, 0.5",
+         "Height" : 1,
+         "Padding" : {
+            "Left" : 5,
+            "Top" : 0,
+            "Right" : 15,
+            "Bottom" : 0
+         }
+      },
+      {
+         "Type" : "ResponsiveGrid",
+         "TotalColumns" : 24,
+         "ColumnGutter" : 0,
+         "Padding" : {
+            "Left" : 0,
+            "Top" : 10,
+            "Right" : 0,
+            "Bottom" : 0
+         },
+         "Children" : [
+            {
+               "Type" : "BasicTile",
+               "Row" : 0,
+               "ColumnSpans" : [
+                  {
+                     "LayoutSize" : 1300,
+                     "Span" : 11,
+                     "Offset" : 1
+                  },
+                  {
+                     "LayoutSize" : 0,
+                     "Span" : 12
+                  }
+               ],
+               "MaxHeight" : 230,
+               "MinHeight" : 230,
+               "HasShadow" : true,
+               "Binding" : "b042645f3c03489b82ee4fcbc7c4c686",
+               "Images" : [
+                  {
+                     "Image" : "Screenshot"
+                  }
+               ],
+               "OnNavigateUrl" : "TechnicalDetails",
+               "HoverIcon" : {
+                  "Image" : "ExternalLink.png",
+                  "Margin" : {
+                     "Left" : 15,
+                     "Top" : 10,
+                     "Right" : 15,
+                     "Bottom" : 10
+                  }
+               },
+               "Text" : [
+                  {
+                     "Text" : "Description",
+                     "TextStyle" : "h4",
+                     "Margin" : 10
+                  }
+               ],
+               "Padding" : {
+                  "Left" : 0,
+                  "Top" : 0,
+                  "Right" : 10,
+                  "Bottom" : 0
+               }
+            },
+            {
+               "Type" : "Box",
+               "Orientation" : "Vertical",
+               "Row" : 0,
+               "ColumnSpans" : [
+                  {
+                     "LayoutSize" : 1300,
+                     "Span" : 11
+                  },
+                  {
+                     "LayoutSize" : 0,
+                     "Span" : 12
+                  }
+               ],
+               "Padding" : {
+                  "Left" : 0,
+                  "Top" : 0,
+                  "Right" : 10,
+                  "Bottom" : 0
+               },
+               "Children" : [
+                  {
+                     "Type" : "BasicTile",
+                     "MaxHeight" : 110,
+                     "MinHeight" : 110,
+                     "HasShadow" : true,
+                     "Binding" : "51822fcaed1d4e6cb52d38df19cbf3af",
+                     "Images" : [
+                        {
+                           "Image" : "Featured"
+                        }
+                     ],
+                     "OnNavigateUrl" : "TechnicalDetails",
+                     "HoverIcon" : {
+                        "Image" : "ExternalLink.png",
+                        "Margin" : {
+                           "Left" : 15,
+                           "Top" : 10,
+                           "Right" : 15,
+                           "Bottom" : 10
+                        }
+                     },
+                     "Text" : [
+                        {
+                           "Text" : "Description",
+                           "TextStyle" : "h4",
+                           "Margin" : 10
+                        }
+                     ],
+                     "Padding" : {
+                        "Left" : 0,
+                        "Top" : 0,
+                        "Right" : 0,
+                        "Bottom" : 0
+                     }
+                  },
+                  {
+                     "Type" : "BasicTile",
+                     "MaxHeight" : 110,
+                     "MinHeight" : 110,
+                     "HasShadow" : true,
+                     "Binding" : "ca4d324ae82049caadfd0ca9b5304b1f",
+                     "Images" : [
+                        {
+                           "Image" : "Screenshot"
+                        }
+                     ],
+                     "OnNavigateUrl" : "TechnicalDetails",
+                     "HoverIcon" : {
+                        "Image" : "ExternalLink.png",
+                        "Margin" : {
+                           "Left" : 15,
+                           "Top" : 10,
+                           "Right" : 15,
+                           "Bottom" : 10
+                        }
+                     },
+                     "Text" : [
+                        {
+                           "Text" : "Description",
+                           "TextStyle" : "h4",
+                           "Margin" : 10
+                        }
+                     ],
+                     "Padding" : {
+                        "Left" : 0,
+                        "Top" : 10,
+                        "Right" : 0,
+                        "Bottom" : 0
+                     }
+                  },
+                  {
+                     "Type" : "BasicTile",
+                     "MaxHeight" : 110,
+                     "MinHeight" : 110,
+                     "HasShadow" : true,
+                     "Binding" : "a66b01ee7fef4bc7a0373944dd159afc",
+                     "Images" : [
+                        {
+                           "Image" : "Screenshot"
+                        }
+                     ],
+                     "OnNavigateUrl" : "TechnicalDetails",
+                     "HoverIcon" : {
+                        "Image" : "ExternalLink.png",
+                        "Margin" : {
+                           "Left" : 15,
+                           "Top" : 10,
+                           "Right" : 15,
+                           "Bottom" : 10
+                        }
+                     },
+                     "Text" : [
+                        {
+                           "Text" : "Description",
+                           "TextStyle" : "h4",
+                           "Margin" : 10
+                        }
+                     ],
+                     "Padding" : {
+                        "Left" : 0,
+                        "Top" : 10,
+                        "Right" : 0,
+                        "Bottom" : 0
+                     }
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "Type" : "Panel",
+         "Height" : 50,
+         "Width" : 724,
+         "Padding" : {
+            "Left" : 0,
+            "Top" : 10,
+            "Right" : 0,
+            "Bottom" : 0
+         },
+         "Text" : [
+            {
+               "VAlign" : "Bottom",
+               "Padding" : {
+                  "Left" : 5,
+                  "Top" : 0,
+                  "Right" : 0,
+                  "Bottom" : 10
+               },
+               "TextStyle" : "h2",
+               "Text_translate" : "true",
+               "Text" : "Broaden Your Horizons",
+               "Text_ko" : "견문을 넓히세요",
+               "Text_ja" : "さらにアンリアルを知ろう",
+               "Text_zh-CN" : "拓宽视野",
+               "Text_fr" : "Élargissez vos horizons.",
+               "Text_es" : "Amplía tus horizontes",
+               "Text_de" : "Erweitern Sie Ihren Horizont",
+               "Text_it" : "Amplia i tuoi orizzonti",
+               "Text_ru" : "Загляните за горизонт",
+               "Text_pl" : "Poszerz swoje horyzonty",
+               "Text_pt-BR" : "Amplie seus horizontes",
+               "Text_es-MX" : "Amplía tus horizontes",
+               "Text_ar" : "وسّع آفاقك",
+               "Text_tr" : "Ufkunu Genişlet",
+               "Text_zh-Hans" : "拓宽视野",
+               "Text_zh-Hant" : "擴展你的視界",
+               "Text_th" : "ขยายขอบเขตของคุณ"
+            }
+         ]
+      },
+      {
+         "Type" : "Panel",
+         "MinWidth" : 860,
+         "BackgroundImage" : "1.0, 1.0, 1.0, 0.5",
+         "Height" : 1,
+         "Padding" : {
+            "Left" : 5,
+            "Top" : 0,
+            "Right" : 15,
+            "Bottom" : 0
+         }
+      },
+      {
+         "Type" : "ResponsiveGrid",
+         "TotalColumns" : 1,
+         "ColumnGutter" : 0,
+         "Padding" : {
+            "Left" : 0,
+            "Top" : 10,
+            "Right" : 0,
+            "Bottom" : 0
+         },
+         "Children" : [
+            {
+               "Type" : "Grid",
+               "Row" : 0,
+               "ColumnSpans" : [
+                  {
+                     "LayoutSize" : 1100,
+                     "Span" : 1
+                  },
+                  {
+                     "LayoutSize" : 0,
+                     "Span" : 0
+                  }
+               ],
+               "Includes" : [
+                  "7aa57f151c7f4d68964472247ceb8588",
+                  "6ed87a40d85349c4afbac226b4024018",
+                  "7cf894c0799a4f91999e2d0599ac39ee",
+                  "352b1265b7c442e49255a48d0834d907"
+               ],
+               "Excludes" : [
+                  "Items"
+               ],
+               "SortBy" : "Title",
+               "ElementHeight" : 340,
+               "ElementWidth" : 200,
+               "ItemAlignment" : "Fill",
+               "Layout" : "ui_LearnEssentialsGridV2.layout",
+               "Padding" : {
+                  "Left" : 0,
+                  "Top" : 0,
+                  "Right" : 0,
+                  "Bottom" : 0
+               }
+            },
+            {
+               "Type" : "Grid",
+               "Row" : 0,
+               "ColumnSpans" : [
+                  {
+                     "LayoutSize" : 1100,
+                     "Span" : 0
+                  },
+                  {
+                     "LayoutSize" : 950,
+                     "Span" : 1
+                  },
+                  {
+                     "LayoutSize" : 0,
+                     "Span" : 0
+                  }
+               ],
+               "Includes" : [
+                  "7aa57f151c7f4d68964472247ceb8588",
+                  "6ed87a40d85349c4afbac226b4024018",
+                  "7cf894c0799a4f91999e2d0599ac39ee",
+                  "352b1265b7c442e49255a48d0834d907"
+               ],
+               "Excludes" : [
+                  "Items"
+               ],
+               "SortBy" : "Title",
+               "ElementHeight" : 340,
+               "ElementWidth" : 200,
+               "ItemAlignment" : "Fill",
+               "Layout" : "ui_LearnMediumEssentialsGridV2.layout",
+               "Padding" : {
+                  "Left" : 0,
+                  "Top" : 0,
+                  "Right" : 0,
+                  "Bottom" : 0
+               }
+            },
+            {
+               "Type" : "Grid",
+               "Row" : 0,
+               "ColumnSpans" : [
+                  {
+                     "LayoutSize" : 950,
+                     "Span" : 0
+                  },
+                  {
+                     "LayoutSize" : 0,
+                     "Span" : 1
+                  }
+               ],
+               "Includes" : [
+                  "7aa57f151c7f4d68964472247ceb8588",
+                  "6ed87a40d85349c4afbac226b4024018",
+                  "7cf894c0799a4f91999e2d0599ac39ee",
+                  "352b1265b7c442e49255a48d0834d907"
+               ],
+               "Excludes" : [
+                  "Items"
+               ],
+               "SortBy" : "Title",
+               "ElementHeight" : 200,
+               "ElementWidth" : 100,
+               "ItemAlignment" : "Fill",
+               "Layout" : "ui_LearnSmallEssentialsGridV2.layout",
+               "Padding" : {
+                  "Left" : 0,
+                  "Top" : 0,
+                  "Right" : 0,
+                  "Bottom" : 0
+               }
+            }
+         ]
+      },
+      {
+         "Type" : "Panel",
+         "Height" : 50,
+         "Width" : 724,
+         "Padding" : {
+            "Left" : 0,
+            "Top" : 20,
+            "Right" : 0,
+            "Bottom" : 0
+         },
+         "Text" : [
+            {
+               "VAlign" : "Bottom",
+               "Padding" : {
+                  "Left" : 5,
+                  "Top" : 0,
+                  "Right" : 0,
+                  "Bottom" : 10
+               },
+               "TextStyle" : "h2",
+               "Text_translate" : "true",
+               "Text" : "Engine Feature Samples",
+               "Text_ko" : "[샘플] 엔진 피처",
+               "Text_ja" : "エンジン機能サンプル",
+               "Text_zh-CN" : "引擎功能示例",
+               "Text_fr" : "Exemples de fonctionnalités du moteur",
+               "Text_es" : "Muestras de características del motor",
+               "Text_de" : "Engine-Funktionen zum Ausprobieren",
+               "Text_it" : "Esempi delle funzioni di Engine",
+               "Text_ru" : "Демонстрация особенностей движка",
+               "Text_pl" : "Przykłady funkcji silnika",
+               "Text_pt-BR" : "Amostras de funcionalidade do motor",
+               "Text_es-MX" : "Muestras de características de motor",
+               "Text_ar" : "عينات مزايا المحرك",
+               "Text_tr" : "Motor Özelliği Örnekleri",
+               "Text_zh-Hans" : "引擎功能示例",
+               "Text_zh-Hant" : "引擎功能樣本",
+               "Text_th" : "ตัวอย่างฟีเจอร์เอนจิ้น"
+            }
+         ]
+      },
+      {
+         "Type" : "Panel",
+         "MinWidth" : 860,
+         "BackgroundImage" : "1.0, 1.0, 1.0, 0.5",
+         "Height" : 1,
+         "Padding" : {
+            "Left" : 5,
+            "Top" : 0,
+            "Right" : 15,
+            "Bottom" : 0
+         }
+      },
+      {
+         "Type" : "Grid",
+         "Includes" : [
+            "learn/features"
+         ],
+         "Excludes" : [
+            "Items"
+         ],
+         "SortBy" : "ViewableDate",
+         "SortDirection" : "Descending",
+         "ElementHeight" : 320,
+         "ElementWidth" : 290,
+         "ItemAlignment" : "Fill",
+         "Layout" : "ui_LearnGridV2.layout",
+         "Padding" : {
+            "Left" : 0,
+            "Top" : 10,
+            "Right" : 0,
+            "Bottom" : 0
+         }
+      },
+      {
+         "Type" : "Panel",
+         "Height" : 50,
+         "Width" : 724,
+         "Padding" : {
+            "Left" : 0,
+            "Top" : 20,
+            "Right" : 0,
+            "Bottom" : 0
+         },
+         "Text" : [
+            {
+               "VAlign" : "Bottom",
+               "Padding" : {
+                  "Left" : 5,
+                  "Top" : 0,
+                  "Right" : 0,
+                  "Bottom" : 10
+               },
+               "TextStyle" : "h2",
+               "Text_translate" : "true",
+               "Text" : "Gameplay Concept Examples",
+               "Text_ko" : "[예제] 게임플레이 컨셉",
+               "Text_ja" : "ゲームプレイコンセプト エグザンプル",
+               "Text_zh-CN" : "游戏概念示例",
+               "Text_fr" : "Exemples de concepts de jeu",
+               "Text_es" : "Ejemplos del concepto de juego",
+               "Text_de" : "Gameplay-Konzeptbeispiele",
+               "Text_it" : "Esempi di concept di gioco",
+               "Text_ru" : "Демонстрация игровых возможностей",
+               "Text_pl" : "Przykłady rodzajów rozgrywki",
+               "Text_pt-BR" : "Exemplos de conceitos de jogo",
+               "Text_es-MX" : "Ejemplos del concepto de juego",
+               "Text_ar" : "أمثلة مفهوم اللعب",
+               "Text_tr" : "Oynanış Konsepti Örnekleri",
+               "Text_zh-Hans" : "游戏概念示例",
+               "Text_zh-Hant" : "遊戲構想範例",
+               "Text_th" : "ตัวอย่างคอนเซ็ปต์เกม"
+            }
+         ]
+      },
+      {
+         "Type" : "Panel",
+         "MinWidth" : 860,
+         "BackgroundImage" : "1.0, 1.0, 1.0, 0.5",
+         "Height" : 1,
+         "Padding" : {
+            "Left" : 5,
+            "Top" : 0,
+            "Right" : 15,
+            "Bottom" : 0
+         }
+      },
+      {
+         "Type" : "Grid",
+         "MinWidth" : 1050,
+         "HAlign" : "Left",
+         "Includes" : [
+            "learn/sandbox"
+         ],
+         "Excludes" : [
+            "Items"
+         ],
+         "SortBy" : "ViewableDate",
+         "SortDirection" : "Descending",
+         "ElementHeight" : 320,
+         "ElementWidth" : 290,
+         "ItemAlignment" : "Fill",
+         "Layout" : "ui_LearnGridV2.layout",
+         "Padding" : {
+            "Left" : 0,
+            "Top" : 10,
+            "Right" : 0,
+            "Bottom" : 20
+         }
+      },
+      {
+         "Type" : "Panel",
+         "Height" : 50,
+         "Width" : 724,
+         "Padding" : {
+            "Left" : 0,
+            "Top" : 20,
+            "Right" : 0,
+            "Bottom" : 0
+         },
+         "Text" : [
+            {
+               "VAlign" : "Bottom",
+               "Padding" : {
+                  "Left" : 5,
+                  "Top" : 0,
+                  "Right" : 0,
+                  "Bottom" : 10
+               },
+               "TextStyle" : "h2",
+               "Text_translate" : "true",
+               "Text" : "Example Game Projects",
+               "Text_ko" : "[예제] 게임 프로젝트",
+               "Text_ja" : "ゲームプロジェクト エグザンプル",
+               "Text_zh-CN" : "范例游戏项目",
+               "Text_fr" : "Exemples de projets de jeu",
+               "Text_es" : "Ejemplos de proyectos de juego",
+               "Text_de" : "Spielprojektbeispiele",
+               "Text_it" : "Esempi di progetti di gioco",
+               "Text_ru" : "Примеры игровых проектов",
+               "Text_pl" : "Przykładowe projekty gier",
+               "Text_pt-BR" : "Exemplos de projetos de jogo",
+               "Text_es-MX" : "Ejemplos de proyectos de juego",
+               "Text_ar" : "مشروعات مثال اللعب",
+               "Text_tr" : "Örnek Oyun Projeleri",
+               "Text_zh-Hans" : "范例游戏项目",
+               "Text_zh-Hant" : "範例遊戲專案",
+               "Text_th" : "โปรเจกต์เกมตัวอย่าง"
+            }
+         ]
+      },
+      {
+         "Type" : "Panel",
+         "MinWidth" : 860,
+         "BackgroundImage" : "1.0, 1.0, 1.0, 0.5",
+         "Height" : 1,
+         "Padding" : {
+            "Left" : 5,
+            "Top" : 0,
+            "Right" : 15,
+            "Bottom" : 0
+         }
+      },
+      {
+         "Type" : "Grid",
+         "MinWidth" : 1050,
+         "HAlign" : "Left",
+         "Includes" : [
+            "learn/games"
+         ],
+         "Excludes" : [
+            "Items"
+         ],
+         "SortBy" : "ViewableDate",
+         "SortDirection" : "Descending",
+         "ElementHeight" : 320,
+         "ElementWidth" : 290,
+         "ItemAlignment" : "Fill",
+         "Layout" : "ui_LearnGridV2.layout",
+         "Padding" : {
+            "Left" : 0,
+            "Top" : 10,
+            "Right" : 0,
+            "Bottom" : 20
+         }
+      },
+      {
+         "Type" : "Panel",
+         "Height" : 50,
+         "Width" : 724,
+         "Padding" : {
+            "Left" : 0,
+            "Top" : 20,
+            "Right" : 0,
+            "Bottom" : 0
+         },
+         "Text" : [
+            {
+               "VAlign" : "Bottom",
+               "Padding" : {
+                  "Left" : 5,
+                  "Top" : 0,
+                  "Right" : 0,
+                  "Bottom" : 10
+               },
+               "TextStyle" : "h2",
+               "Text_translate" : "true",
+               "Text" : "Community Contributions",
+               "Text_ko" : "커뮤니티 기여",
+               "Text_zh-CN" : "社区贡献",
+               "Text_ja" : "コミュニティコントリビューション",
+               "Text_fr" : "Contributions de la communauté",
+               "Text_es" : "Contribuciones de la comunidad",
+               "Text_de" : "Beiträge der Community",
+               "Text_it" : "Contributi della community",
+               "Text_ru" : "Работы сообщества",
+               "Text_pl" : "Twórczość społeczności",
+               "Text_pt-BR" : "Contribuições da comunidade",
+               "Text_es-MX" : "Contribuciones de la comunidad",
+               "Text_ar" : "مساهمات المجتمع",
+               "Text_tr" : "Topluluğun Katkıları",
+               "Text_zh-Hans" : "社区贡献",
+               "Text_zh-Hant" : "社群貢獻",
+               "Text_th" : "การมีส่วนร่วมในคอมมูนิตี"
+            }
+         ]
+      },
+      {
+         "Type" : "Panel",
+         "MinWidth" : 860,
+         "BackgroundImage" : "1.0, 1.0, 1.0, 0.5",
+         "Height" : 1,
+         "Padding" : {
+            "Left" : 5,
+            "Top" : 0,
+            "Right" : 15,
+            "Bottom" : 0
+         }
+      },
+      {
+         "Type" : "Grid",
+         "MinWidth" : 700,
+         "MaxWidth" : 700,
+         "HAlign" : "Left",
+         "Includes" : [
+            "learn/community"
+         ],
+         "Excludes" : [
+            "Items"
+         ],
+         "SortBy" : "ViewableDate",
+         "SortDirection" : "Descending",
+         "ElementHeight" : 320,
+         "ElementWidth" : 290,
+         "ItemAlignment" : "Fill",
+         "Layout" : "ui_LearnGridV2.layout",
+         "Padding" : {
+            "Left" : 0,
+            "Top" : 10,
+            "Right" : 0,
+            "Bottom" : 20
+         }
+      },
+      {
+         "Type" : "Panel",
+         "Height" : 50,
+         "Width" : 724,
+         "Padding" : {
+            "Left" : 0,
+            "Top" : 20,
+            "Right" : 0,
+            "Bottom" : 0
+         },
+         "Text" : [
+            {
+               "VAlign" : "Bottom",
+               "Padding" : {
+                  "Left" : 5,
+                  "Top" : 0,
+                  "Right" : 0,
+                  "Bottom" : 10
+               },
+               "TextStyle" : "h2",
+               "Text_translate" : "true",
+               "Text" : "Platforms and Partners",
+               "Text_ko" : "플랫폼 & 파트너",
+               "Text_ja" : "プラットフォームパートナー",
+               "Text_zh-CN" : "平台和合作伙伴",
+               "Text_fr" : "Plateformes et partenaires",
+               "Text_es" : "Plataformas y socios",
+               "Text_de" : "Plattformen und Partner",
+               "Text_it" : "Piattaforme e partner",
+               "Text_ru" : "Платформы и партнеры",
+               "Text_pl" : "Platformy i partnerzy",
+               "Text_pt-BR" : "Plataformas e parceiros",
+               "Text_es-MX" : "Plataformas y socios",
+               "Text_ar" : "المنصات والشركاء",
+               "Text_tr" : "Platformlar ve Ortaklar",
+               "Text_zh-Hans" : "平台和合作伙伴",
+               "Text_zh-Hant" : "平台與合作夥伴",
+               "Text_th" : "แพลตฟอร์มและคู่ค้า"
+            }
+         ]
+      },
+      {
+         "Type" : "Panel",
+         "MinWidth" : 860,
+         "BackgroundImage" : "1.0, 1.0, 1.0, 0.5",
+         "Height" : 1,
+         "Padding" : {
+            "Left" : 5,
+            "Top" : 0,
+            "Right" : 15,
+            "Bottom" : 0
+         }
+      },
+      {
+         "Type" : "Grid",
+         "MinWidth" : 350,
+         "MaxWidth" : 350,
+         "HAlign" : "Left",
+         "Includes" : [
+            "learn/external"
+         ],
+         "Excludes" : [
+            "Items"
+         ],
+         "ElementHeight" : 320,
+         "ElementWidth" : 290,
+         "ItemAlignment" : "Fill",
+         "Layout" : "ui_LearnGridV2Web.layout",
+         "Padding" : {
+            "Left" : 0,
+            "Top" : 10,
+            "Right" : 0,
+            "Bottom" : 20
+         }
+      }
+   ]
+}

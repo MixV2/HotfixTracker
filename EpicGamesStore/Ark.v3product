@@ -1,0 +1,57 @@
+{
+	"Id": "ark",
+	"Priority": 30,
+	"AnalyticsId": "ark",
+	"DisplayName": "ARK: Survival Evolved",
+	"ShortDisplayName": "ARK",
+	"SupportedPlatforms": "Windows",
+	"CatalogNamespace": "ark",
+	"Categories": "Create",
+	"EulaExpression": "(ark && ue)",
+	"BackgroundImage": "",
+	"BackgroundFillImage": "0.08241, 0.08241, 0.08241",
+	"PrimaryColor": "0.54799, 0.00006, 0.00001",
+	"PressedPrimaryColor": "0.44787, 0.00006, 0.00001",
+	"HoveredPrimaryColor": "0.7372, 0.00011, 0.00002",
+	"Homepage": "/create/ark",
+	"Pages": [
+		{
+			"Id": "create.ark",
+			"PartialUrl": "/ark",
+			"SourceUrls" : [
+				{
+					"SourceUrl": "ui_ArkCreateV2_Offline.layout",
+					"Conditions": [ "![BINDING_SOURCE], [PORTAL_VERSION]<2.12.24, ![PORTAL_VERSION]0.0.0" ] 
+				},
+				{
+					"SourceUrl": "ui_ArkCreateV3_Offline.layout",
+					"Conditions": [ "![BINDING_SOURCE]" ] 
+				},
+				{
+					"SourceUrl": "ui_ArkCreateV2.layout",
+					"Conditions": [ "[PORTAL_VERSION]<2.12.24, ![PORTAL_VERSION]0.0.0" ] 
+				},
+				{
+					"SourceUrl": "ui_ArkCreateV3.layout"
+				}
+			]
+		}
+	],
+	"Redirects": [
+		"/ark -> /create/ark",
+		"/ark/create -> /create/ark"
+	],
+	"Apps": [
+		{
+			"Name": "ARKDevKit",
+			"GroupId": "Editor",
+			"OfferId": "6a0dadfed285488bafec6f01f30f67d0",
+			"ItemId": "8077d89481064a9097dd4b8fe7bca090",
+			"LaunchPermissions": "NoInternet,WithoutLauncher,MultiLaunch"
+		}
+	],
+	"DefaultRegionId": "",
+	"Regions": [
+
+	]
+}

@@ -1,0 +1,463 @@
+{
+	"Id": "ue",
+	"Priority": 1,
+	"AnalyticsId": "ue",
+	"DisplayName": "Unreal Engine",
+	"DisplayName_ko": "언리얼 엔진",
+	"ShortDisplayName": "UE4",
+	"CatalogNamespace": "ue",
+	"OnDemandCatalog": true,
+	"EulaExpression": "(ue_studio || ue)",
+	"BackgroundImage": "",
+	"BackgroundFillImage": "#1e1e1e",
+	"PrimaryColor": "0.03288, 0.19046, 0.7519",
+	"PressedPrimaryColor": "0.02899, 0.16044, 0.62534",
+	"HoveredPrimaryColor": "0.03703, 0.21576, 0.85917",
+	"TabForegroundColor": "1.0, 1.0, 1.0",
+	"Requirements": {
+		"Windows": {
+			"MinMajorVersion": 6,
+			"MinMinorVersion": 1,
+			"MinServicePackVersion": 1
+		}
+	},
+	"Homepage": "/ue",
+	"Pages": [{
+			"Id": "ue",
+			"PartialUrl": "/ue",
+			"SourceUrls": [{
+				"SourceUrl": "ui_UE.layout"
+			}]
+		},
+		{
+			"Id": "ue.library",
+			"PartialUrl": "/library",
+			"SourceUrls": [{
+					"SourceUrl": "ui_UE_32bitLibrary.layout",
+					"Conditions": [
+						"[PC32]"
+					]
+				},
+				{
+					"SourceUrl": "ui_UE_Library.layout"
+				}
+			]
+		},
+		{
+			"Id": "ue.library-load-error",
+			"PartialUrl": "/library*/load-error",
+			"SourceUrl": "ui_UE_LibraryLoadError.layout",
+			"IsTransient": true
+		},
+		{
+			"Id": "ue.community",
+			"PartialUrl": "/community",
+			"SourceUrl": "{launcher.epicgames}{path}",
+			"IsTransient": true
+		},
+		{
+			"Id": "ue.community-load-error",
+			"PartialUrl": "/community*/load-error",
+			"SourceUrl": "ui_UELoadError.layout",
+			"IsTransient": true
+		},
+		{
+			"Id": "ue.learn",
+			"PartialUrl": "/learn",
+			"SourceUrl": "{launcher.epicgames}{path}",
+			"IsTransient": true
+		},
+		{
+			"Id": "ue.learn-item",
+			"PartialUrl": "/learn/*",
+			"SourceUrl": "{launcher.epicgames}{path}",
+			"IsTransient": true
+		},
+		{
+			"Id": "ue.learn-load-error",
+			"PartialUrl": "/learn*/load-error",
+			"SourceUrl": "ui_UELoadError.layout",
+			"IsTransient": true
+		},
+		{
+			"Id": "ue.marketplace",
+			"PartialUrl": "/marketplace",
+			"SourceUrl": "{launcher.epicgames}{path}",
+			"IsTransient": true
+		},
+		{
+			"Id": "ue.marketplace-item",
+			"PartialUrl": "/marketplace/*",
+			"SourceUrl": "{launcher.epicgames}{path}",
+			"IsTransient": true
+		},
+		{
+			"Id": "ue.marketplace-new-content",
+			"PartialUrl": "/marketplace/new-content",
+			"SourceUrl": "{launcher.epicgames}{path}",
+			"IsTransient": true
+		},
+		{
+			"Id": "ue.marketplace-category",
+			"PartialUrl": "/marketplace/content-cat/*",
+			"SourceUrl": "{launcher.epicgames}{path}",
+			"IsTransient": true
+		},
+		{
+			"Id": "ue.marketplace-search",
+			"PartialUrl": "/marketplace/assets",
+			"SourceUrl": "{launcher.epicgames}{path}",
+			"IsTransient": true
+		},
+		{
+			"Id": "ue.marketplace-load-error",
+			"PartialUrl": "/marketplace*/load-error",
+			"SourceUrl": "ui_UELoadError.layout",
+			"IsTransient": true
+		}
+	],
+	"Redirects": [
+		"/ue -> MOST_RECENT_LOCATION || /ue/community",
+		"/Enterprise -> /ue"
+	],
+	"Apps": [{
+			"Name": "UE_4.25",
+			"GroupId": "Game",
+			"OfferId": "30982fd770434b0abc78785ab94fc52d",
+			"ItemId": "3ddb1bad6e004b99a7192c1a29f2318a",
+			"AppId": "UE_4.25",
+			"HasGateKeeper": false,
+			"LaunchPermissions": "WithoutLauncher,MultiLaunch",
+			"Requirements": {
+				"MacOS": {
+					"MinMajorVersion": 10,
+					"MinMinorVersion": 13,
+					"MinRevision": 5
+				}
+			}
+		},
+		{
+			"Name": "UE_4.24",
+			"GroupId": "Game",
+			"OfferId": "30982fd770434b0abc78785ab94fc52d",
+			"ItemId": "3ddb1bad6e004b99a7192c1a29f2318a",
+			"AppId": "UE_4.24",
+			"HasGateKeeper": false,
+			"LaunchPermissions": "WithoutLauncher,MultiLaunch",
+			"Requirements": {
+				"MacOS": {
+					"MinMajorVersion": 10,
+					"MinMinorVersion": 13,
+					"MinRevision": 5
+				}
+			}
+		},
+		{
+			"Name": "UE_4.23",
+			"GroupId": "Game",
+			"OfferId": "30982fd770434b0abc78785ab94fc52d",
+			"ItemId": "3ddb1bad6e004b99a7192c1a29f2318a",
+			"AppId": "UE_4.23",
+			"HasGateKeeper": false,
+			"LaunchPermissions": "WithoutLauncher,MultiLaunch",
+			"Requirements": {
+				"MacOS": {
+					"MinMajorVersion": 10,
+					"MinMinorVersion": 13,
+					"MinRevision": 5
+				}
+			}
+		},
+		{
+			"Name": "UE_4.22",
+			"GroupId": "Game",
+			"OfferId": "30982fd770434b0abc78785ab94fc52d",
+			"ItemId": "3ddb1bad6e004b99a7192c1a29f2318a",
+			"AppId": "UE_4.22",
+			"HasGateKeeper": false,
+			"LaunchPermissions": "WithoutLauncher,MultiLaunch",
+			"Requirements": {
+				"MacOS": {
+					"MinMajorVersion": 10,
+					"MinMinorVersion": 13,
+					"MinRevision": 5
+				}
+			}
+		},
+		{
+			"Name": "UE_4.21",
+			"GroupId": "Game",
+			"OfferId": "30982fd770434b0abc78785ab94fc52d",
+			"ItemId": "3ddb1bad6e004b99a7192c1a29f2318a",
+			"AppId": "UE_4.21",
+			"HasGateKeeper": false,
+			"LaunchPermissions": "WithoutLauncher,MultiLaunch",
+			"Requirements": {
+				"MacOS": {
+					"MinMajorVersion": 10,
+					"MinMinorVersion": 13,
+					"MinRevision": 5
+				}
+			}
+		},
+		{
+			"Name": "UE_4.20",
+			"GroupId": "Game",
+			"OfferId": "30982fd770434b0abc78785ab94fc52d",
+			"ItemId": "3ddb1bad6e004b99a7192c1a29f2318a",
+			"AppId": "UE_4.20",
+			"HasGateKeeper": false,
+			"LaunchPermissions": "WithoutLauncher,MultiLaunch",
+			"Requirements": {
+				"MacOS": {
+					"MinMajorVersion": 10,
+					"MinMinorVersion": 13,
+					"MinRevision": 5
+				}
+			}
+		},
+		{
+			"Name": "UE_4.19",
+			"GroupId": "Game",
+			"OfferId": "30982fd770434b0abc78785ab94fc52d",
+			"ItemId": "3ddb1bad6e004b99a7192c1a29f2318a",
+			"AppId": "UE_4.19",
+			"HasGateKeeper": false,
+			"LaunchPermissions": "WithoutLauncher,MultiLaunch",
+			"Requirements": {
+				"MacOS": {
+					"MinMajorVersion": 10,
+					"MinMinorVersion": 12,
+					"MinRevision": 6
+				}
+			}
+		},
+		{
+			"Name": "UE_4.18",
+			"GroupId": "Game",
+			"OfferId": "30982fd770434b0abc78785ab94fc52d",
+			"ItemId": "3ddb1bad6e004b99a7192c1a29f2318a",
+			"AppId": "UE_4.18",
+			"HasGateKeeper": false,
+			"LaunchPermissions": "WithoutLauncher,MultiLaunch",
+			"Requirements": {
+				"MacOS": {
+					"MinMajorVersion": 10,
+					"MinMinorVersion": 12,
+					"MinRevision": 6
+				}
+			}
+		},
+		{
+			"Name": "UE_4.17",
+			"GroupId": "Game",
+			"OfferId": "30982fd770434b0abc78785ab94fc52d",
+			"ItemId": "3ddb1bad6e004b99a7192c1a29f2318a",
+			"AppId": "UE_4.17",
+			"HasGateKeeper": false,
+			"LaunchPermissions": "WithoutLauncher,MultiLaunch",
+			"Requirements": {
+				"MacOS": {
+					"MinMajorVersion": 10,
+					"MinMinorVersion": 11,
+					"MinRevision": 6
+				}
+			}
+		},
+		{
+			"Name": "UE_4.16",
+			"GroupId": "Game",
+			"OfferId": "30982fd770434b0abc78785ab94fc52d",
+			"ItemId": "3ddb1bad6e004b99a7192c1a29f2318a",
+			"AppId": "UE_4.16",
+			"HasGateKeeper": false,
+			"LaunchPermissions": "WithoutLauncher,MultiLaunch",
+			"Requirements": {
+				"MacOS": {
+					"MinMajorVersion": 10,
+					"MinMinorVersion": 11,
+					"MinRevision": 6
+				}
+			}
+		},
+		{
+			"Name": "UE_4.15",
+			"GroupId": "Game",
+			"OfferId": "30982fd770434b0abc78785ab94fc52d",
+			"ItemId": "3ddb1bad6e004b99a7192c1a29f2318a",
+			"AppId": "UE_4.15",
+			"HasGateKeeper": false,
+			"LaunchPermissions": "WithoutLauncher,MultiLaunch",
+			"Requirements": {
+				"MacOS": {
+					"MinMajorVersion": 10,
+					"MinMinorVersion": 11,
+					"MinRevision": 6
+				}
+			}
+		},
+		{
+			"Name": "UE_4.14",
+			"GroupId": "Game",
+			"OfferId": "30982fd770434b0abc78785ab94fc52d",
+			"ItemId": "3ddb1bad6e004b99a7192c1a29f2318a",
+			"AppId": "UE_4.14",
+			"HasGateKeeper": false,
+			"LaunchPermissions": "WithoutLauncher,MultiLaunch",
+			"Requirements": {
+				"MacOS": {
+					"MinMajorVersion": 10,
+					"MinMinorVersion": 10,
+					"MinRevision": 5
+				}
+			}
+		},
+		{
+			"Name": "UE_4.13",
+			"GroupId": "Game",
+			"OfferId": "30982fd770434b0abc78785ab94fc52d",
+			"ItemId": "3ddb1bad6e004b99a7192c1a29f2318a",
+			"AppId": "UE_4.13",
+			"HasGateKeeper": false,
+			"LaunchPermissions": "WithoutLauncher,MultiLaunch",
+			"Requirements": {
+				"MacOS": {
+					"MinMajorVersion": 10,
+					"MinMinorVersion": 10,
+					"MinRevision": 5
+				}
+			}
+		},
+		{
+			"Name": "UE_4.12",
+			"GroupId": "Game",
+			"OfferId": "30982fd770434b0abc78785ab94fc52d",
+			"ItemId": "3ddb1bad6e004b99a7192c1a29f2318a",
+			"AppId": "UE_4.12",
+			"HasGateKeeper": false,
+			"LaunchPermissions": "WithoutLauncher,MultiLaunch",
+			"Requirements": {
+				"MacOS": {
+					"MinMajorVersion": 10,
+					"MinMinorVersion": 10,
+					"MinRevision": 5
+				}
+			}
+		},
+		{
+			"Name": "UE_4.11",
+			"GroupId": "Game",
+			"OfferId": "30982fd770434b0abc78785ab94fc52d",
+			"ItemId": "3ddb1bad6e004b99a7192c1a29f2318a",
+			"AppId": "UE_4.11",
+			"HasGateKeeper": false,
+			"LaunchPermissions": "WithoutLauncher,MultiLaunch",
+			"Requirements": {
+				"MacOS": {
+					"MinMajorVersion": 10,
+					"MinMinorVersion": 10,
+					"MinRevision": 5
+				}
+			}
+		},
+		{
+			"Name": "UE_4.10",
+			"GroupId": "Game",
+			"OfferId": "30982fd770434b0abc78785ab94fc52d",
+			"ItemId": "3ddb1bad6e004b99a7192c1a29f2318a",
+			"AppId": "UE_4.10",
+			"HasGateKeeper": false,
+			"LaunchPermissions": "WithoutLauncher,MultiLaunch"
+		},
+		{
+			"Name": "UE_4.9",
+			"GroupId": "Game",
+			"OfferId": "30982fd770434b0abc78785ab94fc52d",
+			"ItemId": "3ddb1bad6e004b99a7192c1a29f2318a",
+			"AppId": "UE_4.9",
+			"HasGateKeeper": false,
+			"LaunchPermissions": "WithoutLauncher,MultiLaunch"
+		},
+		{
+			"Name": "UE_4.8",
+			"GroupId": "Game",
+			"OfferId": "30982fd770434b0abc78785ab94fc52d",
+			"ItemId": "3ddb1bad6e004b99a7192c1a29f2318a",
+			"AppId": "UE_4.8",
+			"HasGateKeeper": false,
+			"LaunchPermissions": "WithoutLauncher,MultiLaunch"
+		},
+		{
+			"Name": "UE_4.7",
+			"GroupId": "Game",
+			"OfferId": "30982fd770434b0abc78785ab94fc52d",
+			"ItemId": "3ddb1bad6e004b99a7192c1a29f2318a",
+			"AppId": "UE_4.7",
+			"HasGateKeeper": false,
+			"LaunchPermissions": "WithoutLauncher,MultiLaunch"
+		},
+		{
+			"Name": "UE_4.6",
+			"GroupId": "Game",
+			"OfferId": "30982fd770434b0abc78785ab94fc52d",
+			"ItemId": "3ddb1bad6e004b99a7192c1a29f2318a",
+			"AppId": "UE_4.6",
+			"HasGateKeeper": false,
+			"LaunchPermissions": "WithoutLauncher,MultiLaunch"
+		},
+		{
+			"Name": "UE_4.5",
+			"GroupId": "Game",
+			"OfferId": "30982fd770434b0abc78785ab94fc52d",
+			"ItemId": "3ddb1bad6e004b99a7192c1a29f2318a",
+			"AppId": "UE_4.5",
+			"HasGateKeeper": false,
+			"LaunchPermissions": "WithoutLauncher,MultiLaunch"
+		},
+		{
+			"Name": "UE_4.4",
+			"GroupId": "Game",
+			"OfferId": "30982fd770434b0abc78785ab94fc52d",
+			"ItemId": "3ddb1bad6e004b99a7192c1a29f2318a",
+			"AppId": "UE_4.4",
+			"HasGateKeeper": false,
+			"LaunchPermissions": "WithoutLauncher,MultiLaunch"
+		},
+		{
+			"Name": "UE_4.3",
+			"GroupId": "Game",
+			"OfferId": "30982fd770434b0abc78785ab94fc52d",
+			"ItemId": "3ddb1bad6e004b99a7192c1a29f2318a",
+			"AppId": "UE_4.3",
+			"HasGateKeeper": false,
+			"LaunchPermissions": "WithoutLauncher,MultiLaunch"
+		},
+		{
+			"Name": "UE_4.2",
+			"GroupId": "Game",
+			"OfferId": "30982fd770434b0abc78785ab94fc52d",
+			"ItemId": "3ddb1bad6e004b99a7192c1a29f2318a",
+			"AppId": "UE_4.2",
+			"HasGateKeeper": false,
+			"LaunchPermissions": "WithoutLauncher,MultiLaunch"
+		},
+		{
+			"Name": "UE_4.1",
+			"GroupId": "Game",
+			"OfferId": "30982fd770434b0abc78785ab94fc52d",
+			"ItemId": "3ddb1bad6e004b99a7192c1a29f2318a",
+			"AppId": "UE_4.1",
+			"HasGateKeeper": false,
+			"LaunchPermissions": "WithoutLauncher,MultiLaunch"
+		},
+		{
+			"Name": "UE_4.0",
+			"GroupId": "Game",
+			"OfferId": "30982fd770434b0abc78785ab94fc52d",
+			"ItemId": "3ddb1bad6e004b99a7192c1a29f2318a",
+			"AppId": "UE_4.0",
+			"HasGateKeeper": false,
+			"LaunchPermissions": "WithoutLauncher,MultiLaunch"
+		}
+	]
+}

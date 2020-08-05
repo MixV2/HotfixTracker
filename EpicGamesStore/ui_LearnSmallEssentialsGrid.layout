@@ -1,0 +1,37 @@
+{
+	"Type": "Box",
+	"Orientation": "Vertical",
+    "Padding": { "Left": 0, "Top": 0, "Right": 10, "Bottom": 10 },
+	"AutoSize": "false",
+	"Children":
+	[
+ 		{
+            "Type": "DetailsTile",
+			"VAlign": "Fill",
+			"HAlign": "Fill",
+			"AutoSize": false,
+            "Binding": "",
+            "HoveredBackgroundImage": { "Image": "0.02188, 0.02188, 0.02188" },
+            "BackgroundImage": { "Image": "0.01188, 0.01188, 0.01188" },
+            "Images": 
+            [
+                { "Image": "Screenshot" },
+                { "Image": "Thumbnail", "HAlign": "Left", "VAlign": "Top", "Stretch": "None", "IsOptional": "true" }
+            ],
+            "HoverIcon": { "Image": "ExternalLink.png", "Margin": { "Left": 15, "Top": 10, "Right": 15, "Bottom": 10 } },
+            "OnNavigateUrl": "TechnicalDetails",
+            "Text": 
+            [
+                { 
+                	"Text": "Description", 
+					"TextStyle": "h5",
+                	"Margin": { "Left": 10, "Top": 22, "Right": 10, "Bottom": 10 }, 
+                	"Justification": "Center",
+                    "VAlign": "Top",
+                    "AutoSize": "false",
+                	"LineHeightScalar": 1.2
+                }
+            ]
+        }
+	]
+}

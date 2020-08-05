@@ -1,0 +1,160 @@
+﻿{
+	"Type": "Box",
+	"Orientation": "Vertical",
+	"AutoSize": "false",
+	"Children": [
+		{
+			"Type": "Overlay",
+			"MaxWidth": 1400,
+			"HAlign": "Center",
+			"Padding": {
+				"Left": 0,
+				"Top": 5,
+				"Right": 0,
+				"Bottom": 0
+			},
+			"Children": [
+				{
+					"Type": "BasicTile",
+					"Binding": "d67ca3851cc444918cd4bf92bf7717bc",
+					"HasShadow": "false",
+					"Height": 400,
+					"LoadSilently": "true",
+					"Images": [
+						{
+							"Image": "Screenshot",
+							"HAlign": "Center",
+							"VAlign": "Center"
+						}
+					]
+				},
+				{
+					"Type": "BasicTile",
+					"HasShadow": "false",
+					"Height": 150,
+					"Width": 450,
+					"HAlign": "Left",
+					"Images": [
+						{
+							"Image": "GradientRight.png",
+							"ColorAndOpacity": "0, 0, 0, 0.75",
+							"Stretch": "Fill"
+						}
+					]
+				},
+				{
+					"Type": "Box",
+					"Orientation": "Vertical",
+					"MinWidth": 1400,
+					"HAlign": "Center",
+					"VAlign": "Top",
+					"Padding": {
+						"Left": 30,
+						"Top": 50,
+						"Right": 0,
+						"Bottom": 0
+					},
+					"Children": [
+						{
+							"Type": "Panel",
+							"Padding": {
+								"Left": 20,
+								"Top": 0,
+								"Right": 0,
+								"Bottom": 0
+							},
+							"Text": [
+								{
+									"Binding": "d67ca3851cc444918cd4bf92bf7717bc/Title",
+									"TextStyle": "inverted-title",
+									"HAlign": "Left",
+									"VAlign": "Center",
+									"Margin": {
+										"Left": 0,
+										"Top": 0,
+										"Right": 0,
+										"Bottom": 0
+									},
+									"LineHeightScalar": 1.2
+								}
+							]
+						},
+						{
+							"Type": "Panel",
+							"Padding": {
+								"Left": 22,
+								"Top": 10,
+								"Right": 0,
+								"Bottom": 0
+							},
+							"AutoSize": "false",
+							"Text": [
+								{
+									"Binding": "d67ca3851cc444918cd4bf92bf7717bc/LongDescription",
+									"TextStyle": "inverted-body",
+									"WrapAt": 450,
+									"LineHeightScalar": 1.2
+								}
+							]
+						},
+						{
+							"Type": "ActionButton",
+							"HAlign": "Left",
+							"MinWidth": 442,
+							"MinHeight": 124,
+							"Padding": {
+								"Left": 0,
+								"Top": 10,
+								"Right": 0,
+								"Bottom": 0
+							},
+							"VAlign": "Top",
+							"SelectorId": "Editor",
+							"GroupId": "Editor"
+						},
+						{
+							"Type": "Box",
+							"Orientation": "Horizontal",
+							"MinWidth": 442,
+							"HAlign": "Left",
+							"Children": [
+								{
+									"Type": "Layout",
+									"Layout": "ui_ConanexilesShareLinksV1",
+									"HAlign": "Center",
+									"AutoSize": "false",
+									"Padding": {
+										"Left": 0,
+										"Top": 0,
+										"Right": 0,
+										"Bottom": 8
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"Type": "Grid",
+			"MaxWidth": 1000,
+			"MinWidth": 1000,
+			"HAlign": "Center",
+			"Includes": [
+				"create/calltoaction"
+			],
+			"SortBy": "Title",
+			"ElementHeight": 225,
+			"ElementWidth": 200,
+			"ItemAlignment": "Fill",
+			"Layout": "ui_GenericCreateCallToActions.layout",
+			"Padding": {
+				"Left": 20,
+				"Top": 30,
+				"Right": 20,
+				"Bottom": 0
+			}
+		}
+	]
+}

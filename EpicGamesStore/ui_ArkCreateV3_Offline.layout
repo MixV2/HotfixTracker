@@ -1,0 +1,268 @@
+﻿{
+   "Type" : "ScrollBox",
+   "AutoSize" : "false",
+   "RequiresBindingSource" : false,
+   "Padding" : {
+      "Left" : 0,
+      "Top" : 0,
+      "Right" : 0,
+      "Bottom" : 0
+   },
+   "Children" : [
+      {
+         "Type" : "Overlay",
+         "Children" : [
+            {
+               "Type" : "Panel",
+               "BackgroundImage" : "#27292dff",
+               "Padding" : {
+                  "Left" : 0,
+                  "Top" : 0,
+                  "Right" : 0,
+                  "Bottom" : 0
+               }
+            },
+            {
+               "Type" : "Box",
+               "Orientation" : "Vertical",
+               "MinWidth" : 520,
+               "AutoSize" : true,
+               "HAlign" : "Left",
+               "Padding" : {
+                  "Left" : 0,
+                  "Top" : 15,
+                  "Right" : 0,
+                  "Bottom" : 0
+               },
+               "Children" : [
+                  {
+                     "Type" : "BuildSelector",
+                     "HAlign" : "left",
+                     "VAlign" : "Top",
+                     "TextStyle" : "small-body",
+                     "Padding" : {
+                        "Left" : 55,
+                        "Top" : 60,
+                        "Right" : 0,
+                        "Bottom" : 0
+                     },
+                     "SelectorId" : "Editor",
+                     "GroupId" : "Editor"
+                  }
+               ]
+            },
+            {
+               "Type" : "Box",
+               "Orientation" : "Vertical",
+               "MinWidth" : 400,
+               "MaxWidth" : 400,
+               "MinHeight" : 540,
+               "MaxHeight" : 540,
+               "HAlign" : "Left",
+               "VAlign" : "Top",
+               "Padding" : {
+                  "Left" : 60,
+                  "Top" : 100,
+                  "Right" : 0,
+                  "Bottom" : 0
+               },
+               "Children" : [
+                  {
+                     "Type" : "Panel",
+                     "Padding" : {
+                        "Left" : 0,
+                        "Top" : 0,
+                        "Right" : 0,
+                        "Bottom" : 0
+                     },
+                     "Text" : [
+                        {
+                           "Text" : "ARK: Survival Evolved",
+                           "TextStyle" : "inverted-title",
+                           "HAlign" : "Left",
+                           "VAlign" : "Center",
+                           "WrapAt" : 400,
+                           "Margin" : {
+                              "Left" : 0,
+                              "Top" : 0,
+                              "Right" : 0,
+                              "Bottom" : 0
+                           },
+                           "LineHeightScalar" : 1.2
+                        }
+                     ]
+                  },
+                  {
+                     "Type" : "Box",
+                     "Orientation" : "Vertical",
+                     "Padding" : {
+                        "Left" : 0,
+                        "Top" : 10,
+                        "Right" : 0,
+                        "Bottom" : 0
+                     },
+                     "Children" : [
+                        {
+                           "Type" : "Panel",
+                           "Padding" : {
+                              "Left" : 0,
+                              "Top" : 0,
+                              "Right" : 0,
+                              "Bottom" : 0
+                           },
+                           "AutoSize" : "false",
+                           "Text" : [
+                              {
+                                 "TextStyle" : "inverted-extrasmall-body",
+                                 "WrapAt" : 400,
+                                 "Text_translate" : "true",
+                                 "Text" : "Uh oh, there is supposed to be something here.\nTry sorting out the connectivity issue and return to this page.",
+                                 "Text_ko" : "페이지의 내용을 불러올 수 없습니다.\n연결 상태 관련 문제를 해결하시고 이 페이지로 돌아와 주세요.",
+                                 "Text_ja" : "問題が発生したようです。\nインターネットの接続を確認して再度読み込んでください。",
+                                 "Text_zh-CN" : "啊，这里的内容没有显示。\n请尝试解决连接问题，并回到这个页面。",
+                                 "Text_fr" : "Quelque chose devrait apparaître ici.\nEssayez de régler les problèmes de connexion et revenez sur cette page.",
+                                 "Text_de" : "Der eigentliche Text konnte nicht angezeigt werden.\nBeheben Sie das Verbindungsproblem und rufen Sie die Seite erneut auf.",
+                                 "Text_es" : "Vaya, se supone que aquí tenía que haber algo.\nIntenta solucionar los problemas de conectividad y vuelve a esta página.",
+                                 "Text_it" : "Oh no, qui dovrebbe esserci qualcosa.\nRisolvi i problemi di connessione e torna a questa pagina",
+                                 "Text_ru" : "Ой, тут что-то должно быть, но вы этого не видите.\nРазберитесь с проблемами подключения и вернитесь на страницу.",
+                                 "Text_pl" : "W tym miejscu powinna być widoczna zawartość.\nSpróbuj rozwiązać problem z połączeniem i wróć do tej strony.",
+                                 "Text_ar" : "يفترض وجود شيء ما هنا.\nحاول حل مشاكل الاتصال وعُد إلى هذه الصفحة.",
+                                 "Text_pt-BR" : "Opa, devia ter algo aqui.\nTente solucionar o problema de conexão e volte a esta página.",
+                                 "Text_es-MX" : "¡Oh, oh! Se supone que debe haber algo aquí.\nIntenta solucionar el problema de conexión y vuelve a esta página.",
+                                 "Text_tr" : "Hay aksi, burada bir şey olması gerekiyordu.\nBağlantı sorununu çözdükten sonra bu sayfaya tekrar dönmeyi dene.",
+                                 "Text_zh-Hans" : "啊，这里的内容没有显示。\n请尝试解决连接问题，并回到这个页面。",
+                                 "Text_zh-Hant" : "哎呀，東西怎麼不見了？\n請嘗試解決連線問題，然後回到此頁面。",
+                                 "Text_th" : "โอ๊ะ ตรงนี้ควรจะมีอะไรอยู่นะ\nลองแก้ไขปัญหาการเชื่อมต่อแล้วกลับมาที่หน้านี้"
+                              }
+                           ]
+                        },
+                        {
+                           "Type" : "Panel",
+                           "Padding" : {
+                              "Left" : 0,
+                              "Top" : 20,
+                              "Right" : 0,
+                              "Bottom" : 0
+                           },
+                           "AutoSize" : "false",
+                           "Text" : [
+                              {
+                                 "TextStyle" : "inverted-extrasmall-body",
+                                 "WrapAt" : 400,
+                                 "Text_translate" : "true",
+                                 "Text" : "In the meantime this should not prevent you from playing the game or using the editor.",
+                                 "Text_ko" : "이 문제는 게임 플레이 또는 에디터의 사용에 영향을 주지 않습니다.",
+                                 "Text_ja" : "エディタを使用したり、ゲームをプレイすることは可能です。",
+                                 "Text_zh-CN" : "同时，这应该不会妨碍您进行游戏或使用编辑器。",
+                                 "Text_fr" : "En attendant, cela ne vous empêche pas de jouer au jeu ou d'utiliser l'éditeur.",
+                                 "Text_de" : "Die Verwendung des Editors und das Spiel selbst sind davon nicht beeinträchtigt.",
+                                 "Text_es" : "Mientras tanto, no deberías tener problemas para jugar ni usar el editor.",
+                                 "Text_it" : "Nel frattempo, dovresti comunque riuscire a giocare e a usare l'editor.",
+                                 "Text_ru" : "Однако эта проблема не помешает вам играть в игры или пользоваться редактором.",
+                                 "Text_pl" : "Tymczasem możesz grać w grę lub korzystać z edytora.",
+                                 "Text_ar" : "يفترض في الوقت ذاته ألا يمنعك هذا من لعب اللعبة أو استخدام أداة التعديل.",
+                                 "Text_pt-BR" : "Enquanto isso, você pode continuar a jogar ou utilizar o editor.",
+                                 "Text_es-MX" : "Mientras tanto, esto no debería impedir que juegues o uses el editor.",
+                                 "Text_tr" : "Bu süre içinde oyunu oynayabilir veya editörü kullanabilirsin.",
+                                 "Text_zh-Hans" : "同时，这应该不会妨碍您进行游戏或使用编辑器。",
+                                 "Text_zh-Hant" : "同時這應該不會阻止您玩遊戲或是使用編輯器。",
+                                 "Text_th" : "ในระหว่างนี้นี่จะไม่ขัดขวางคุณจากการเล่นเกมหรือการใช้โปรแกรมแก้ไข"
+                              }
+                           ]
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "Type" : "Box",
+               "Orientation" : "Vertical",
+               "MinWidth" : 400,
+               "MaxWidth" : 400,
+               "HAlign" : "Left",
+               "VAlign" : "Bottom",
+               "Padding" : {
+                  "Left" : 60,
+                  "Top" : 0,
+                  "Right" : 0,
+                  "Bottom" : 20
+               },
+               "Children" : [
+                  {
+                     "Type" : "ActionButton",
+                     "HAlign" : "Left",
+                     "MinWidth" : 442,
+                     "MinHeight" : 124,
+                     "Padding" : {
+                        "Left" : -20,
+                        "Top" : 10,
+                        "Right" : -20,
+                        "Bottom" : 0
+                     },
+                     "VAlign" : "Bottom",
+                     "SelectorId" : "Editor",
+                     "GroupId" : "Editor"
+                  },
+                  {
+                     "Type" : "Panel",
+                     "BackgroundImage" : "1.0, 1.0, 1.0, 0.5",
+                     "Height" : 1,
+                     "VAlign" : "Bottom",
+                     "Padding" : {
+                        "Left" : 0,
+                        "Top" : 20,
+                        "Right" : 0,
+                        "Bottom" : 40
+                     }
+                  },
+                  {
+                     "Type" : "Panel",
+                     "VAlign" : "Bottom",
+                     "Text" : [
+                        {
+                           "TextStyle" : "inverted-tiny-body",
+                           "LineHeightScalar" : 1.2,
+                           "Text_translate" : "true",
+                           "Text" : "VISIT ARK: SURVIVAL EVOLVED ON:",
+                           "Text_ko" : "ARK: SURVIVAL EVOLVED 방문:",
+                           "Text_zh-CN" : "访问《方舟：生存进化》于：",
+                           "Text_fr" : "ACCÉDER À ARK: SURVIVAL EVOLVED SUR :",
+                           "Text_de" : "BESUCHEN SIE ARK: SURVIVAL EVOLVED UNTER:",
+                           "Text_it" : "VISITA ARK: SURVIVAL EVOLVED SU:",
+                           "Text_ru" : "ARK: SURVIVAL EVOLVED В СОЦСЕТЯХ:",
+                           "Text_pl" : "ARK: SURVIVAL EVOLVED W INTERNECIE:",
+                           "Text_ar" : "قم بزيارة ARK: SURVIVAL EVOLVED:",
+                           "Text_pt-BR" : "VISITE ARK: SURVIVAL EVOLVED EM:",
+                           "Text_es-MX" : "VISITA ARK: SURVIVAL EVOLVED EN:",
+                           "Text_es" : "VISITA ARK: SURVIVAL EVOLVED EN:",
+                           "Text_ja" : "以下よりARK: SURVIVAL EVOLVEDにアクセス：",
+                           "Text_tr" : "ARK: SURVIVAL EVOLVED’U ZİYARET ET:",
+                           "Text_zh-Hans" : "访问《方舟：生存进化》于：",
+                           "Text_zh-Hant" : "到以下位置瀏覽《ARK: SURVIVAL EVOLVED》",
+                           "Text_th" : "เยี่ยมชม ARK: SURVIVAL EVOLVED ที่:"
+                        }
+                     ],
+                     "Padding" : {
+                        "Left" : 0,
+                        "Top" : 0,
+                        "Right" : 0,
+                        "Bottom" : 10
+                     }
+                  },
+                  {
+                     "Type" : "Layout",
+                     "Layout" : "ui_ArkShareLinksV3",
+                     "VAlign" : "Bottom",
+                     "Padding" : {
+                        "Left" : 0,
+                        "Top" : 0,
+                        "Right" : 0,
+                        "Bottom" : 10
+                     }
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}

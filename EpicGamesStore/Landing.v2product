@@ -1,0 +1,36 @@
+﻿{
+	"Id": "landing",
+	"Priority": 0,
+	"AnalyticsId": "lp",
+	"DisplayName": "Epic Games Launcher",
+	"PrimaryColor": "#95c990ff",
+	"PressedPrimaryColor": "#95c990ff",
+	"HoveredPrimaryColor": "#aae0a4ff",
+	"Homepage": "/landing",
+	"Pages": [
+		{
+			"Id": "landing",
+			"PartialUrl": "/landing",
+			"SourceUrls": [ 			
+				{
+					"SourceUrl": "ui_MustUpdate.layout",
+					"Conditions": [ 
+						"[PORTAL_VERSION]>=6.5.0, [PORTAL_VERSION]<=6.5.2"
+					] 
+				},
+				{
+					"SourceUrl": "ui_Landing_MustUpdate.layout",
+					"Conditions": [ "[PORTAL_VERSION]<3.0.3, ![PORTAL_VERSION]0.0.0" ] 
+				},
+				{
+					"SourceUrl": "ui_LandingPageV5_Mac.layout", 
+					"Conditions": [ "[MAC]" ] 
+				},
+				{
+					"SourceUrl": "ui_LandingPageV5.layout", 
+					"Conditions": [ "" ] 
+				}
+			]
+		}
+	]
+}

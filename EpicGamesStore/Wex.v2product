@@ -1,0 +1,101 @@
+{
+	"Id": "wex",
+	"Priority": 30,
+	"AnalyticsId": "wex",
+	"DisplayName": "Battle Breakers",
+	"DisplayName_ko": "배틀 브레이커스",
+	"CatalogNamespace": "wex",
+	"BackgroundImage": "",
+	"BackgroundFillImage": "#212121",
+	"PrimaryColor": "#95c990ff",
+	"PressedPrimaryColor": "#95c990ff",
+	"HoveredPrimaryColor": "#aae0a4ff",
+	"Homepage": "/wex",
+	"Pages": [
+		{
+			"Id": "wex",
+			"PartialUrl": "/wex",
+			"SourceUrls": [ 
+				{
+					"SourceUrl": "ui_WexV2_Offline.layout",
+					"Conditions": [ "![BINDING_SOURCE]" ]  
+				},
+				{
+					"SourceUrl": "ui_WexV2.layout"
+				}
+			]
+		}
+	],
+	"Redirects": [
+	
+	],
+	"Apps": [
+		{
+			"Name": "WorldExplorersDevTesting",
+			"GroupId": "Game",
+			"OfferId": "",
+			"ItemId": "4f8eb1516e144bc2aa36acb39ba87fbc",
+			"AppId": "WorldExplorersDevTesting",
+			"HasGateKeeper": false,
+			"LaunchPermissions": "WithoutLauncher,NoKoreanIdVerification"
+		},
+		{
+			"Name": "WorldExplorersReleaseTesting",
+			"GroupId": "Game",
+			"OfferId": "",
+			"ItemId": "3f4f6732468841b196354924dc5b04ff",
+			"AppId": "WorldExplorersReleaseTesting",
+			"HasGateKeeper": false,
+			"LaunchPermissions": "WithoutLauncher,NoKoreanIdVerification"
+		},
+		{
+			"Name": "WorldExplorersLiveTesting",
+			"GroupId": "Game",
+			"OfferId": "",
+			"ItemId": "b5bd2cdb48d244febbfeaa5a3aab92b0",
+			"AppId": "WorldExplorersLiveTesting",
+			"HasGateKeeper": false,
+			"LaunchPermissions": "WithoutLauncher,NoKoreanIdVerification"
+		},
+		{
+			"Name": "WorldExplorersLive",
+			"GroupId": "Game",
+			"OfferId": "",
+			"ItemId": "a53e821fbdc24181877243a8dbb63463",
+			"AppId": "WorldExplorersLive",
+			"HasGateKeeper": false,
+			"LaunchPermissions": "WithoutLauncher,NoKoreanIdVerification"
+		},
+		{
+			"Name": "WorldExplorersLocTesting",
+			"GroupId": "Game",
+			"OfferId": "",
+			"ItemId": "c7409aa5a39e4029964e11497c7a6cbf",
+			"AppId": "WorldExplorersLocTesting",
+			"HasGateKeeper": false,
+			"LaunchPermissions": "WithoutLauncher,NoKoreanIdVerification"
+		},
+		{
+			"Name": "WorldExplorersReleasePlaytest",
+			"GroupId": "Game",
+			"OfferId": "",
+			"ItemId": "3bb5b7b680d340bbafd934bfac637a25",
+			"AppId": "WorldExplorersReleasePlaytest",
+			"HasGateKeeper": false,
+			"LaunchPermissions": "WithoutLauncher,NoKoreanIdVerification"
+		},
+		{
+			"Name": "WorldExplorersDevPlaytest",
+			"GroupId": "Game",
+			"OfferId": "",
+			"ItemId": "a073b537e7f443b9a0ad28c8a8288701",
+			"AppId": "WorldExplorersDevPlaytest",
+			"HasGateKeeper": false,
+			"LaunchPermissions": "WithoutLauncher,NoKoreanIdVerification"
+		}
+	],
+	"DefaultRegionId": "",
+	"Regions": [
+
+	]
+}
